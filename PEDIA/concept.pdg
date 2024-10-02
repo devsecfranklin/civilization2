@@ -1,0 +1,121 @@
+*** Civ 2000 Game Concepts Text - Copyright (c) 1995, MicroProse Software, Inc. ***
+*** Changes to this file may cause Civilopedia to malfunction... ***
+Auflösung
+Wenn eine befreundete Einheit überflüssig wird, zu teuer zu unterhalten ist, oder Unzufriedenheit in Ihrer Bevölkerung hervorruft, könnten Sie die Einheit eliminieren. Um eine Einheit zu eliminieren,befehlen Sie ihr, sich aufzulösen, indem sie Umschalttaste und "D" drücken, oder indem Sie"Auflösung" im Befehls-Menü wählen. Ist die Einheit aufgelöst, ist sie für die gesammte Spieldauer entfernt.
+
+Wenn eine Einheit in einer freundlichen Stadt aufgelöst wird, wird die Hälfte ihrer Schilder-Produktionskosten dem Aufbau jeder beliebigen Einheit, Verbesserung oder Wunder zugeführt,  diesich gerade in der Stadt im Aufbau befindet.
+
+Befestigen
+Römische Legionen brachen ihren Marsch auf Feldzügen abends frühzeitig genug ab, daß sie ein vollständig befestigtes Lager aufschlagen konnten. Sie kannten den Wert einer defensiven Befestigung bei einem Angriff. Wo möglich, war es das normale Vorgehen der meisten Armeen, Verteidigungsstrukturen zu erbauen, wenn sie einen Angriff erwarteten. Die Kampfkraft eines Verteidigers in einer befestigten Anlage verstärkt sich um ein Vielfaches, und macht es schwieriger, ihn zu besiegen.
+
+Bodeneinheiten kann die Befestigung befohlen werden, indem man die "F"-Taste drückt, oder "Befestigen" vom Befehls-Menü wählt. Der Verteidigungswert befestigter Einheiten steigt um 50 Prozent.
+
+Befestigungsanlage
+Wenn Ihre Zivilisation die Baukunst entdeckt hat, können Siedler und Ingenieure Besfestigungsanlagen zu bauen. Befestigungsanlagen können zur Verteidigung einer Stadt dienen oder feindlichen Armeen Zugang zu strategischen Zielen verwehren. Eine gut bemannte Befestigungslage bietet einen wirkungsvollen Schutz, indem sich die Verteidigungskraft aller in ihr stationierten Einheiten verdoppelt. Anders als im normalen Kampf, werden Kampfeinheiten, die in einer Befestigungsanlage stationiert sind, Einheit für Einheit besiegt, statt gleichzeitig. Befestigungsanlagen nehmen bei einem Angriff keinen Schaden.
+
+Siedler und Ingenieure können eine Befestigungsanlage bauen, indem man die "F"-Taste drückt oder den "Befestigungsanlage bauen"-Befehl vom Befehls-Menü wählt. Einheiten mit einer Befestigungsanlage wird die Verteidigungsstärke verdoppelt. In einer Republik verursachen Einheiten, die in Befestigungsanlagen innerhalb von drei Quadraten ihrer Heimatstadt stationiert sind, keine Unzufriedenheit.
+
+Bewässerung
+Als die frühen Bauern aus den Hügeln in die Täler des Flüsse Nil, Tigris, und Euphrat zogen, mußten sie die Technik der Bewässerung meistern. Die Süßwasserflüsse flossen durch Gebiete, die durch Niederschlagsmangel praktisch unfruchtbar waren. Durch Bewässerung konnte Wasser den Flüssen entnommen und aufs nahegelegene Land geleitet werden,und es so brauchbar für den Ackerbau zu machen.
+
+Bewässerung erhöht die Nahrungsproduktion auf Wiese, Ebene, Wüste und Hügeln. Nur Quadrate die vertikal oder horizontal  an Wasser (Ozeane oder Flüsse) oder andere bewässerte Quadrate angrenzen, können bewässert werden. Nach der Entdeckung von Kühlung können Quadrate doppelt bewässert werden um Ackerland zu schaffen. Siedlern und Ingenieuren kann Bewässerung befohlen werden, indem man die "I"-Taste drückt oder "Bewässerungsanlage bauen" vom Befehls-Menü wählt.
+
+Luxusartikel  
+Die Ausstattung Ihrer Bürger mit Luxusartikeln wird duch die Diamantenikonen in der Resourcenbox der Stadtanzeige. Jede zwei Luxusartikel machen einen zufriedenen Bürger glücklich oder einen unglüclichen Bürger zufrieden. Die Menge der Luxusartikel, die eine Stadt produziert, hängt in erster Linie davon ab, welchen Prozentsatz des Handels Sie den Luxusartikeln zugeordnet haben. Der kann verändert werden indem man das "Steurerrate"-Kommando im Königreich-Menü wählt. Die Luxusartikel einer Stadt können auch durch den Bau bestimmter Stadtverbesserungen und Weltwunder verbessert werden und dadurch, daß man Bürger in Entertainer umwandelt.
+
+Bergbau
+Frühe Zivilisationen hatten wenig Schwierigkeiten, sich in der Nähe von  reinen Vorkommen nützlicher Metalle,   wie Gold, Silber, und Kupfer, niderzulassen, die offen an der Erdoberfläche lagerten. Mit der Zeit wurden die Oberflächenvorkommen erschöpft und die Menschen gruben im Boden nach mehr. Bergbau und die Ausgrabung von Metallen reicht bis in den heutigen Tag.
+
+Bergbau erhöht die Schilderproduktion von Wüsten und Bergen um eins, und erhöht die Schilderproduktion von Hügeln um 3. Siedlern und Ingenieuren kann befohlen werden, Bergwerke zu bauen indem man die "M"-Taste drückt oder das "Bergwerke Bauen"-Kommando vom Befehlsmenü wählt.
+
+Plündern
+Die Terrainverbesserungen, die von anderen Zivilisationen gebaut wurden (Bewässerung, Bergwerke, Straßen, usw.) können zerstört werden, indem man eine Einheit auf ein verbessertes Terrainquadrat setzt und der Einheit befiehlt, zu plündern. Das verringert den Produktionswert des Landes und zwingt den Feind, das Land neu zu entwickeln.
+
+Einheiten kann befohlen werden zu plündern, indem man die Umschalttaste und die "P"-Taste drückt oder das "Plündern"-Kommando vom Befehlsmenü wählt. Der Einheit muß Plünderung für jede Terrainverbesserung, die Sie zerstören wollen einzeln befohlen werden. Voll entwickelte Terrainquadrate (Ackerland mit Eisenbahnlinie, z.B.) müssen vier Mal geplündert werden um alle Verbesserungen zu entfernen.
+
+Umweltverschmutzung
+Umweltverschmutzung wird meist durch eine übemäßige Schilderproduktion in einer Stadt verursacht, kann aber auch durch dichte Stadtbevökerung (nach der Entdeckung des Automobils), Atomangriffen, oder einem Unfall im Atomkraftwerk hervorgerufen werden. Wenn eine Stadt ein mögliches Umweltverschmutzungsproblem darsrtellt, erscheinen Schornsteien im Informationskasten der Stadtanzeige. Je mehr Schornsteine eine Stadt hervorbringt, desto größer ist die Wahrscheinlichkeit, daß die Stadt ein Quadrat im Stadtbereich pro Zug verschmutzt. Wenn die Weltumweltverschmutzung kritische Ausmaße annimmt, besteht die Gefahr der Erderwärmung.
+
+Umweltverschmutzung kann bereinigt werden, indem man Siedler oder Ingenieure in die verschmutzten Quadrate setzt und die "p"-Taste drückt oder den "Luftverschmutzung reinigen"-Befehl vom Befehlsmenü wählt. Die Umweltverschmutzung durch Städte kann durch den Bau bestimmter Stadtverbesserungen oder die Reduzierung der Schilderproduktion verbessert werden.
+
+Eisenbahnen
+Eisenbahnen revolutionierten Beförderungsmittel, da sie eine relativ billige und schnelle Befördeungsmethode für Menschen, Rohmaterialien, Industriegüter und Truppen über große Enfernungen boten. Sie unterstützten und förderten nicht nur den Wachstum der Industrie indem sie Beförderungszeit und -kosten senkten, sondern spornten auch technologische Forschung an. Eisenbahnen waren mit die ersten großen Industtriekonzernen.
+
+Eisenbahen können von Siedlern und Ingenieuren nach der Entdeckung der Eisenbahn gebaut werden. Sie werden konstruiert, indem auf ein Terrain zieht, das eine Straße enthält und die "R"-Taste drückt oder den "Eisenbahn bauen"-Befehl vom Befehlsmenü wählt. Einheiten, die sich auf einer Eisenbahnstrecke bewegen, verbrauchen keine Bewegungspunkte. Eisenbahnen erhöhen die Resourcenproduktion und Handel um 50 Prozent (abgerundet).
+
+Straßen
+Ein Netz guter Straßen verbessert die Reise zwischen Städten. Straßen waren für alte Kulturen wichtig für den Handel und die Truppenbewegung. Als sich die Technologie verbesserte, verbesserten sich die Straßen. Moderne, befestigte Straßen sind bei fast allem Wetter passierbar und können schneller durchquert werden als unbefestigte Straßen.
+
+Straßen können von Siedlern und Ingenieren gebaut werden, indem man die "R"-Taste drückt oder den Befehl"Straße bauen" vom Befehlsmenü wählt. Straßen können in jedem Terrain gebaut werden, außer Ozeanen; sie können auch nicht in einem Flußquadrat bebaut werden von der Entdeckung des Brückenbaus. Truppen, die sich auf einer Straße bewegen, verbrauchen nur ein Drittel Bewegungspunkt pro Quadrat, unabhängig vom Terrain. Straßen erhöhen auch den Handelsumfang, der in Wüsten, Prairien und Wiese erwirtschaftet wird.
+
+Wissenschaft
+Der Umfang der wissenschaftlichen Forschung, der von einer Stadt beigetragen wird, wird durch die Glühbirnen-Ikonen in der Resourcentabelle der Stadtanzeige angezeigt. Zu Beginn jedes Zuges wird die Wirtschaftsleistung jeder Stadt zu dem Wissenschaftsprojekt, an dem gerade gearbeitet wird zugefügt, was schließlich in der Entdeckung eines neuen Zivilisationsfortschritts resultiert. Je mehr Glühbirnren eine Stadt produziert, desto schneller werden Fortschritte entdeckt. Der Umfang der Wissenschaftsleistung Ihrer Zivilisation hängt in erster Linie vom eingehenden Handel ab, den sie der Wissenschaft zugeteilt haben. Dieser Prozentsatz kann mit dem "Steuerrate"-Kommando im Königreich-Menü verändert werden.
+
+Die Wirtschaftsleistung einzelner Städte und Ihrer ganzen Zivilisation kann durch den Bau bestimmter Stadtverbesserungen und Weltwunder erhöht werden oder indem man Bürger in Wissenschaftler vumwandelt.
+
+Wache 
+Einheiten auf Wachdienst erscheinen als graue Sschatten. Diese Einheiten werden aus der Bewegungsschlange entfernt und bleiben im Wachdienst bis andere Einheiten in ihr Sichtfeld geraten oder bis sie manuell wieder aktiviert werden. Eiheiten im Wachdienst einer Stadt werden automatisch auf Schiffe geladen (bis zur Ladekapazität des Schiffes) wenn das Schiff die Stadt verläßt.
+
+Einheiten werden auf Wachdienst geschickt, indem man die "S"-Taste drückt oder den Befehl "Schlafen" im Befehlsmenü wählt. Beschädigte Einheiten auf Wache in einer Stadt werden aktiv wenn sie völlig wiederhergestellt sind.
+
+Schilder
+Die Produktion von Rohmaterialien Ihrer Städte wird durch Schilder-Ikonen dargestellt. Daher werden Rohmaterialien häufig "Schilder" bezeichnet. Die Zahl der Schilder jeder Stadt wird in der Resourcentabelle der Stadtanzeige dargestellt. Schilder werden zum Unterhalt von Einheiten benutzt. Jede Einheit, je nach Regierungsform und anderen Umständen, kann fordern, daß ihre Heimatstadt ein Schild pro Zug für ihren Unterhalt ausgibt. Zusätzliche Schilder, die nicht für den Unterhalt von Einheiten gebraucht werden, werden für den Bau von Stadtverbesserungen, Weltwundern oder neuer Eiheiten benutzt.
+
+Die Schilder produktion hängt hauptsächlich von dem Terrain ab, das die Stadt umgibt. Meist kann die Schilderproduktion einer Stadt durch den Bau bestimmter Verbesserungen und Wunder ehöht werden. Die Konstruktion von Bergwerken verbessert die Schilderproduktion in manchen Terrains.
+
+Spezialisten
+Die Bürgerikonen, die im Bevölkerungsplan der Stadtanzeige dargstellt werden sind die Arbeiterschaft Ihrer Stadt. Jeder Bürger, der im Plan erscheint, wird automatisch für die Entwicklung der Terrainqaudrate im Stadtbereich eingesetzt. Manchmal ist es notwendig, einen Bürger von der Terrainproduktion zu entfernen und ihm besondere Aufgaben zu geben. Bürger, die auf diese Weise entfernt werden, heißen Spezialisten. Es gibt drei Arten von Specialisten, die jeweils eine der drei Handelskomponenten, die von der Stadt produziert werden, verbessern. Entertainer erhöhen Luxusartikel, Steuereintreiber Steuern und Wissenschaftler die Wissenschaftsleistung.
+
+Um einen Spezialisten zu schaffen, klicken sie ein beliebiges Produktionsquadrat auf dem Stadtplan an. Die Poduktionsikonen verschwinden aus dem Quadrat. Stattdessen erscheint der Entertainer im Bevölkerungsplan. Um einen Steuereintreiber zu schaffen,klicken sie die Entertainerikone einmal. Um einen Wissenschafler zu schaffen, schaffen sie zuerst einen Steuereintreiber und klicken die Steuereintreiberikone einmal. Städte müssen Größe fünf oder größer sein um Steuereintreiber und Wissenschaftler zu verhalten.
+
+Steuern
+Die Steuern, die von der Stadt eingenommen werden, werden durch Goldmünzenikonen in der Resourcentabelle der Stadtanzeige dargestellt. Steuern werden hauptsächlich dazu gebraucht, Stadtverbesserungen in jedem Zug zu finanzieren. Steuereinnahmen, die nicht für den Unterhalt von Stadverbesserungen benötigt werden, wandern in ihre Schatztruhe. Die menge der Steuern, die von einer Stadt eingenommen wird, hängt hauptsächlich davon ab, wieviel Handel Sie für Steuern bestimmt haben. Die Rate kann verändert werden indem man die "Steuerrate"-Option vom  Königreich-Menü wählt.
+
+Steuereinnahmen können auch durch den Bau bestimmter Stadtverbesserungen und Weltwunder gesteigert werden oder indem man Bürger zu Steuereintreiber umwandelt.
+
+Handel
+Handel beinhaltet mehr als nur den Austausch von Gütern und Geld zwischen Städten und Zivilisationen. Handel bedeutet auch den Austausch von Wissen und Ideen und Freizeitreisen und beschäftigungen der Bevölkerung Ihrer Zivilisation. Die Gesamtsumme des Handels, der in jeder Stadt erwirtschaftet wird, wird durch Doppelpfeilikonen in der Resourcentabelle in der Stadtanzeige dargestellt. Handel wird in drei unterschiedliche Komponenten aufgeteilt: Steuern, Luxusartikel und Wissenschaft. Der Anteil am Handel, der jeder dieser Gruppen zugeteilt wird, wird durch die "Steuern ändern"-Option im Königreich-Menü eingestellt.
+
+Handel kann durch den Bau bestimmter Stadtverbesserungen und Weltwunder gesteigert werden. Er kann auch durch Terrainverbesserungen und die Einrichtung von Handelswegen gesteigert erden.
+
+Handelswege
+Handelswege werden eingerichtet, indem man eine Karawane oder Frachteinheit in eine Stadt bewegt, die mindestens zehn Quadrate von der Heimatstadt der Einheit entfernt liegt. Sie erhalten eine sofortige Barzahlung in der Runde, in der der Handelsweg eingerichtet wird. In jeder folgenden Runde ehält jede Stadt einen Handelsbonus so lange der Handelsweg bestehen bleibt. Je weiter die beiden Städte voneinander enfernt liegen, desto wertvoller ist der Handelsweg. Handelswege, die mit Städten von Rivalizivilisationen entstehen sind meist profitabler als die zwischen befreundeten Städten. Jede Stadt kann bis zu drei aktive Handelswege gleichzeitig unterhalten.
+
+Wenn sie die Regeln für Fortgeschrittenen Handel anwenden, hängt der Wert eines Handelsweges auch von der Art der Güter ab, die gehandelt werden. Wenn man mit Gütern handelt, die von der Zielstadt gewünscht werden, ist der Handelsweg sehr profitabler.
+
+Veteraneneinheiten
+Während des Amerikanischen Bügerkriegs sagte man, daß Einheiten, die noch keine Kampfhandlung gesehen hatten, "den Elefanten gesehen" hätten nachdem sie das erste Mal unter Feuer gerieten. Danach wurden sie als Veteranen angesehen. Die Geschichte zeigt, daß guttrainierte Veteranen mit größerer Wahrscheinlichkeit einen Kampf überleben als unerfahrene Truppen.
+
+Einheiten können mit 50 prozentiger Wahrscheinlichkeit Veteranen werden, wenn sie eine Kampfhandlung überleben. Städte mit Kasernenverbesserung bringen automatisch Veteraneneinheiten hervor, sowie Städte unter dem Einfluß des Wunders Sun Tzus Kriegsakademie. Die Angriffs- und Verteidigungsfaktoren von Veterananeinheiten vergrößern sich um 50 Prozent.
+
+Korruption und Verschwendung
+Wenn Ihre Zivilisation anwächst, kann es sein, daß manche Ihrer Städte etwas Handel und Schilder aufgrund von Korruption und Verschwendung verlieren. Korruption ist Handelseinkommen, das durch Diebstahl, Unterschlagung und andere illegale Vorgänge verlorengeht Verschwendung ist Schilderproduktion, die durch Leistungsunfähigkeit verlorengeht. Je weiter eine Stadt von Ihrer Hauptstadt entfernt ist, desto mehr Korruption und Verschwendung erfährt sie. Der Umfang von Korruption und Verschwendung wird auch das Regierungssystem beeinflußt.
+ 
+Korruption und Verschwendung können, wenn sie nicht unterbunden werden, die Entwicklung Ihrer Zivilisation entscheidend hemmen. Sowohl Korruption als auch Verschwendung können um 50 Prozent verringert werden, indem man ein Gerichtshof in der Stadt baut, die diese Probleme erfährt. Die beste Lösung ist jedoch die Änderung Ihres Regierungssystems zu einer fortgeschritteneren Regierungsform. Je fortgeschrittener die Regierung, desto weniger Korruption und Verschwendung. Kommunismus und Demokratie lösen das Problem vollständig.
+
+Unglücklichkeit durch Größe der Zivilisation
+Wenn Sie eine bestimmte Anzahl von Städten gegrüdet haben, machen sich Ihre Bürger Sorgen über Ihre Fähigkeit, Ihre Zivilisation effektiv zu regieren. Wenn das eintritt, erscheinen zusätzliche unglückliche Bürger in jeder Stadt.
+
+Die Anzahl der Städte, die Sie errichten können, bevor zusätzliche Unglücklichkeit entsteht, hängt von mehreren Faktoren, einschließlich Spielschwierigkeitsstufe und Regierungsform, ab.Die Anzahl der Städte ist größer für fortgeschrittenere Regierungen und niedrigere Schwierigkeitsstufen.
+
+Kampfschaden 
+Es ist jetzt möglich, daß Einheiten als Folge eines Kampfes beschädigt werden. Bei jedem erfolgreichen Angriff, richtet eine Einheit einen Schaden an, die ihrer Freuerkraft entspricht. Die Schadensmenge, die eine Einheit überleben kann bevor sie zerstört wird, errechnet man, indem man die Trefferpunkte der Einheit mit zehn multipliziert.
+
+Den ungefähren Schaden, den eine Einheit erfahren hat, kann man an der Länge und Farbe der Schadenssäule der Einheit ablesen (die farbige Säule oberhalb des Schildsymbols der Einheit). Eine grüne Säule bedeutet, daß eine Einheit 0 bis 33 Prozent ihrer Trefferpunkte verloren hat, eine gelbe Säule 34 bis 66 Prozent und eine rote Säule 67 Prozent oder mehr.
+
+Schaden beeinflußt auch die Bewegung Ihrer Einheit. Die Prozentzahl verlorener Bewegung entspricht der Prozentzahl verlorener Trefferpunkte. Marineeinheiten können ihre Bewegung nie auf unter zwei verringert haben. Die Bewegung von Fliegereinheiten ist schadensunabhängig.
+
+Terrainumwandlung
+Zusätzlich zu Terrainveränderungen durch Bewässerung und Bergbau, können Ingenieure Kartenquadrate in völlig unterschiedliche Terrainarten umwandeln, indem man den "Umwandeln"-Befehl vom Befehlsmenü wählt. Terrainumwandlung ist besonders nützlich, wenn das Terrain, das eine Stadt umgibt nicht genug Resourcen erbringt.
+
+Siehe die Civilopedia-Enträge unter Terrainarten für die Ergebnisse der Umwandlung durch Ingenieure.
+
+Luftstützpunkte
+Nach der Entdeckung des Radios, können Ihre Siedler und Ingenieure Luftstützpunkte errichten. Luftsützpunkte dienen als entlegene Tankstationen für Jäger, Bomber, Stealth-Jäger und Stealth-Bomber. Strategisch gelegene Luftstützpunkte erweitern die Reichweite dieser Einheiten und lassen sie weiter ertfernt von befreundeten Städten und Flugzeugträgern tätig sein.
+
+Um einen Luftstützpunkt zu errichten, wählt man den "Luftstützpunkt bauen"-Befehl vom Befehlsmenü oder drücht die "E"-Taste.
+
+Luftbrücke
+Nach der Entdeckung Kombinierter Waffen, können Sie Luftbrücken zwischen Ihren Städten durchführen. Luftbrücken erlauben Ihnen, Einheiten sofort über große Enfernungen zu transsportieren. Um eine Luftbrücke zwischen zwei Städten zu errichten, müssen beide Städte einen Flughafen haben.
+
+Um eine Einheit über eine Luftbrücke zu transportieren, wählen Sie "Luftbrücke bauen" vom Befehlsmenü oder drücken Sie die "L"-Taste. Eine Liste möglicher Ziele erscheint. Wählen Sie Ihre Zielstadt vom Menü, und die Einheit wird sofort in diese Stadt transportiert. Die Einheit ist in der nächsten Runde einsatzfähig.

@@ -1,0 +1,664 @@
+;
+;   TEXTE CIVILOPEDIE DE CIVILISATION 
+;   Copyright (c) 1995 par MicroProse Software 
+;
+;   Changer le contenu de ce fichier peut entraîner le
+;   malfonctionnement du jeu. 
+;
+
+@PEDIAPICKCIV
+@width=540
+@columns=3
+@listbox
+@title=Civilopédie: Progrès de Civilisation
+
+@PEDIACIV
+@width=480
+@title=Progrès de Civilisation
+^^%STRING0
+^
+
+
+@PEDIACIVFACTS
+^Permet d'avoir forme de gouvernement du même nom.
+^Permet aux colons de bâtir forteresses.
+^Permet aux colons de bâtir bases aériennes.
+^Permet aux colons de bâtir chemins de fer.
+^Permet aux colons d'améliorer terre agricole. 
+^Augmente l'effet des temples.
+^Augmente l'effet des Amphithéâtres.
+^Vaut des points gratuits dans le score de la Civilisation.
+^Augmente d'un point le taux de déplacement des navires.
+^Améliore Poussée du Vaisseau Spatial de 25%.
+^Progrès de Civi. gratuit pour la première civi. découverte.
+^Diminue l'effet des Cathédrales.
+^Annule l'effet de
+
+
+@PEDIAPICKUNIT
+@width=540
+@columns=3
+@listbox
+@title=Civilopédie: Types d'Unité 
+
+@PEDIAUNIT
+@width=480
+@title=Type d'Unité
+^^%STRING0
+^
+
+@PEDIAUNITFACTS
+^Peut voir unités à une distance de deux espaces.
+^Ignore Zones de Contrôle ennemies.
+^Peut faire des atterrissages amphibies.
+^Invisible à la plupart des navires ennemis.
+^Peut attaquer avion en vol.
+^Peut être perdu loin de la terre.
+^Ignore Murailles de la Ville.
+^Peut porter des unités aériennes amicales.
+^Peut faire des largages.
+^Traite tous les carrés comme des carrés de routes.
+^Défense de +50% contre des unités avec un facteur de déplacement
+de 2.
+^Seulement les Gouvernements Intégristes peuvent bâtir.
+^Détruit(e)(s) après avoir attaqué.
+^Défense de +100% contre des unités aériennes et de missile.
+^Peut repérer des sous-marins ennemis dans des carrés adjacents.
+
+
+@PEDIAPICKGOVT
+@width=480
+@listbox
+@title=Civilopédie: Gouvernements
+
+
+@PEDIAPICKIMPROVE
+@width=540
+@columns=3
+@listbox
+@title=Civilopédie: Embellissements de Ville
+
+@PEDIAIMPROVE
+@width=480
+@title=Embellissements de Ville 
+^^%STRING0
+^
+
+@;Palace
+@PEDIAIMPROVE1
+Elimine corruption et gaspillage dans la ville,
+et les diminue dans toutes les villes avoisinantes.
+
+@;Barracks 
+@PEDIAIMPROVE2
+La ville produit des unités au sol de Vétérans. Les unités au sol
+peuvent être réparées complètement en un seul tour. 
+
+@;Granary
+@PEDIAIMPROVE3
+Seulement la moitié des réserves de nourriture de la ville sont
+épuisées lorsque la ville augmente de taille.
+
+@;Temple
+@PEDIAIMPROVE4
+Un maximum de deux citoyens mécontents deviennent satisfaits.
+
+@;Marketplace 
+@PEDIAIMPROVE5
+Augmente de 50% les revenus d'impôt et la production de luxe.
+
+@;Library 
+@PEDIAIMPROVE6
+Augmente de 50% la production scientifique. 
+
+@;Courthouse 
+@PEDIAIMPROVE7
+Diminue la corruption de 50%%. Rend la ville plus résistante
+à la corruption par les espions et diplomates ennemis. Sous La
+démocratie, un citoyen satisfait devient heureux.
+
+@;City Walls 
+@PEDIAIMPROVE8
+Les unités dans la ville sont triplées en défense contre des
+attaques au sol.
+
+@;Aqueduc
+@PEDIAIMPROVE9
+Permet à la ville de s'agrandir au-delà de la valeur 8.
+
+@;Bank 
+@PEDIAIMPROVE10
+Augmente de 50% de plus les revenus d'impôts et la production de
+de luxe (cumulatif avec Marché).
+
+@;Cathedral
+@PEDIAIMPROVE11
+Rend quatre citoyens malheureux satisfaits (Trois après le
+Communisme).
+
+@;Université
+@PEDIAIMPROVE12
+Augmente de 50% de plus la production scientifique (cumulatif
+avec Bibliothèque).
+
+@;Mass Transit 
+@PEDIAIMPROVE13
+Elimine la pollution causée par le peuplement.
+
+@;Colosseum
+@PEDIAIMPROVE14
+Trois citoyens malheureux deviennent satisfaits (quatre avec
+l'Electronique).
+
+@;Factory
+@PEDIAIMPROVE15
+Augmente de 50% la production de ressource dans la ville.
+
+@;Mfg. Plant
+@PEDIAIMPROVE16
+Augmente de 50% de plus la production de ressource 
+(cumulatif avec Usine).
+
+@;SDI Defense
+@PEDIAIMPROVE17
+Protège tout à moins de trois espaces de
+la ville contre une attaque nucléaire.
+
+@;Recycling Center
+@PEDIAIMPROVE18
+Diminue la pollution causée par les usines.
+
+@;Power Plant 
+@PEDIAIMPROVE19
+Augmente la production en usine de 50%%.
+
+@;Hydro Plant
+@PEDIAIMPROVE20
+Augmente la production en usine de 50%%.  Plus propre 
+que la Centrale Electrique, et généralement moins dangereuse que
+la Centrale Nucléaire.
+
+@;Nuclear Plant 
+@PEDIAIMPROVE21
+Augmente la production en usine de 50%%.  Plus propre 
+que la Centrale Electrique (même chose que Centrale Hydraulique)
+mais il existe un risque de Fusion Nucléaire à moins que
+la civilisation n'ait découvert la Fusion.
+
+@;Stock Exchange 
+@PEDIAIMPROVE22
+Augmente de 50% de plus les revenus d'impôt et la production de
+luxes (cumulatif avec le Marché & la Banque pour un total global 
+de 150%%).
+
+@Sewer System 
+@PEDIAIMPROVE23
+Permet à la ville de s'agrandir au-delà de la taille 12.
+
+@;Supermarket
+@PEDIAIMPROVE24
+Permet aux carrés dans les limites de la ville avec
+l'amélioration "terre agricole (irriguée deux fois)
+de produire 50%% de plus de nourriture.
+
+@;Superhighways
+@PEDIAIMPROVE25
+Tous les carrés dans les limites de la ville avec des routes
+(ou chemins de fer) produisent 50%% de plus de commerce.
+
+@;Research Lab
+@PEDIAIMPROVE26
+Augmente de 50% de plus la production scientifique (cumulatif
+avec la Bibliothèque et l'Université pour un total global de 
+150%%).
+
+@;SAM Missile Battery
+@PEDIAIMPROVE27
+Les unités dans la ville sont doublées en défense contre
+les unités aériennes et les unités de missiles non-nucléaires.
+
+@;Coastal Fortress                                                
+@PEDIAIMPROVE28
+Les unités dans la ville sont doublées en défense contre
+le bombardement côtier par des navires ennemis.
+
+@;Solar Plant
+@PEDIAIMPROVE29
+Augmente la production en usine de 50%%.  Plus propre 
+que toutes les autres formes d'énergie.
+
+@;Harbor 
+@PEDIAIMPROVE30
+Tous les carrés d'océan dans les limites de la ville
+produisent une unité supplémentaire de nourriture.
+
+@;Offshore Platform
+@PEDIAIMPROVE31
+Tous les carrés d'océan dans les limites de la ville
+produisent un bouclier.
+
+@;Airport 
+@PEDIAIMPROVE32
+La ville produit des unités aériennes de vétérans.
+Toute unité aérienne passant un tour complet dans la ville
+est entièrement réparée.
+
+@;Police Station 
+@PEDIAIMPROVE33
+Diminue d'un point le malheur causé par les troupes ayant quitté
+la ville. 
+
+@;Port Facility 
+@PEDIAIMPROVE34
+La ville produit des unités navales de vétérans.
+Tout navire passant un tour complet dans la ville est
+entièrement réparé.
+
+@;SS Structural
+@PEDIAIMPROVE35
+
+@;SS Composant
+@PEDIAIMPROVE36
+
+@;SS Module
+@PEDIAIMPROVE37
+
+@;Capitalization
+@PEDIAIMPROVE38
+Convertit la production en commerce.
+
+@;Pyramids
+@PEDIAIMPROVE39
+Compte comme Grenier dans chacune de vos villes.
+
+@;Hanging Gardens 
+@PEDIAIMPROVE40
+Un citoyen heureux supplémentaire dans chaque ville.
+
+@;Colossus
+@PEDIAIMPROVE41
+La ville produit une flèche de commerce supplémentaire dans
+chacun des carrés qui en produit déjà une.
+
+@;Lighthouse 
+@PEDIAIMPROVE42
+Les Trirèmes peuvent naviguer à travers les océans sans danger,
+et tous les autres types de navire ont leur taux de déplacement
+augmenté d'un point. Aussi, tous les nouveaux navires que vous
+produisez recoivent le statut de vétéran.
+
+@;Great Library 
+@PEDIAIMPROVE43
+La civilisation reçoit tout progrès de civilisation
+déjà découvert par deux autres civilisations.
+
+@;Oracle
+@PEDIAIMPROVE44
+Double l'effet de tous vos temples.
+
+@;Great Wall 
+@PEDIAIMPROVE45
+Les civilisations ennemies doivent proposer un cessez-le-feu
+et la paix dans les négociations.  Force de combat doublée contre
+les barbares.
+
+@;Sun Tzu's War Academy 
+@PEDIAIMPROVE46
+Toutes les nouvelles unités au sol produites obtiennent le statut
+de Vétéran.
+Toute unité qui gagne un combat obtient le statut de Vétéran.
+
+@;King Richard's Crusade
+@PEDIAIMPROVE47
+Chaque carré dans les limites de la ville produit un "bouclier"
+de ressource supplémentaire.
+
+@;Marco Polo's Embassy
+@PEDIAIMPROVE48
+Vous recevez une ambassade gratuite avec chaque Civilisation 
+rivale (de façon à ce que votre rapport d'intelligence soit
+toujours complet et vous recevez des mises à jour quand d'autres
+civilisations découvrent des technologies). 
+
+@;Michelangelo's Chapel
+@PEDIAIMPROVE49
+Compte comme Cathédrale dans chacune de vos villes.
+
+@;Copernicus' Observatory
+@PEDIAIMPROVE50
+Augmente la production scientifique de la ville de 50%%.
+
+@;Magellan's Expedition
+@PEDIAIMPROVE51
+Le taux de déplacement de tous les navires est augmenté de deux
+points.
+
+@:Shakespeare's Theatre
+@PEDIAIMPROVE52
+Tous les citoyens malheureux dans la ville sont satisfaits.
+
+@;Da Vinci's Workshop
+@PEDIAIMPROVE53
+Chaque fois qu'une de vos unités devient surannée à cause d'une
+nouvelle technologie que vous avez découvert, elle est aussitôt
+remplacée par une unité moderne équivalente.
+
+@;J.S. Bach's Cathedral
+@PEDIAIMPROVE54
+Diminue de 2 par ville le nombre de citoyens malheureux sur le
+même continent.
+
+@;Isaac Newton's University
+@PEDIAIMPROVE55
+Double la production scientifique de la ville.
+
+@;Adam Smith's Trading Co.
+@PEDIAIMPROVE56
+Paie l'entretien pour tous les embellissements de ville qui
+coûte ordinairement 1 or par tour.  Les embellissements de ville
+nécessitant plus d'1 or par tour pour l'entretien ne sont pas
+concernés.
+
+@;Darwin's Voyage
+@PEDIAIMPROVE57
+Deux progrès de civilisation gratuits. 
+
+@;Statue of Liberty
+@PEDIAIMPROVE58
+Elimine la période d'agitation entre gouvernements.
+Permet également de choisir toute forme de gouvernement, même si
+le progrés approprié n'a pas été découvert.
+
+@;Eiffel Tower 
+@PEDIAIMPROVE59
+Quand vous obtenez pour la première fois le contrôle de la Tour
+Eiffel, chaque comportement de civilisation d'une valeur de 25
+points se tourne aussitôt                                      
+en votre faveur (sur une échelle de cent points).  Les
+comportements continuent de s'améliorer graduellement sur le
+temps.  Les autres civilisations oublient aussi plus rapidement
+vos
+transgressions passées.
+
+@;Hoover Dam
+@PEDIAIMPROVE61
+Fournit l'énergie Hydraulique à chaque ville sur chaque
+continent.
+
+@;Women's Suffrage
+@PEDIAIMPROVE60
+Compte comme Commissariat dans chacune de vos villes.
+( Diminue d'1 point le malheur causé par les troupes ayant quitté
+la ville).
+
+@;Manhattan Project
+@PEDIAIMPROVE62
+Permet la construction d'armes nucléaires.
+
+@;United Nations 
+@PEDIAIMPROVE63
+^* Ambassade gratuite avec chaque autre civilisation
+^* Les civi. ennemies ne peuvent pas refuser vos traités de paix.
+^* En tant que démocratie, vous pouvez déclarer la guerre 50%% du
+temps 
+^  ( missions de maintien de la paix).
+
+@;Apollo Program
+@PEDIAIMPROVE64
+Permet la création de perfectionnements de vaisseau spatial.
+
+@;SETI Program
+@PEDIAIMPROVE65
+Compte comme labo de recherche dans chacune de vos villes; double
+efficacement votre production scientifique. 
+
+@;Cure for Cancer
+@PEDIAIMPROVE66
+Un citoyen heureux supplémentaire dans chaque ville.
+
+@PEDIAGOVT
+@width=600
+@title=Civilisation: Gouvernements
+La forme de gouvernement que vous choisissez pour votre
+civilisation affectera la façon dont les ressources sont
+distribuées dans vos villes, le taux auquel vos citoyens peuvent
+produire et soutenir les nouvelles unités et les embellissements
+de ville, et les limites du droit à la parole de vos citoyens
+concernant la façon dont vous les gouvernez.
+^
+Certaines formes de gouvernement, telles que le Despotisme, la
+Monarchie, et plus tard le Communisme et l'Intégrisme, vous
+permettent de vous accroître rapidement, de produire et soutenir
+un grand nombre d'unités militaires, et de contrôler entièrement
+vos affaires.
+^
+La Démocratie et la République, par contre, donnent à vos
+citoyens la liberté de produire de larges quantités de commerce,
+ce qui augmente rapidement votre richesse et vos connaissances.
+D'un autre côté, vos citoyens peuvent devenir malheureux lorsque
+vous envoyez des unités militaires en dehors de vos villes;
+aussi, votre Sénat peut essayer d'intervenir dans la façon dont
+vous gérez les affaires étrangères.
+^
+Pour changer le gouvernement de votre civilisation, vous devez
+avoir une Révolution-- sélectionnez "Révolution" dans le Menu
+Royaume.  Cela entraînera une courte période d'Anarchie.
+
+@PEDIAGOVT0
+@width=600
+@title=Gouvernement de la Civilisation: l'Anarchie
+L'anarchie ne représente pas tant un type de gouvernement que
+l'absence de tout gouvernement stable. L'anarchie survient quand
+le gouvernement de votre civilisation est renversé, ou quand vous
+décidez d'avoir une Révolution. Après quelques tours d'Anarchie,
+vous pouvez reconstituer votre gouvernement.
+^
+L'Anarchie est similaire au Despotisme, sauf que le taux de
+corruption est TRES ELEVE (voir entrée pour le Despotisme). 
+Cependant, aucun impôt n'est levé pendant une période d'Anarchie,
+et aucune recherche scientifique n'est conduite.
+
+@PEDIAGOVT1
+@width=600
+@title=Gouvernement de Civilization: le Despotisme
+^SOUTIEN D'UNITE 
+Chaque unité dépassant la taille de la ville coûte un bouclier
+par tour.
+Les colons mangent une nourriture par tour.
+^
+^BONHEUR 
+Un maximum de trois unités militaires dans chaque ville
+instituera " la loi martiale", changeant un citoyen malheureux en
+un citoyen satisfait.
+^
+^CORRUPTION ET GASPILLAGE
+Le Despotisme a un taux ELEVE de corruption et gaspillage.  Le
+niveau de corruption dans une ville déterminée est basé sur la
+distance séparant cette ville de votre capitale. 
+^
+^SPECIAL
+Sous un Despotisme, aucun des taux de science/impôt/luxe ne peut 
+dépasser 60%%.  AUSSI, TOUT CARRE QUI ORDINAIREMENT
+PRODUIT TROIS RESSOURCES OU PLUS (NOURRITURE, BOUCLIERS,
+COMMERCE)  EN PRODUIT UNE DE MOINS.
+^
+^SUGGESTIONS 
+En raison du taux élevé de corruption du Despotisme, le
+Despotisme est presque toujours une forme inférieure de
+gouvernement.  Essayez de passer à une Monarchie aussitôt que
+possible .
+
+
+@PEDIAGOVT2
+@width=600
+@title=Gouvernement de Civilisation: la Monarchie
+^SOUTIEN D'UNITE
+Chaque unité au-delà de la troisième coûte un bouclier par tour.
+Les colons mangent une nourriture par tour.
+^
+^BONHEUR 
+Un maximum de trois unités militaires dans chaque ville
+institueront "la loi martiale", convertissant un citoyen
+malheureux  en un citoyen satisfait.
+^
+^CORRUPTION ET GASPILLAGE
+La monarchie a un taux MODERE de corruption et gaspillage.  Le
+niveau de corruption dans une ville déterminée est basé sur la
+distance séparant cette ville de votre capitale.
+^
+^SPECIAL
+Sous une Monarchie, aucun des taux de science/impôt/luxe ne peut
+dépasser 70%%.
+^
+^SUGGESTIONS 
+La monarchie est une forme excellente de gouvernement pour une
+civilisation jeune.
+
+
+@PEDIAGOVT3
+@width=600
+@title=Gouvernement de Civilisation: Le Communisme
+^SOUTIEN D'UNITE
+Chaque unité au-delà de la troisième coûte un bouclier par tour.
+les colons mangent une nourriture par tour.
+^
+^BONHEUR 
+Un maximum de trois unités militaires dans chaque ville
+instituera "la loi martiale", convertissant *DEUX* citoyens 
+malheureux en citoyens satisfaits (alors un total de SIX citoyens
+malheureux peuvent être supprimés).
+^
+^CORRUPTION ET GASPILLAGE
+Sous Le Communisme, le contrôle de l'état sur l'économie élimine
+le crime organisé.  Vos villes, donc, n'éprouvent pas
+de corruption.
+^
+^SPECIAL
+Toutes les unités D'ESPION produites sous des gouvernements
+Communistes ont le statut de VETERAN.  Sous le Communisme, aucun
+des taux de science/impôt/luxe ne peut dépasser 80%%.
+^
+^SUGGESTIONS 
+Le communisme convient le mieux pour de grands empires étendus
+qui ont besoin de maitenir une grande armée.  Utilisez vos
+puissants espions pour voler la technologie de ces sales 
+capitalistes.
+
+@PEDIAGOVT4
+@width=600
+@title=Gouvernement de Civilization: l'Intégrisme
+^SOUTIEN D'UNITE
+Peut soutenir un maximum de DIX unités gratuitement; les unités
+supplémentaires coûtent un bouclier chacune.  Les colons mangent
+une nourriture par tour.  SEULEMENT les gouvernements Intégrismes
+peuvent produire des unités FANATIQUES.
+^
+^BONHEUR 
+Sous l'Intégrisme, Il N'EXISTE JAMAIS DE CITOYEN MALHEUREUX!
+^
+^CORRUPTION ET GASPILLAGE
+L'Intégrisme a un taux BAS de corruption.
+Cependant, l'Intégrisme a le désavantage particulier que 
+toute SCIENCE est REDUITE DE MOITIE.
+^
+^SPECIAL
+Les embellissements qui convertissent les citoyens malheureux en
+citoyens satisfaits (Temples, etc.)
+produisent des "dîmes" égales au nombre de citoyens qu'autrement
+elles convertiraient.  Elles n'exigent aussi aucun entretien.
+Les pénalités diplomatiques pour les "actes terroristes" commis
+par vos Diplomates et Espions sont réduits.
+Sous l'Intégrisme, aucun des taux de science/impôt/luxe ne peut
+dépasser 80%%.
+^
+^SUGGESTIONS                                                 
+L'intégrisme élimine tous les problèmes de bonheur et fournit
+un revenu excellent.  La recherche scientifique a tendance à 
+languir.
+
+
+@PEDIAGOVT5
+@width=600
+@title=Gouvernement de la Civilization: la République
+^SOUTIEN D'UNITE
+Chaque unité coûte un bouclier par tour.  Les colons mangent DEUX
+nourritures par tour.
+^
+^BONHEUR 
+Chaque unité militaire APRES LA PREMIERE, qui n'est pas dans une
+ville amicale (ou une forteresse à moins de 3 espaces d'une ville
+amicale) cause un citoyen dans sa ville natale à devenir
+malheureux.
+^
+^CORRUPTION ET GASPILLAGE
+La République a un taux BAS de corruption et gaspillage.  Le
+niveau de corruption dans une ville déterminée est basé sur la
+distance séparant cette ville de votre capitale.
+^
+^SPECIAL
+Sous une République, chaque carré , qui ordinairement produit au 
+moins une unité de commerce, produit une unité supplémentaire.
+Aucun des taux de science/impôt/ luxe ne peut dépasser 
+80%%.
+^
+^SUGGESTIONS 
+Passer à une République peut faire augmenter de façon remarquable 
+vos revenus scientifiques et fiscaux, bien que vous ayez
+probablement à détourner une partie de votre commerce vers les
+luxes.  Il devient plus difficile (et coûteux) de garder une
+armée sur le champ de bataille, mais la création de la merveille
+du Droit de Vote des Femmes peut aider à ce problème.
+
+@PEDIAGOVT6
+@width=600
+@title=Gouvernement de la Civilisation: la Démocratie
+^SOUTIEN D'UNITE 
+Chaque unité coûte un bouclier par tour.  Les colons mangent DEUX
+nourritures par tour.
+^
+^BONHEUR 
+Chaque unité, qui n'est pas dans une ville amicale
+(ou une forteresse à moins de 3 espaces d'une ville amicale)
+cause DEUX citoyens dans sa ville natale à devenir malheureux.
+^
+^CORRUPTION ET GASPILLAGE
+Les démocraties n'éprouvent AUCUNE corruption ou gaspillage.
+^
+^SPECIAL
+Sous une Démocratie, chaque carré, qui ordinairement produit au
+moins une unité de commerce, produit une unité supplémentaire.
+Les unités et les villes d'une Démocratie sont immunisées contre
+la CORRUPTION sous toutes ses formes.
+Les taux de science/impôt/luxe peuvent être établis à tous les 
+niveaux désirés.
+^
+^SUGGESTIONS 
+Les démocraties peuvent produire des sommes spectaculaires de
+revenu et de recherche scientifique.  Cependant, à cause des
+restrictions sévères de bonheur imposées sur les unités
+militaires, cette forme de gouvernement a tendance à convenir
+seulement à de grandes civilisations avancées.  Une augmentation
+de vos luxes et la création de Merveilles peuvent aider à alléger
+ce problème.
+
+@;Cette ligne doit rester à la fin de ce fichier!
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

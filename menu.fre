@@ -1,0 +1,118 @@
+;
+;   MENU PRINCIPAL CIVILISATION  
+;   Copyright (c) 1995 par MicroProse Logiciel
+;
+;   Changer le contenu de ce fichier peut entraîner le
+;   malfonctionnement du jeu.
+;
+
+@game
+&Jeu
+Options du &Jeu|Ctrl+O
+O&ptions Graphiques|Ctrl+P
+Options du Rapport de &Ville|Ctrl+E
+Choisir la &Musique
+&Sauvegarder le Jeu|Ctrl+S
+&Charger le Jeu|Ctrl+L
+Se &Retirer|Ctrl+R
+&Quitter|Ctrl+Q
+
+@KINGDOM
+&Royaume
+&Taux Fiscal|Shift+T
+Vue &Salle du Trône|Shift+H
+Trouver la &Ville|Shift+C
+&REVOLUTION|SHIFT+R
+
+@VIEW
+&Vue
+Déplacer les &Unités|v
+Visualise&r les Unités|v
+&Zoom Intérieur|z
+Zoom E&xtérieur|x
+Zoom Max &Intérieur|Ctrl+Z
+Zoom &normal|Shift+Z
+Zoom Mo&yen Extérieur|Shift+X
+Zoom Max &Extérieur|Ctrl+X
+Montrer &Grille Carte|Ctrl+G
+&Arranger Fenêtres
+Montrer &Terrain Caché|t
+Vue &Centrale|c
+
+
+@ORDERS
+C&ommandes
+&Créer Nouvelle Ville|b
+Construire &Route|r
+Créer &Irrigation|i
+Construire &Mines|m
+Transf&ormer en ...|o
+Créer Base A&érienne|e
+Construire &Forteresse|f
+Colons Auto|k
+Nettoyer &Pollution|p
+&Pillage|Shift+P
+Déc&harger|u
+A&ller à|g
+&Largage|p
+&Transport Aérien|l
+Etablir Ville &Natale|h
+&Fortifier|f
+&Dormir|s
+Disper&ser|Shift+D
+&Activer Unité|a
+Attendre|&w
+Passer To&ur|SPACE
+
+@ADVISORS
+&Conseillers
+Consulter C&onseil des Ministres|Ctrl+T
+Statut de la &Ville|F1
+Ministre de la &Défense|F2
+Ministre des Affaires &Etrangères|F3
+&Attitude Conseiller|F4
+Conseiller du &Commerce|F5
+Conseiller &Scientifique|F6
+
+@WORLD 
+&Monde
+&Merveilles du Monde|F7
+&5 Premières Villes|F8
+&Score de la Civilisation|F9
+&Démographie|F11
+&Vaisseaux spacials|F12
+
+@CHEAT
+&Tricher
+&Basculer Vers Mode Tricher|Ctrl+K
+Créer &Unité|Shift+F1
+Révéler &Carte|Shift+F2
+Mettre &Joueur Humain|Shift+F3
+Etablir l'&Année du Jeu|Shift+F4
+&Tuer la Civilisation|Shift+F
+&Progrès Technologique|Shift+F6
+&Editer les Technologies|Ctrl+Shift+F6
+Forcer le &Gouvernement|Shift+F7
+C&hanger Terrain au Curseur|Shift+F8
+&Détruire Toutes les Unités au Curseur|Ctrl+Shift+D
+Changer l'A&rgent|Shift+F9
+Editer l'Unité|Ctrl+Shift+U 
+Editer la Ville|Ctrl+Shift+C 
+Editer le Roi|Ctrl+Shift+K 
+Paramètres du Scénario|Ctrl+Shift+P 
+Sauvegarder Comme Scénario|Ctrl+Shift+S 
+
+
+@PEDIA
+C&ivilopedie
+Progrès de la &Civilisation
+&Améliorations des Villes
+&Merveilles du Monde
+&Unités Militaires
+&Gouvernements
+Types de &Terrain
+Concepts du &Jeu
+Civilopedie Co&mplète
+&Remerciements Civilization II
+
+

@@ -1,0 +1,35 @@
+
+Civilisation II de Sid Meier    « ReadMe »
+le 15 février, 1996
+
+{Guide d'Installation }
+
+Installation Recommandée:
+
+1. Employez le répétoire par défaut ou tapez la lettre du disque et du répétoire
+    dans lequel vous voulez installer Civilisation II de Sid Meier.
+
+2. Choisissez l'option « Custom » du menu d'installation et choisissez les caractéristiques 
+   du jeu vous voulez installer. (Vous DEVEZ choisir « Fichiers du Jeu Nécessaires » pour
+    pouvoir jouer).
+
+3. Après l'installation du jeu «  WinG » et  « Indeo Video Interactive »
+   de Microsoft seront installés sur disque dur. Ces logiciels sont nécessaries 
+    pour son bon fonctionnement.
+
+Notes:
+   - Pour pouvoir entendre les effets sonores dans le jeu, il faut choisir « Fichiers du Jeu 
+     Recommandés » du menu « Custom ». (Le jeu ne peut pas lire ces fichiers du CD).
+   - Pour pouvoir voir la Civiliopedie, il faut choisir « Civiliopedie » du menu « Custom ». 
+      (Le jeu ne peut pas lire ces fichiers du CD)	
+   - La majorité  des fichiers multimédias de Civilisation II se trouvent au  CD ROM dans
+     les sous-répetoire  « VIDEO » (d:\civ2\video ) et « KINGS » ( d:\civ2\kings ). Si vous voulez copier             ces fichiers sur le disque dur,  créez  2  sous-répetoires  dans le répetoire MPS\CIV2 du disque 
+     dur ( c:\mps\civ2\video) et  ( c:\mps\civ2\kings ).
+     Copiez tous les ficihiers du sous-répetoire « VIDEO » du CD de Civilization II dans le sous-répetoire 
+      «VIDEO » du disque dur; faites de même pour le sous-répetoire  « KINGS »    .
+
+
+{Troubleshooting}
+
+1. 'General Protection Fault' - il est possible que le logiciel du vidéo soit trop vieux. 
+    Vous pouvez contacter votre distributeur de logiciel pour l'améliorer ou essayer celui de Windows.

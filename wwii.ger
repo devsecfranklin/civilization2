@@ -1,0 +1,16 @@
+
+@SCENARIO
+@width=440
+@title=2. Weltkrieg in Europa
+^^Dauer: %STRING1 to %STRING2
+Es ist Juni 1940.  Deutsche Panzer sind bereit durch die Ardennen zu brechen,
+die allierten Streitmächte zu Hackfleisch schlagen, und Paris nach einem
+erstaunlichen sechs-wöchigen Blitzkrieg erreichen.  Ist Churchill wirklich dazu
+fähig seine Truppen noch rechtzeitig zu sammeln, oder wird auch England dem 
+deutschen Ungeheuer erliegen?  In der Zwischenzeit schläft der russische Bär
+im Osten.  Hat der Molotov-Ribbentrop Pakt die östliche Flanke Deutschlands
+gesichert, oder wird die Axis ihren Lebensraum auf der russischen Steppe
+suchen?
+
+@end -- this line must be here!
+

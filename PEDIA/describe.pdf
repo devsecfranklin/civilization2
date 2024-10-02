@@ -1,0 +1,521 @@
+*** Civ 2000 Effects et Comments - copyright (c) 1995 MicroProse Software, Inc. ***
+*** Alteration of this file may make the Civilopedia malfunction... ***
+
+LES EMBELLISSEMENTS
+
+Palais
+Elimine la corruption et le gaspillage dans la ville, et les diminue dans toutes les villes avoisinantes.
+
+Casernes
+Permettent à la ville de produire des unités de Vétérans. Les unités de sol endommagées sont reparées dans un tour.
+
+Grenier
+Seulement la moitié des réserves alimentaires de la ville sont épuisées lorsque la ville s'accroit en taille.
+
+Temple
+Rend  un citoyen malheureux satisfait (deux après la découverte de Mysticisme).
+
+Marché
+Augmente de 50% les revenus d'impôts et la production de luxes.
+
+Bibliothèque
+Augmente de 50% la production scientifique.
+
+Tribunal
+Diminue la corruption de 50%, et rend la ville plus résistante à la corruption par les espions et les diplomates ennemis. Sous la Démocratie, le Tribunal rend un citoyen satisfait heureux.
+
+Murailles de la Ville
+Le facteur de défense des unités à l'intérieur de la ville est triplé contre toutes les unités au sol sauf les Obusiers..
+
+Aqueduc
+Permet à la ville de croître au-delà de la taille 8.
+
+Banque
+Augmente de 50 pourcent de plus les revenus d'impôts et la production de luxes (cumulatif avec le Marché).
+
+Cathédrale
+Rend trois citoyens malheureux satisfaits (deux après la découverte de Communisme).  La découverte de Théologie ajoute un citoyen satisfait à chaque ville avec une Cathédrale.
+
+Université
+Augmente de 50% de plus la production scientifique (cumulatif avec la Bibliothèque).
+
+Transport en Collectif
+Eliminent la pollution causée par le peuplement.
+
+Amphithéâtre
+Trois citoyens malheureux deviennent satisfaits. (Quatre avec l'Electronique.)
+
+Usine
+Augmente la production de Boucliers de 50%.
+
+Fabriquant
+Augmente de 50% de plus la production de Boucliers (cumulatif avec l'Usine).
+
+Défense SDI
+Protège tout à moins de trois espaces de la ville contre une attaque nucléaire.
+
+Centre de Recyclage
+Diminue de 2/3 la pollution causée par la production de Boucliers.
+
+Centrale Electrique
+Augmente la rendement en Usine de 50%.
+
+Centrale Hydraulique
+Augmente de 50% la rendement en Usine, et réduit de 50% la pollution causée par la production de Boucliers. Les Centrales  Hydrauliques sont moins dangereuses que les centrales nucléaires.
+
+Centrale Nucléaire
+Augmente le production en Usine de 50%, et réduit de 50% la pollution causée par la production de boucliers. Les Centrales Nucléaires courent le risque de fusion nucléaire jusqu'à ce votre civilisation découvre le Pouvoir de fusion.
+
+Bourse
+Augmente de 50% de plus les revenus d'impôt et la production de luxes (cumulatif avec le Marché et la Banque, pour une augmentation totale de 150%).
+
+Système d'Egout
+Permet à une ville de croître au-delà de la taille 12.
+
+Supermarché
+Permet aux carrés à double irrigation dans les limites de la ville (terres agricoles) de produire 50% de plus de nourriture.
+
+Autoroutes
+Tous les carrés dans les limites de la ville avec des routes ou des chemins de fer produisent 50% de plus de Commerce.
+
+Labo de Recherche
+Augmente de 50% de plus la production scientifique (cumulatif avec la Bibliothèque et l'Université pour un accroissement total de 150%).
+
+Batterie de Missile SAM
+Double les facteurs de défense de toutes les unités dans la ville contre les unités aériennes et les attaques de missiles non- nucléaires.
+
+Forteresse Côtière
+Double les facteurs de défense de toutes les unités dans la ville contre des bombardements sur la côte par des navires ennemis.
+
+Centrale Solaire
+Augmente de  50% la production en usine, et élimine toute pollution causée par la production de Boucliers.  Aide ralentir l'assaut de réchauffement global en absorbant la chaleur atmosphérique.
+
+Port
+Permet à tous les carrés d'Océan dans les limites de la ville de produire une unité supplémentaire de Nourriture.
+
+Plate-forme Pétrolière
+Permet à tous les carrés d'Océan dans les limites de la ville de produire un Bouclier.
+
+Aéroport
+Permettent à la ville de produire des unités aériennes de Vétérans.  Toute unité aérienne restant un tour complet dans la ville est entièrement réparée.
+
+Commissariat
+Réduit le nombre de citoyens malheureux créé par des unités loin de leur ville natale par un par l'unité.
+
+Installation Portuaire
+Permettent à la ville de produire des naivres de Vétérans.  Tout naivre restant un tour complet dans la ville est entièrement réparé.
+
+Structure du Vaisseau Spatial
+Forme la charpente de votre vaisseau spatial.
+
+Composants du Vaisseau Spatial
+Composants de Poussée: Chaque composant ajoute 25% à la  poussée du vaisseau spatial.
+Composants du carburant: Chaque composant fournit assez de carburant pour un Composant de Poussée.
+
+Module du Vaisseau Spatial
+Population: Chaque module fournit un espace de vie pour 10,000 colons.
+Equipement de Survie: Chaque module fournit nourriture, air, et soutien pour un Module de Peuplement.
+Panneau Solaire: Chaque module fournit l'énergie pour deux autres modules.
+
+Capitalisation
+Convertit toute production de Boucliers en impôts.
+
+@WONDERS
+
+Pyramides
+Compte comme Grenier dans chaque ville.
+Les effets n'expirent pas.
+
+Jardins Suspendus
+Rend trois citoyens satisfaits heureux dans la ville où ils sont bâtis, et un citoyen satisfait heureux dans toutes autres villes amicales.
+Les effets expirent avec la découverte du Chemin de Fer.
+
+Colosse
+La ville, où le Colosse est bâti, génère une unité supplémentaire de Commerce dans chaque carré qui produit déjà du Commerce.
+Les effets expirent avec la découverte du Vol.
+
+Phare
+Les Trirèmes peuvent naviguer sur les océans sans craindre   d'être perdus en mer, et tous les autres types d'unités maritimes  voient leur taux de déplacement augmenter d'un point. Aussi, tous les nouveaux navires produits reçoivent le statut de Vétéran.
+Les effets expirent avec la découverte du Magnétisme.
+
+Grande Bibliothèque
+La civilisation reçoit automatiquement tout Progrès de Civilisation découvert déjà par deux autres civilisations.
+Les effets expirent avec la découverte de l'Electricité.
+
+Oracle
+Double l'efficacité de tous les Temples.
+Les effets expirent avec la découverte de la Théologie.
+
+Grande Muraille
+Agit comme Murs de Ville dans toutes villes amicales.  Double la force d'attaque d'unité contre les Barbares.  Les civilisations ennemies sont forcées d'offrir un cessez-le-feu ou paix pendant les négociations.
+Les effets expirent avec la découverte de la Métallurgie.
+
+Académie de Guerre de Sun Tzu
+Toutes les nouvelles unités au sol produites sont des Vétérans, et toute unité au sol existante qui gagne au combat reçoit automatiquement le statut de Vétéran.
+Les effets expirent avec la découverte de la Guerre Mobile.
+
+Croisade du Roi Richard
+Chaque carré dans les Limites de la Ville où la Merveille est bâtie produit un Bouclier supplémentaire.
+Les effets expirent avec la découverte de l'Industrialisation.
+
+l'Ambassade de Marco Polo
+Vous établissez automatiquement une ambassade avec chaque civilisation rivale.
+Les effets expirent avec la découverte du Communisme.
+
+Chapelle de Michel Ange
+Compte comme Cathédrale dans chacune de vos villes.
+Les effets n'expirent pas.
+
+Observatoire de Copernique
+Augmente de 50% la production scientifique de la ville où la Merveille est bâtie.
+Les effets n'expirent pas.
+
+Expédition de Magellan
+Augmente de deux points le taux de déplacement de toutes les unités navales.
+Les effets n'expirent pas.
+
+Théâtre de Shakespeare
+Tous les citoyens malheureux dans la ville deviennent satisfaits.
+Les effets n'expirent pas.
+
+Atelier de Léonard
+Lorsqu'une de vos unités devient surannée avec la découverte d'une nouvelle technologie, elle est aussitôt remplacée par une unité moderne équivalente, gratuitement .
+Les effets expirent avec la découverte de la Voiture.
+
+Cathédrale de J.S. Bach
+Diminue de deux par ville le nombre de citoyens malheureux dans chaque ville amicale sur le continent.
+Les effets n'expirent pas.
+
+Université d'Isaac Newton
+Double la production scientifique de la ville où elle est bâtie.
+Les effets n'expirent pas.
+
+Société Commerciale d'Adam Smith
+Paie l'entretien pour tous les Embellissements de Ville qui ordinairement coûtent une pièce par tour. (Les embellissements de ville coûtant plus d'une pièce par tour ne sont pas concernés.)
+Les effets n'expirent pas.
+
+Voyage de Darwin
+Donne automatiquement deux Progrès de Civilisation.
+Fonctionne seulement pendant le tour durant lequel il est créé.
+
+Statue de la Liberté
+Elimine la période d'Anarchie ayant lieu normalement lorsque il y a un changement de gouvernement, et permet de choisir tout type de gouvernement disponible (même si les Progrès requis n'ont pas été découverts).
+Les effets n'expirent pas.
+
+Tour Eiffel
+Lorsque construite pour la première fois (ou capturée), chaque comportement de civilisation d'une valeur de 25% se tourne  aussitôt en votre faveur, et continue de s'améliorer graduellement avec le temps. Les autres civilisations oublient plus rapidement vos transgressions passées.
+Les effets n'expirent pas.
+
+Hoover Dam
+Joue le rôle de Centrale Hydraulique dans chaque ville amicale.
+Les effets n'expirent pas.
+
+Droit de Vote des Femmes
+Agit comme commissariat dans chaque ville amicale. ( Diminue d'un point le  Malheur causé par des unités ayant quitté la ville.)
+Les effets n'expirent pas.
+
+Projet Manhattan
+Permet la construction d'armes nucléaires par TOUTES les civilisations.
+Les effets n'expirent pas.
+
+Nations Unies
+Vous établissez automatiquement une ambassade avec chaque civilisation rivale, et les civilisations ennemies sont forcées de proposer un cessez-le-feu pendant les négociations de paix. De plus, sous la Démocratie, vous pouvez déclarer avec succès la guerre 50% du temps.
+Les effets n'expirent pas.
+
+Programme Apollo
+Permet la construction de perfectionnements de vaisseaux spatiaux par TOUTES les civilisations et révèle la carte complète.
+Les effets n'expirent pas.
+
+Programme SETI
+Compte comme Labo de Recherche dans chaque ville amicale, doublant efficacement votre production scientifique.
+Les effets n'expirent pas.
+
+Une Cure pour le Cancer
+Rend un citoyen satisfait heureux dans chaque ville amicale.
+Les effets n'expirent pas.
+
+@ADVANCES
+
+Vol Avancé
+Alphabet
+Guerre Amphibie
+Astronomie
+Théorie Atomique
+Automobile
+Opérations Bancaires
+Construction de Pont
+Travail du Bronze
+Enterrement Cérémonial
+Chimie
+Chevalerie
+Code des Lois
+Armes Combinées
+Combustion
+Communisme
+Ordinateurs
+Conscription
+Construction
+Société
+Monnaie
+Démocratie
+Economie
+Electricité
+Electronique
+Ingénierie
+Ecologie
+Espionnage
+Explosifs
+Féodalisme
+Vol
+Intégrisme
+Pouvoir de Fusion
+Technologie d'Avenir
+Engineering Génétique
+Guerre de la Guérilla
+Poudre
+Equitation
+Industrialisation
+Invention
+Travail du Fer
+Syndicat
+Le Laser
+Direction
+Alphabétisation
+Outils de Machine 
+Magnétisme
+Cartographie
+Maçonnerie
+Production en Série
+Mathématiques
+Médecine
+Métallurgie
+Miniaturisation
+Guerre Mobile
+Monarchie
+Monothéisme
+Mysticisme
+Navigation
+Fission Nucléaire
+Energie Nucléaire
+Philosophie
+Physique
+Plastiques
+Polythéisme
+Poterie
+Radio
+Chemin de Fer
+Recyclage
+Raffinage
+Réfrigération
+République
+Robotique
+Etude des Fusées
+Hygiène
+La Marine
+Vol Spatial
+Furtif
+Machine à Vapeur
+Acier
+Superconducteur
+Tactiques
+Théologie
+Théorie de la Gravité
+Le Commerce
+L'Université
+Code du Guerrier
+La Roue
+Ecriture
+Progrès Défini par Utilisateur
+@UNITS
+
+Guerriers
+Phalange
+Archers
+Légion
+Pixers
+Mousquetaires
+Fantassins
+Marines
+Troupes Alpines
+Partisans
+Fanatiques
+Infanterie Mécanisée
+Infanterie Mech.
+Parachutistes
+Char
+Eléphants
+Cavaliers
+Chevaliers
+Croisés
+Dragons
+Cavalerie
+Armure
+Catapulte
+Canon
+Artillerie
+Obusier
+Missile Atmosphérique
+Missile Nucléaire
+Trirème
+Caravelle
+Frégate
+Galion
+Transport
+Cuirassé
+Destroyer
+Sous-Marin
+Croiseur
+Croiseur D'EGIDE
+Bâtiment de Ligne
+Porte-Avion
+Avion de Chasse
+Avion de Chasse Furtif
+Bombardier
+Bombardier Furtif
+Hélicoptère
+Colons
+Ingénieurs
+Caravane
+Fret
+Diplomate
+Espion
+Explorateur
+Unité Définie par Utilisateur
+@ ADVANCE COMMENTS
+Elimine le risque d'une fusion de Centrale Nucléaire.
+Vous pouvez passer à un gouvernement du même nom.
+Les Colons/Ingénieurs peuvent bâtir des forteresses.
+Les Colons/Ingénieurs peuvent bâtir des bases aériennes .
+Les Colons/Ingénieurs peuvent bâtir des chemins de fer.
+Les Colons/Ingénieurs peuvent irriguer deux fois (créer terre agricole).
+Chaque Technologie d'Avenir ajoute 5 points à votre Score de Civilisation.
+Progrès de Civilisation gratuit pour la première civilisation découverte.
+Permet:
+Les colons/Ingénieurs peuvent construire des routes dans les carrés de Fleuve.
+@UNIT COMMENTS
+Peut seulement être bâtie sous l'Intégrisme.
+Condition:
+Ignore les zones de contrôle de l'ennemi.
+Peut attaquer avion en vol.
+Peut attaquer directement d'un navire.
+Invisible à la plupart des navires ennemis.
+Peut être perdu en mer si n'est pas adjacent(e) à la terre à la fin de son déplacement.
+Ignore les Murailles de la Ville.
+Peut transporter les unités aériennes amicales.
+Peut faire des largages.
+Considère tous les carrés comme des carrés de routes (emploie seulement 1/3 de point de déplacement par carré déplacé).
+Défense doublée contre les unités montées.
+Aucun soutien exigé sous l'Intégrisme.
+Détruit(e) après avoir attaqué.
+Défense doublée contre les unités aériennes et de missile.
+Peut repérer des sous-marins ennemis dans des carrés adjacents.
+avec
+Coût:
+Entretien:
+Aucun
+Attaque:
+Défense:
+Points Marqués:
+Puissance de Tir:
+Déplacement:
+Champs de Vision:
+N/A
+Peut transporter des unités au sol amicales.
+Peut construire des Routes et améliorer le terrain.
+
+@TERRAIN COMMENTS
+Type de Terrain:
+Augmente la quantité de
+ Nourriture
+ Boucliers
+ Commerce
+ produit(e) dans/en
+ de
+ à
+ et
+Coût du Déplacement:
+Bonus de Défense de l'Unité:
+Effets d'Irrigation:
+Passer à l'Irrigation:
+Effets d'Exploitation Minière:
+Passer aux Mines:
+Effect de Transformation d'Ingénieur:
+Buffle
+Charbon
+Désert
+Poisson
+Forêt
+Fruit
+Fourrures
+Faisan
+Joyaux
+Glacier
+Or
+Prairie
+Colline
+Fer
+Ivoire
+Jungle
+Montagne
+Oasis
+Océan
+Pétrole
+Tourbe
+Plaine
+Fleuve
+Soie
+Epices
+Marécage
+Toundra
+Baleines
+Blé
+Vin
+*Conformément au Type de Terrain
+ augmente
+Tout Terrain sauf les Océans.
+Permet le mouvement plus rapide (Coût de Déménagement 1/3 d'un point.)  Fournit un 50% bonus de défense d'unité.  Fournit aussi accès d'eau pour l'irrigation
+Ressources Possibles:
+Prairie (Bouclier)
+Terrain
+Effets des Routes:
++1 Commerce
+Coût de Déplacement = 1/3 d'un point
+Boeuf de Musc
+@OBSOLESCENCE
+Rend les Jardins Suspendus surannés.
+Rend le Colosse suranné.
+Rend le Phare suranné.
+Rend la Grande Bibliothèque surannée.
+Rend l'Oracle suranné.
+Rend la Grand Muraille surannée.
+Rend l'Académie de Guerre surannée.
+Rend la Croisade du Roi Richard surannée.
+Rend l'Ambassade de Marco Polo surannée.
+Rend l'Atelier de Léonard suranné.
+
+@HEADERS
+Progrès de Civilisation
+Embellissements de Ville
+Merveilles du Monde
+Unités
+Systèmes de Gouvernement
+Terrain et Ressources Spéciales
+Concepts du Jeu
+Recherche d'un Sujet
+Ajoute un citoyen content à chaque ville qui a une Cathédrale.
+Accroît le mouvement de toutes unités de mer par un.
+Ajoute 25% à la poussée de votre Vaisseau Spatial.
+Ajoute une citoyen satisfait à chaque ville qui a un Temple.
+Epoque:
+Catégorie:
+Antique
+Renaissance
+Industriel
+Moderne
+Militaire
+Economique
+Sociale
+Appliqué
+Académique
+
+@END

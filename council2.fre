@@ -1,0 +1,354 @@
+Modern Council Text  2/12/96   v2.2
+
+@M1
+0,84, Armée: Vous devriez construire d'autres unités!
+f5,4656,4763, Etranger: Ne l'écoutez pas , Monsieur! Nous pouvons prendre avec ruse ce qu'il prendrait par force!
+#, end
+t3, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t5, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s4, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@M2
+86,199, Armée: Nous sommes en retard dans le domaine de la technologie des armes!
+f3, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+t2, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t4, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+a1, 3646,3692, Comportement: Les choses ne vont pas, Monsieur.
+#, end 
+end
+
+@M3
+201,270, Armée: Nous avons besoin de plus de technologies maritimes!
+t2, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t4, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+f3, 3498,3526, Etranger: Je ne suis pas d'accord, Monsieur.
+a1, 3646,3692, Comportement: Les choses ne vont pas, Monsieur.
+a3, 3747,3769, *
+end
+
+@M4
+272,359, Armée: Nous devons construire des casernes!
+f5, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+t3, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t5, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t1, 2844,2882, Commerce: Attention à vos dépenses, Monsieur.
+#, end 
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s4, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@M5
+361,502, Armée: Nous devons construire des murailles , surtout au capitole!
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s4, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+f5, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+t3, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t5, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t, 2844,2882, Commerce: Attention à vos dépenses, Monsieur.
+#, end 
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@M6
+504,568, Armée: Nous nous portons bien!
+f7, 3384,3404, Etranger: Je suis d'accord, Monsieur
+t7, 3349,3382, Commerce: Je suis d'accord, Monsieur
+t1, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+s6, 3150,3172, Science: Pouvons-nous parler, Monsieur?
+s1, 3150,3172, Science: Pouvons-nous parler, Monsieur?
+a1, 3608,3644, Comportement: Pouvons-nous parler, Monsieur?
+end
+
+@M7
+570,649, Armée: Nous sommes forts... faisons la guerre avec d'autres civilisations!
+f4, 4656,4763, Etranger: Ne l'écoutez pas , Monsieur! Nous pouvons prendre avec ruse ce qu'il prendrait par force!
+#, end
+f, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+s6, 3080,3099, Science: Je suis d'accord, Monsieur
+t, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+end
+
+
+@S1
+1012,1096, Science: Nos résultats scientifiques sont déplorables, Monsieur.
+f3, 3384,3404, Etranger: Je suis d'accord, Monsieur
+#, a, 3582,3606, Comportement: Ne les écoutez pas, Monsieur.
+a1, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+a2, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+a3, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+t2, 3174,3191, Commerce: Je suis d'accord, Monsieur
+t4, 3174,3191, Commerce: Je suis d'accord, Monsieur
+t, 3314,3347, *
+end
+
+@S2
+1098,1252, Science: Nous devrions augmenter le taux de science, Monsieur.
+f3, 3384,3404, Etranger: Je suis d'accord, Monsieur
+#, a, 3582,3606, Comportement: Ne les écoutez pas, Monsieur.
+a1, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+a2, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+a3, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end
+t2, 3174,3191, Commerce: Je suis d'accord, Monsieur
+t4, 3174,3191, Commerce: Je suis d'accord, Monsieur
+t1, 2705,2778, Commerce: Il est très imprudent de laisser les autres dicter vos dépenses, Monsieur.
+end
+
+@S3
+1254,1377, Science: Nous devrions créer des embellissements technologiques, tels que des bibliothèques, des universités et des labos de recherche.
+m1, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+m4, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+m5, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+t3, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t4, 3174,3191, Commerce: Je suis d'accord, Monsieur
+#, f5, 3433,3461, Etranger: Ne les écoutez pas, Monsieur.
+t5, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t1, 2705,2778, Commerce: Il est très imprudent de laisser les autres dicter vos dépenses, Monsieur.
+#, end 
+m2, 2884,2913, Armée: Je suis d'accord, Monsieur
+m3, 2884,2913, Armée: Je suis d'accord, Monsieur
+f3, 4765,4804, Etranger: Je ne suis pas d'accord, Monsieur.
+f5,3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@S4
+1379,1571, Science: Nous devrions créer des itinéraires de commerce, Monsieur.
+m1, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+m4, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+m5, 867,957, Armée: Pas si vite, le scientifique! Ne vous laissez pas embobiner, Mon Commandant, nous avons d'autres préoccupations.
+#, end
+f3, 4765,4804, Etranger: Monsieur, l'homme scientifique témoigne de la sagesse.
+t, 3174,3191, Commerce: Je suis d'accord, Monsieur
+m2, 2884,2913, Armée: Je suis d'accord, Monsieur
+#, f5, 3433,3461, Etranger: Ne les écoutez pas, Monsieur.
+m3, 2884,2913, Armée: Je suis d'accord, Monsieur
+#, f5, 3433,3461, Etranger: Ne les écoutez pas, Monsieur.
+f5, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+end
+
+@S5
+1573,1643, Science: Nous prospérons, Monsieur.
+a6 ,3694,3745, *
+m2, 3027,3078, Armée: Je ne suis pas d'accord, Monsieur.
+m3, 3027,3078, Armée: Je ne suis pas d'accord, Monsieur.
+t2, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t4, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+end
+
+@S6
+1645,1748, Science: Je suggère que nous utilisions des espions pour voler des technologies ou des armées pour les prendre.
+m1,3027,3078, *
+m2,2884,2913, Armée: Je suis d'accord, Monsieur
+m3,2884,2913, Armée: Je suis d'accord, Monsieur
+m4,3027,3078, *
+m5,3027,3078, *
+m6,2884,2913, Armée: Je suis d'accord, Monsieur
+m7,2884,2913, Armée: Je suis d'accord, Monsieur
+end
+
+@S7
+1750,1920, Science: Nous nous portons à merveille, Monsieur!
+a1, 3646,3692, Comportement: Les choses ne vont pas, Monsieur.
+a6, 3694,3745, *
+t6, 3349,3382, Commerce: Je suis d'accord, Monsieur
+t7, 3349,3382, Commerce: Je suis d'accord, Monsieur
+f7, 3384,3404, Etranger: Je suis d'accord, Monsieur
+end
+
+
+@T1
+2097,2200, Commerce: Nous avons des problèmes... augmentez les impôts ou embauchez des percepteurs.
+a1, 5360,5443, Comportement: Laissez mon taux de luxe tranquille, Monsieur.
+#, end 
+a2, 5445,5520, Comportement: Nous devons garder le peuple heureux, Monsieur.
+#, end 
+a3, 5445,5520, Comportement: Nous devons garder le peuple heureux, Monsieur.
+#, end 
+s1, 1922,2001, Science: Ne laissez pas cette fouine toucher le taux de science, Monsieur.
+s2, 1922,2001, Science: Ne laissez pas cette fouine toucher le taux de science, Monsieur.
+end
+
+@T2
+2202,2303, Commerce: Je suggère que nous découvrions l'économie.
+m2, 812,865, Armée: Il ne dit que des absurdités, Mon Commandant.
+m3, 812,865, Armée: Il ne dit que des absurdités, Mon Commandant.
+end
+
+@T3
+2305,2360, Commerce: Je suggère que nous construisions des Bourses de Valeurs.
+f5,3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+m1,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m4,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m5,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s4, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@T4
+2362,2473, Commerce: Je suggère que nous découvrions le commerce.
+f, 3384,3404, Etranger: Je suis d'accord, Monsieur
+m2, 812,865, Armée: Il ne dit que des absurdités, Mon Commandant.
+m3, 812,865, Armée: Il ne dit que des absurdités, Mon Commandant.
+end
+
+@T5
+2475,2570, Commerce: Je suggère que nous construisions d'autres caravanes.
+f5,3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+m1,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m4,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m5,651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@T6
+2572,2616, Commerce: Nous prospérons , mais nous pourrions augmenter ce taux fiscal pour plus d'argent!
+a1,3646,3692, Comportement: Les choses ne vont pas, Monsieur.
+a2,3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+a3,3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@T7
+2618,2703, Commerce: Nous nous portons à merveille, Monsieur!
+m1,3027,3078, *
+#, end 
+m4,3027,3078, *
+#, end 
+m5,3027,3078, *
+#, end 
+f5, 3498,3526, *
+#, end 
+end
+
+
+@F1
+3771,3870, Etranger: Allez explorer.
+r5, s, 3080,3099, Science: Je suis d'accord, Monsieur
+r5, m, 2884,2913, Armée: Je suis d'accord, Monsieur
+r5, a, 3528,3552, Comportement: Je suis d'accord, Monsieur
+r5, t, 3174,3191, Commerce: Je suis d'accord, Monsieur
+end
+
+@F2
+3872,4002, Etranger: Formons une  alliance avec d'autres civilisations.
+m, 733,810, Armée: Fraterniser avec l'ennemi c'est trahir, Mon Commandant!
+end
+
+@F3
+4004,4100, Etranger: Nous devrions découvrir l'espionnage.
+s, 3080,3099, Science: Je suis d'accord, Monsieur
+#, t2, 3214,3238, Commerce: Ne les écoutez pas, Monsieur.
+t4, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+m2, 959,1010, Armée: Je ne suis pas d'accord, Monsieur.
+m3, 959,1010, Armée: Je ne suis pas d'accord, Monsieur.
+end
+
+@F4
+4102,4273, Etranger: Nous avons une mauvaise réputation  avec les autres civilisations.
+;m1, magg, Armée: Je suis d'accord, Monsieur
+m, 3004,3025, *
+end
+
+@F5
+4275,4381, Etranger: Nous devrions créer des ambassades.
+m1, 651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m4, 651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+m5, 651,731, Armée: Mon Commandant, faites tout d'abord attention à votre armée.
+t3, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t5, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t1, 2844,2882, Commerce: Attention à vos dépenses, Monsieur.
+#, end 
+s3, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s4, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+a3, 3554,3580, Comportement: Je ne suis pas d'accord, Monsieur.
+end
+
+@F6
+4383,4526, Etranger: Nous devrions  échanger des technologies avec d'autres civilisations.
+m2, 2884,2913, Armée: Je suis d'accord, Monsieur
+#, s7, 3126,3148, Science: Ne les écoutez pas, Monsieur.
+m3, 2884,2913, Armée: Je suis d'accord, Monsieur
+#, s7, 3126,3148, Science: Ne les écoutez pas, Monsieur.
+m6, 733,810, Armée: Fraterniser avec l'ennemi c'est trahir, Mon Commandant!
+m7, 733,810, Armée: Fraterniser avec l'ennemi c'est trahir, Mon Commandant!
+s7, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+#, end
+s5, s, 3080,3099, Science: Je suis d'accord, Monsieur
+t, 3174,3191, Commerce: Je suis d'accord, Monsieur
+end
+
+@F7
+4528,4654, Etranger: Nous nous débrouillons remarquablement bien dans le domaine des affaires étrangères.
+s7, 3080,3099, Science: Je suis d'accord, Monsieur
+a6, 3694,3745, *
+end
+
+
+@A1
+4806,4875, Comportement: Nous devons créer des animateurs ou le gouvernement se renversera!
+r5, t, 3174,3191, Commerce: Je suis d'accord, Monsieur
+r5, s, 3080,3099, Science: Je suis d'accord, Monsieur
+r5, m, 2884,2913, Armée: Je suis d'accord, Monsieur
+r5, f, 3384,3404, Etranger: Je suis d'accord, Monsieur
+end
+
+@A2
+4877,4969, Comportement: Nous devons augmenter le taux de luxe rapidement!
+t1, 2780,2842, Commerce: Si vous voulez suivre le conseil d'un pauvre idiot, alors allez-y, Monsieur.
+#, end
+t6, 2780,2842, Commerce: Si vous voulez suivre le conseil d'un pauvre idiot, alors allez-y, Monsieur.
+#, end 
+s1, 3150,3172, Science: Pouvons-nous parler, Monsieur?
+#, end 
+s2, 2003,2095, Science: Monsieur, nous ne pouvons pas sacrifier le savoir pour des luxes
+#, end 
+f3, 3406,3431, Etranger: Je ne suis pas d'accord, Monsieur.
+m2, 2915,2939, Armée: Je ne suis pas d'accord, Monsieur.
+m3, 2915,2939, Armée: Je ne suis pas d'accord, Monsieur.
+end
+
+@A3
+4971,5096, Comportement: Les choses vont mal...nous avons besoin d'animateurs et de temples.
+t1, 3278,3312, Commerce: Les choses ne vont pas, Monsieur.
+s1, 2003,2095, Science: Monsieur, nous ne pouvons pas sacrifier le savoir pour des luxes
+s2, 2003,2095, Science: Monsieur, nous ne pouvons pas sacrifier le savoir pour des luxes
+m1, 3027,3078, Armée: Je ne suis pas d'accord, Monsieur.
+m4, 3027,3078, Armée: Je ne suis pas d'accord, Monsieur.
+m5, 3027,3078, Armée: Je ne suis pas d'accord, Monsieur.
+end
+
+@A4
+5098,5231, Comportement: Nous devrions augmenter le taux de luxe.
+t1, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t6, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+t, 3193,3212, Commerce: Je ne suis pas d'accord, Monsieur.
+s1, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s2, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+s, 3101,3124, Science: Je ne suis pas d'accord, Monsieur.
+end
+
+@A5
+5233,5295, Comportement: Nous prospérons.
+t7, 3174,3191, Commerce: Je suis d'accord, Monsieur
+end
+
+@A6
+5297,5358, Comportement: Nous nous portons à merveille!
+t7, 3349,3382, Commerce: Je suis d'accord, Monsieur
+end

@@ -1,0 +1,125 @@
+*** Civ 2000 Game Concepts - Copyright (c) 1995, MicroProse Software, Inc. ***
+*** Alteration of this file may make the Civilopedia   malfunction... ***
+Disperser
+Lorsque une unité amicale devient surannée, coûte trop à entretenir, ou cause le malheur parmi votre population, vous devriez peut-être éliminer cette unité. Pour éliminer une unité, ordonnez lui de se disperser en tenant enfoncé la touche ôshiftô   et en appuyant sur « D », ou en sélectionnant « Disperser » sur le menu des Ordres. Une fois dispersée, l'unité est définitivement retirée du jeu.
+
+Quand une unité est dispersée dans une ville amicale, la moitié du coût de production de l'unité en Boucliers est ajouté à la production de n'importe quelle unité, Amélioration, ou Merveille étant en production dans la ville à ce moment là.
+
+Fortifier
+Les légions romaines en campagne arrêtaient leur marche assez tôt chaque soir pour pouvoir bâtir un camp entièrement fortifié pour la nuit. Elles avaient appris la valeur des fortifications défensives lorsqu'elles étaient attaquées. Là où c'était possible, la pratique courante était pour la plupart des armées de bâtir des ouvrages défensifs d'un certain type à chaque fois qu'il y avait une attaque. Les défenseurs fortifiés avaient leur force de combat multipliée, ce qui les rendait beaucoup plus difficile à battre.
+
+Les unités au sol peuvent être ordonnées en appuyant sur la touche « F », ou en sélectionnant « Fortifier » dans le menu des Ordres. La valeur défensive des unités fortifiées est augmentée de 50 pourcent.
+
+Forteresse
+Une fois que votre civilisation a découvert la Construction, les Colons et les Ingénieurs peuvent construire des forteresses. Les forteresses peuvent être utilisées pour défendre les périmètres de la ville et bloquer les points d'accès clé des armées ennemies. Une forteresse bien habitée peut fournir une défense efficace en doublant la force défensive de toutes les unités y étant postées. Contrairement à un combat normal, les unités empilées dans une forteresse sont détruites une par une dans la bataille, plutôt que détruites simultanément. Les forteresses elles-mêmes ne souffrent pas de dommages dans l'attaque.
+
+Les Colons et les Ingénieurs peuvent construire des forteresses en appuyant sur « F », ou en choisissant « Construire Forteresse » dans le menu des Ordres. Les unités à l'intérieur d'une forteresse ont leurs forces défensives doublées. Sous une République, les unités postées dans les forteresses bâties à moins de trois carrés de leur ville natale ne causent pas de malheur.
+
+Irrigation
+Quand les premiers agriculteurs descendaient des collines vers les vallées des fleuves du Nil, du Tigris, et de l'Euphrates, ils devaient développer la technologie d'irrigation. Les fleuves d'eau douce passaient par des terres essentiellement infertiles à cause du manque de précipitation. Grâce à l'irrigation, l'eau pouvait être enlevée des fleuves et répandue sur les terres proches, ce qui convenait pour la culture.
+
+L'irrigation augmente la production de Nourriture dans les Prairies, les Plaines, les Déserts, et les Collines. Seulement les carrés verticalement ou horizontalement adjacents à l'eau  (Océans ou Fleuves) ou à un autre carré irrigué peuvent être irrigués. Après la découverte de la Réfrigération, les carrés de terrain peuvent être irrigués deux fois pour créér des terres agricoles. Les Colons et les Ingénieurs peuvent être ordonnés d'irriguer en appuyant sur la touche « I », ou en sélectionnant « Créer Irrigation » dans le menu des Ordres.
+
+Les Luxes
+La provision de Luxes pour vos citoyens est indiquée par les icônes des verres à pied dans la Boîte Ressource de l'Ecran de la Ville. Chaque deux Luxes rend un citoyen satisfait heureux, ou un citoyen malheureux satisfait. La quantité de Luxes produite par une ville est essentiellement déterminée par le pourcentage de Commerce que vous avez affecté aux Luxes. Cela peut être ajusté en utilisant la commande « Changer Taux de l'Impôt » dans le menu Royaume. Les luxes d'une ville peuvent aussi être augmentés en bâtissant certains Embelissements de Ville et Merveilles du Monde, et en convertissant les citoyens en animateurs.
+
+L'Exploitation Minière
+Les premières civilisations n'avaient pas beaucoup de difficulté à trouver des dépôts presque purs de métaux utiles, tels que l'or, l'argent, et le cuivre, se trouvant sur la surface de la Terre.  Avec le temps, les dépôts sur la surface se sont épuisés, et les populations commençèrent à creuser le sol pour en chercher davantage. L'exploitation et l'excavation de métaux et d'autres matières de valeur continuent aujourd'hui.
+
+L'exploitation minière augmente d'un point la production de Bouclier de Déserts et Montagnes, et augmente de 3 la production de Bouclier de Collines. Les Colons et les Ingénieurs peuvent être ordonnés de creuser des mines en appuyant sur la touche « M », ou en choisissant la commande « Creuser Mine » dans le menu des Ordres.
+
+Le Pillage
+Les améliorations de terrain réalisées par d'autres civilisations (irrigation, mines, routes, etc.) peuvent être détruites en déplaçant une unité dans un carré de terrain amélioré  et en ordonnant l'unité de piller. Cela réduit la valeur de production de la terre, et force votre ennemi à redévelopper le terrain.
+
+Les unités peuvent être ordonnées de piller en tenant enfoncé la touche ôshiftô et en appuyant sur « P », ou en choisissant  « Pillage » dans le menu des Ordres. L'unité doit être ordonnée de piller une fois pour chacune des améliorations de terrain que vous voulez détruire. Un carré de terrain entièrement développé (terre agricole avec un chemin de fer, par exemple) doit être pillé quatre fois afin de supprimer toutes les améliorations.
+
+La Pollution
+La pollution est la plupart du temps causée par la production excessive de Boucliers dans une ville; cependant, elle peut aussi être causée par de grands peuplements de ville (après la découverte de la Voiture), par des attaques nucléaires, ou par la fusion d'une centrale nucléaire. Quand une ville est menacée par une problème de pollution, les cheminées paraîssent dans la Boîte d'Information de l'Affichage de la Ville. Plus une ville génère des cheminées, plus le risque de polluer un carré de terrain à l'intérieur des limites de la ville est élevé à chaque tour. Quand la pollution mondiale atteint des niveaux suffisamment critiques, il existe un risque de réchauffement mondial.
+
+La pollution peut être nettoyée en déplaçant des Colons ou des Ingénieurs dans le carré pollué et en appuyant sur la touche « P », ou en choisissant la commande « Nettoyer la Pollution » dans le menu des Ordres. La pollution des villes peut être réduite avec la construction de certains Embellissements de Ville, ou en réduisant la production de Boucliers de la ville.
+
+Les Chemins de fer
+Les chemins de fer révolutionnèrent le transport en fournissant une méthode relativement bon marché et rapide de transporter les  personnes, les matières premières, les produits finis, et les troupes sur de grandes distances. Ils ont non seulement soutenu et encouragé la croissance industrielle en réduisant dramatiquement les coûts et la durée des transport; ils ont aussi stimulé la recherche technologique. Les chemins de fer comptaient parmi les premières grandes corporations industrielles.
+
+Les chemins de fer peuvent être batis par des Colons et Ingénieurs après la découverte de Chemin de Fer.  Ils sont construits en bougeant au terrain contenant une route et appuyant sur le touche « R ».  Les unités  déplaçant le long d'un chemin de fer ne consacrent aucun points de mouvement.  Les chemins de fer accroissent la production de Commerce et de Boucliers par 50% (arrondi en bas). 
+
+Les Routes
+Un réseau de routes de bonne qualité améliore les déplacements   entre les villes. Les routes étaient importantes aux civilisations anciennes pour le commerce et le déplacement de troupes. Avec la croissance de la technologie, les routes se sont améliorées. Les routes modernes pavées sont praticables dans presque tout type de climat, et peuvent être parcourues beaucoup plus rapidement que les chemins de terre.
+
+Les routes peuvent être construites par des colons et des Ingénieurs en appuyant sur la touche « R », ou en sélectionnant « Construire Route » dans le menu des Ordres. Les routes peuvent être construites sur tout terrain sauf les océans; cependant, elles  ne peuvent pas être construites dans un carré avec un Fleuve jusqu'à la découverte de la Construction de Pont. Les unités se déplaçant le long des routes dépensent seulement un tiers d'un point de déplacement par carré, indépendamment du type de terrain. Les routes augmentent aussi la quantité de Commerce produit par les déserts, les Plaines, et les Prairies.
+
+La Science
+La quantité de recherche scientifique apportée par une ville est indiquée par les icônes de gobolets représentées sur le Tableau de Ressource de l'Affichage de la Ville. Au début de chaque tour, la production scientifique de chaque ville est ajoutée au projet de recherche en cours, résultant éventuellement dans la découverte d'un nouveau Progrès de Civilisation.  Plus les villes produisent des ampoules, plus les nouveaux Progrès sont découverts rapidement. La quantité de science produite par votre civilisation est principalement déterminée par la quantité de nouveau Commerce que vous avez affecté à la science. Ce pourcentage peut être ajusté en sélectionnant « Changer Taux de l'impôt » dans le menu Royaume.
+
+La production scientifique de chaque ville et de toute votre civilisation peut aussi être augmentée en créant certains Embellissements de ville et Merveilles du Monde, ou en convertissant des citoyens en scientifiques.
+
+La Sentinelle
+Les unités ordonnées de monter la garde apparaissent comme des silhouettes grises. Ces unités sont enlevées de la queue du mouvement, et monte la garde jusqu'à ce qu'une autre unité se mette dans leur champs visuel ou jusqu'à ce qu'elles soient manuellement réactivatés. Les unités montant la garde dans une ville sont automatiquement embarquées sur des navires (sans dépasser la capacité de transport d'unités du navire) quand le navire quitte la ville.
+
+Les unités sont ordonnées de monter la garde en appuyant sur la touche « S », ou en choisissant l'option « Sentinelle » dans le menu des Ordres . Les unités endommagées mises en sentinelle dans une ville deviennent actives après avoir été complètement réparées.
+
+Les Boucliers
+La production de matières premières par vos villes est représentée par des icônes de bouclier. Ainsi, les matières premières sont communément désignées sous le nom de « Boucliers ». Le nombre de Boucliers produits par chaque ville est affiché sur le Tableau de Ressource de l'Affichage de la Ville. Les boucliers sont employés pour soutenir des unités. Chaque unité pourrait, selon le type de gouvernement et autres circonstances, exiger que sa ville natale consacre un Bouclier par tour à soutenir l'unité. Les Boucliers Excédentaires qui ne sont pas utilisés pour soutenir des unités sont employés pour la production d' Embellissements de Ville, de Merveilles du Monde, et de nouvelles unités.                                                          
+
+La production de bouclier dépend largement du type de terrain autour de la ville. Dans la plupart des cas, la production de Boucliers d'une ville peut être augmenté par la construction de certains Enbellissements et Merveilles. La création de mines améliore également la production de Bouclier sur certains types de terrain.
+
+Les Spécialistes
+Les icônes de citoyen affichées sur la Liste de la Population sur l'Affichage de la Ville représente la main d'oeuvre de la ville. Chaque citoyen ajouté à la Liste est automatiquement mis au travail développant un des carrés de terrain à l'intérieur des limites de la ville.  Dans certaines situations, il se peut qu'il devienne nécessaire de retirer un citoyen de la production de terrain afin d'exécuter une tâche spécifique.  Les citoyens ainsi retirés sont appelés des spécialistes. Il existe trois types de spécialistes, chacun accroissant un des trois composants du Commerce produit par une ville .  Les animateurs augmentent les Luxes, les Hommes du Fisc augmentent les impôts, et les Scientifiques augmentent la production scientifique.
+
+Pour créer un spécialiste, cliquez sur tout carré de production sur la Carte de la Ville. Les icônes de production disparaissent du carré, et un Animateur apparaît sur la Liste de la Population. Pour créer un Homme du Fisc, cliquez une fois sur l'icône d'Animateur. Pour créer un Scientifique, créez d'abord un Homme du Fisc, cliquez ensuite une fois sur l'icône Homme du  Fisc. Les villes doivent être de taille cinq ou plus grandes pour pouvoir soutenir les Scientifiques et les Hommes du Fisc.
+
+Les Impôts
+Les Impôts levés par une ville sont indiqués par des icônes de pièce d'or dans le Tableau de Ressource de l'Affichage de la  Ville. Les impôts sont employés pour payer principalement le coût d'entretien des Embellissements de Ville à chaque tour. Tous les revenus d'impôt qui ne sont pas employés pour l'entretien d'embellissements sont ajoutés à votre trésorerie. La somme d'impôts générée par la ville est principalement déterminée par la quantité de Commerce nouveau que vous avez alloué aux Impôts.  Cela peut être ajusté en sélectionnant l'option « Changer le Taux de l'Impôt » dans le menu Royaume.
+
+Les revenus d'impôt peuvent aussi être augmentés par la construction de certains Embellissements de Ville et Merveilles du Monde, ou en convertissant des citoyens en Hommes du Fisc.
+
+Le Commerce
+Le commerce représente plus que le simple échange de biens et d'argent entre des villes et des civilisations. Le commerce représente aussi l'échange de connaissance et d'idées, et les voyages d'agrément et les activités des citoyens de votre civilisation. La quantité totale de Commerce produite par chaque ville est représentée par des icônes à double flèche indiquées dans le Tableau de Ressource de l'Affichage de la Ville. Le commerce est alors réparti en trois composants distincts: Impôts, Luxes, et Science. La quantité de Commerce affectée à chacun de ces secteurs est contrôlée en sélectionnant l'option « Changer Taux de l'impôt » dans le menu Royaume.
+
+Le commerce peut être augmenté par la construction de certains Embellissements de Ville et Merveilles du Monde. Il peut aussi être augmenté par des améliorations de terrain, et par l'établissement d'itinéraires de commerce.
+
+Les Itinéraires de Commerce
+Les itinéraires de commerce sont établis en mettant une unité de  Caravane ou de Fret dans une ville située au moins à dix carrés de la ville natale de l'unité. Vous recevez un paiement immédiat en liquide pendant le tour durant lequel l'itinéraire est établi. Chaque tour qui suit, chaque ville reçoit un bonus de Commerce tant que l'itinéraire de commerce existe. Plus la distance entre les deux villes est grande, plus l'itinéraire de commerce a de la valeur. Les itinéraires de commerce établis avec des villes d'une civilisation rivale ont tendance à être plus rentables que ceux établis entre des villes amicales. Chaque ville peut avoir jusqu'à trois itinéraires actifs de commerce à tout moment .
+
+Quand les règles du Commerce Avancé sont appliquées, la valeur d'un itinéraire de commerce est aussi affectée par le type de biens échangés. Quand on échange une matière première qui est exigée par la ville de destination, l'itinéraire de commerce est beaucoup plus rentable.
+
+Les Unités de Vétérans
+Pendant la Guerre Civile Américaine, on disait que les soldats, qui n'avaient jamais participé à la bataille, avaient  « vu l'éléphant » après avoir été sous le feu pour la première fois. Après cela, ils étaient considérés comme des vétérans. L'histoire montre que les soldats vétérans bien formés ont beaucoup plus de chance de survivre une bataille que des troupes inexpérimentées.
+
+Les unités ont 50 pourcent de chance de devenir des Vétérans chaque fois qu'elles survivent un combat. Les villes avec une Amélioration de casernes produisent automatiquement des unités de vétérans, comme le font toutes les villes sous l'influence de la Merveille de l'Académie de Guerre de Sun Tzu. Les facteurs de défense et d'attaque des unités de vétérans sont augmentés de 50 pourcent.
+
+La Corruption et le Gaspillage
+Avec la croissance de votre civilisation, vous remarquerez peut- être que certaines de vos villes perdent une certaine partie de leur Commerce et Boucliers face à la corruption et au gaspillage. La corruption est un revenu de Commerce qui est perdu à cause du vol, du détournement de fonds, et d'autres pratiques illégales. Le gaspillage est la production de boucliers qui est perdue à cause d'inefficacité. Plus une ville est éloignée de votre capitale, plus elle subit corruption et gaspillage. La quanatité  de corruption et de gaspillage est aussi affectée par le système de gouvernement que vous utilisez.
+   
+La corruption et le gaspillage peuvent, s'ils ne sont pas vérifiés, ralentir considérablement le développement de votre civilisation. La corruption et le gaspillage peuvent être réduits de 50 pourcent en bâtissant un Tribunal dans la ville ayant ce problème. La meilleure solution, cependant, est de remplacer votre système de gouvernement par une forme plus avancéee. Plus le gouvernement est avancé, moins vous subissez la corruption et le gaspillage. Le Communisme et la Démocratie effacer ce problème complètement.
+
+Tallie de la Civilisation
+Une fois que vous avez créé un certain nombre de villes, vos citoyens commencent à s'inquiéter de votre aptitude à gouverner efficacement votre civilisation. Quand cela survient, d'autres citoyens malheureux apparaissent dans chaque ville.
+
+Le nombre de villes que vous pouvez fonder avant de provoquer un mécontentement supplémentaire dépend d'un certain nombre de facteurs, y compris le niveau de difficulté du jeu et le type de gouvernement. Le nombre de villes est plus élevé pour des gouvernements plus avancés et des niveaux de difficulté plus bas.
+
+Les Dommages du Combat
+Il est maintenant possible que des unités soient endommagées à la suite d'un combat. Pour chaque attaque réussie, une unité inflige une quantité de dommages équivalente à son indice de puissance de tir. La quantité de dommages qu'une unité peut soutenir avant d'être détruite est déterminée en multipliant par dix la valeur des points marqués de l'unité.
+
+La quantité approximative de dommages qu'une unité a soutenu peut  être déterminée par la longueur et la couleur de la barre de dommages de l'unité (la barre colorée au dessus du symbole de bouclier de l'unité ). Une barre verte indique que l'unité a perdu de 0 à 33 pourcent de ses Points , une barre jaune montre que l'unité en a perdu de 34 à 66 pourcent, et une barre rouge indique qu'elle en a perdu 67 pourcent ou plus.
+
+Les dommages affecte également le déplacement d'une unité. Le pourcentage de déplacement perdu est équivalent au pourcentage de Points perdus. Les unités navales ne peuvent jamais avoir leur déplacement réduit en dessous de deux. Le déplacement des unités aériennes n'est pas concerné par les dommages.
+
+Transformation du Terrain
+En plus des changements apportés au Terrain qui peuvent être réalisés grâce à l'irrigation et l'exploitation minière, les Ingénieurs sont capables de transformer des carrés de carte en des types de Terrain complètement différents en utilisant la commande  « Transformer » dans le menu des Ordres. La transformation du terrain est particulièrement utile si le Terrain entourant une ville ne produit pas de ressources suffisantes.
+
+ Voir les entrées de la Civilopedie pour chaque type de terrain pour les résultats de transformation réalisée par les Ingénieurs.
+
+Les Bases Aériennes
+Après la découverte de la Radio, vos Colons et Ingénieurs peuvent construire des Bases Aériennes. Les Bases Aériennes jouent le rôle de stations éloignées de réalimentation en carburant pour les Avions de Chasse, les Bombardiers, les Avions de Chasse Furtifs, et les Bombardiers Furtifs. Situées dans des zones stratégiques, ces Bases Aériennes prolongent efficacement les   capacités de ces unités, en leur permettant d'opérer loin de leurs villes et de leurs Porte-Avions.
+
+Pour construire une Base Aérienne, sélectionnez la commande  « Base Aérienne » dans le menu des Ordres,  ou appuyez sur la touche  « e ».
+
+Transport par Avion
+Après la découverte des Armes Combinées, vous avez la possibilité d'exécuter des opérations de transport aérien entre vos villes. Le transport aérien vous permet de déplacer immédiatement des unités sur de grandes distances. Afin de transporter par avion une unité entre deux villes, les deux villes doivent avoir un Aéroport.
+
+Pour transporter une unité par avion, mettez l'unité dans une ville avec un Aéroport et choisissez « Transport Aérien » dans le menu des Ordres, ou appuyez sur la touche « l ». Un menu de destinations possibles apparaît. Choisissez la ville de destination du menu, et l'unité est immédiatemment transportée dans cette ville. L'unité est disponible lors du prochain tour. 
+
+Les Carrés de Ville
+Les ressources utilisées par une ville ne sont pas seulement générées dans les carrés entourant la ville:  ils sont aussi générés par la caré de ville lui-même. Le carré de ville génère toutes les ressources produisait normalement par le type de terrain sur lequel la ville est bâtie.  En outre, le carré de terrain occupé par la ville est amélioré à l'étendue maximume possible.  Le carré de ville contient automatiquement une route, qui est amélioré à un chemin de fer quand l'avance de Chemin de Fer est découverte. Le carré de ville est aussi irrigué automatiquement ou les mines sont exploités, dépendant du type de terrain.  Enfin, si la ville est bâtie sur le terrain que normalement produits pas de « boucliers », un Bouclier est automatiquement ajouté aux autres ressources généré dans le carré de ville.  Ces majorations assurent que la ville produits carrés la somme maximume de ressources possibles.
+

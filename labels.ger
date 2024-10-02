@@ -1,0 +1,475 @@
+;
+;               labels.txt
+;
+
+@STRINGHEAP
+12200 ; don't change this!
+
+@POPUPS
+OK
+Hilfe
+Abbrechen
+Anpassen
+
+
+@LABELS
+458
+v. Chr.
+n. Chr.
+Sid Meiers Civilization II
+Gebäudegeister    
+Landkarte
+Status
+Welt 
+Stadt
+Erstelle Welt    
+Einheiten bewegen
+Einheiten anschauen
+Standort
+Bewegungen
+Veteran
+KEINE
+Barbaren  
+Barbarisch
+Attila
+Fluß 
+Eisenbahn
+Straße
+Ackerland
+Bergbauen
+Bewässerung
+Mehr
+Einheiten
+Keine Befehle
+Ende der Runde
+EINGABE drücken
+Dorf   
+Einwohner 
+Stadt
+Zoom zu Stadt
+Fortsetzen
+Bevölkerung 
+Kaufen
+Ändern
+Ausg.
+zeigen
+Info
+Freude
+Karte
+Name
+Nahrungsspeicher
+Runden
+Runde
+Festung 
+Luftverschmutzung
+Weise Männer
+Wissenschaftler
+&Neue Stadt bauen|b
+&Sich der Stadt anschließen|b
+Straße &bauen|r
+Eisenbahnschienen &bauen|r
+Bewässerungsanlage &bauen|i
+Zu %STRING0 ändern|i
+Bergwerke bauen&|m
+Zu %STRING0 ändern|m
+Heimatstadt &bestimmen|h
+Nach &Hause zur nächsten Stadt gehen|h
+Zu %STRING0 &transformieren|o
+&Ackerland verbessern|i
+Einheit zur Aktivierung wählen
+Stadtressourcen
+Nahrung
+Überschuß
+U-stz
+Verschw
+Prod
+Handel
+Korruption
+Steu
+Lux
+W.
+Hunger
+Mangel  
+Mogeln!
+Alle!
+Keine besondere Ansicht
+Gesamte Landkarte
+Kein menschlicher Spieler
+Keine Änderungen
+Befehle löschen
+Schlafen / Nächstes Schiff an Bord gehen
+Befestigen.
+Zur Front bewegen.
+Vorräte
+Brauchen       
+Wunder 
+Steuern
+Luxusartikel
+W-schaft.
+Auto
+Zehntel
+entwickeln
+anschaffen
+von dem
+Luftunterstützungspunkt
+Aufstand der Barbaren
+Große barbarische Horde
+Unruhe der Einheimischen
+Bauernrevolte 
+Guerrilla Aufstand
+Bewaffnete religiöse Fanatiker
+Nachrichtendienst überprüfen
+ihn
+sie
+"Werden Sie %STRING4 stattdessen annehmen?"
+Forderung
+Wunsch 
+unter den Bedingungen unserer Allianz bestehen,
+dankbar    
+warm  
+herzlich
+Angebot
+gewähren unser
+unterschreiben einen
+ihn
+ihr
+Einheit wählen, um anzubieten
+In Produktion
+Grundvoraussetzungen
+Erlaubt
+Mit 
+Einheit
+Verbesserung
+Grundvoraussetzung
+Angriffsstärke  
+Verteidigungsstärke
+Bewegungsgeschwindigkeit
+Volltrefferpunkte
+Feuerkraft
+Kosten
+Erster
+Durcheinander
+Gesamtkosten
+Gesamteinkommen
+Entdeckungen
+Unglücklich
+Zufrieden
+der   
+Allierte
+Frieden
+Waffenruhe
+Krieg
+Keine Botschaft
+Aggressiv
+Rational
+Expansionistisch
+Perfektionist
+Zivilisiert
+Militäristisch
+Regierung
+Hauptstadt
+Schatzkammer
+Militär
+Bei
+Kontakt
+Instandhaltung     
+Läuft aus
+Eisenbahn bauen
+Weitergehen.
+Handelsrouten aufschließen.
+Beim Bauen von WUNDER helfen.
+Angriffsstärke
+Verteidigungsstärke
+Bewegen
+Volltreffer
+Macht
+Routen
+AVB
+Volltreffer
+Verloren
+Von
+festnehmen
+befreien
+Festgenommen
+Befreit  
+Nahe
+Hilfe von dieser Stadt.
+Auflösen
+oder
+beauftragt 
+von Stapel lassen
+entdeckt
+gewährt
+vervollständigt
+baut  
+produziert
+Zoom zur Heimatstadt.
+Einheit aktivieren.
+Einheit aktivieren und Stadt schließen
+Nahrungsvorräte
+Elementargeister diagmotieren?
+Diagonale Testansicht
+Fortschritte
+Einheiten
+Städte      
+Strukturell
+Antrieb   
+Kraftstoff
+Wohnstätte
+Lebenserhaltung
+Sonnenkollektor
+U-stz
+Energie
+Masse
+Flugzeit
+Erfolgschancen
+Tonnen
+Jahre
+Vom Stapel gelassen
+Gelandet
+Vom Stapel lassen
+Civilization POWERgraph
+Der (die, das)
+in
+Zivilisation
+Kommt an in
+und
+mustergültig
+ausgezeichnet
+ehrenhaft
+fragwürdig  
+unehrenhaft 
+arm
+verabscheuungswürdig
+grauenhaft
+armselig        
+schwach
+unzulänglich
+mäßig   
+stark
+mächtig
+unübertroffen
+Mit Fusion ausgestattet!
+Forschend
+Frei
+Dateien speichern
+Dateiname für gespeichertes Spiel wählen
+Spiel zum Laden wählen
+Weitermachen
+Regierungen: Übersicht
+der, die, das
+Gebäude 
+Unerforscht
+Bronze Alter Monolith
+Klassisches Forum
+Ferner Osten Pavillion
+Mittelalterliches Schloß
+Frühindustriell
+Modern
+Extra
+Extra
+OK
+Abbrechen
+Maximale Steuersatz
+Wie sollen wir den Reichtum verteilen
+Schloß
+Landkarte zum Laden wählen
+Dateiname für gespeicherte Landkarte wählen
+Landkartendateien
+Beide
+Werkzeuge
+Civilization II Landkarteeditor
+Malen: Shift+LEFT click
+Greifen: Shift+RIGHT click
+Posten hinzufügen: Shift+LEFT
+Posten löschen: Shift+RIGHT
+KÜSTENSCHUTZ
+AUTOSCROLL
+Gemälde 
+Pinsel
+Weltgröße
+Besonders
+Städte starten
+Cursor
+1x1
+3x3
+5x5
+Kreuz
+Stadtradius
+?
+Flach
+Rund 
+Warten auf weitere Spieler 
+Spiele erhältlich
+Ins Spiel erlauben
+Spieler ablehnen
+Vom Spiel entfernen
+Spiel beginnen
+Möchte spielen
+Wird spielen 
+NOCH KEINE
+Beim Spiel mitmachen
+Spiel
+Warten 
+Einrichten
+Ihr Portrait wählen
+Obersten Rat    
+Statische Ansicht
+Freundliche Bewegungen verfolgen
+Feindliche Bewegungen verfolgen
+Alle Bewegungen verfolgen
+Frei sprechen
+(Warten auf andere...)
+Einheit auflösen
+fordert
+fordert keine
+Sprechen mit
+Wir bieten an
+anbieten
+Vertrag anbieten
+Gold anbieten
+Technologie anbieten
+Landkarten anbieten
+Kriegserklärung anbieten
+Angebot ablehnen
+Angebot zurückziehen
+Diesen Handel vorschlagen
+Allianz
+Friedensvertrag
+Landkarten austauschen
+Gold
+Automatik aus
+Vorh.
+Nächstes
+Schliessen
+Kaiserreich
+Königreich
+Volksrepublik
+Heiliges Reich
+Republik
+Vereinigte Staaten
+STADTSTATUS
+VERTEIDIGUNGS MINISTER
+AUSSENMINISTER
+HALTUNGSGSBERATER
+HANDELSBERATER
+WISSENSCHAFTSBERATER
+WELTWUNDER
+OBERSTE FÜNF STÄDTE
+DEMOGRAPHIE
+ZIVILIZATIONSPUNKTE
+Statistiken          
+Verluste
+aktiv
+Produktion im Gange
+Tragen
+Flug
+Luft zu Luft
+Siehe 2
+ZOCs ignorieren
+Mauern ignorieren
+Amphibisch
+Raketen tragend
+Fliegereinheiten tragend
+Fallschirmjäger Absprung
+Alles als Straße 
+x2 gegen Pferd
+x2 gegen Fliegereinheiten
+Küstenpflichtig
+Nur bei Fundamentalismus 
+U-Boote aufspüren
+Stadthandel
+Verhaltungskosten
+Wissenschaftsanteil
+Angebot und Nachfrage
+Entdeckungen jede
+Züge/Runden
+Zivilisationsfortschritte schon da
+Ziel
+Die
+Anerkennungsgrad:
+Bevölkerung:
+Bruttosozialprodukt:
+Fertigwaren:
+Landesgröße:
+Schreibfähigkeit:
+Krankheit:
+Verschmutzung:
+Lebenserwartung:
+Familiengröße:
+Militärdienst:
+Jahreseinkommen:
+Ertragsrate:
+Megatonnen
+Quadratmeilen
+Tonnen
+Jahre
+Jahre
+Kinder
+Million
+pro Kopf
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+Bürger
+Leistungen
+Raumschiff
+Frieden
+Gesamtpunkte
+Bonuspunkte
+möglich
+MOGELMODUS
+Mogler
+ZIVILISATIONSBEWERTUNG
+Rückblickend auf Ihre Herrschaft,
+Ihr Volk hält Sie auf ewig in Errinnerung als . . .
+Inszenierungsdateien
+Inszenierungsdateinamen wählen
+Inszenierung zum Eingeben wählen
+INSZENIERUNG
+KEINE INSZENIERUNG
+Jan
+Feb
+März
+Apr
+Mai
+Juni
+Juli
+Aug
+Sept
+Okt
+Nov
+Dez
+MILITÄRISCHES ZIEL
+Gesamtziele
+Militärische Ziele
+Entscheidender Sieg
+Knapper Sieg
+Stillstand
+Knappe Niederlage
+Entscheidende Niederlage
+Fremd
+Haltung
+CIVILIZATION II : RUHMESHALLE
+bis
+Punktzahl
+Zivilisationsbewertung
+Löschen
+Geförderte Einheiten
+Stadtverbesserungen
+Bürger
+Ressourcenkarte
+Anwesende Einheiten
+Landkarte
+Freudenanalyse
+Ungefähre Ankunftszeit
+Erobert im Jahre
+Maus klicken um fortsetzen...
+Dieses Spiel ist nun vollständig.
+

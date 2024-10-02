@@ -1,0 +1,521 @@
+*** Civ 2000 Effekte und Kommentare - Copyright (c) 1995 MicroProse Software, Inc. ***
+*** Changes to this file may cause Civilopedia to malfunction... ***
+
+@IMPROVEMENTS
+
+Palast
+Bezeichnet die Haupstadt einer Zivilisation.  Eliminiert Korruption und Verschwendung in der Stadt und verringert sie in nahegelegenen Städten. Jede Zivilisation kann nur einen Palast zu einem gewissen Zeitpunkt besitzen.
+
+Kasernen
+Läßt die Stadt Veteranbodeneinheiten aufstellen. Repariert beschädigte Bodeneinheiten in einer Runde.
+
+Kornspeicher
+Nur die Hälfte der Nahrungsvorräte der Stadt werden aufgebraucht wenn sich die Stadt vergrößert.
+
+Tempel
+Ein unzufriedene Bürger wird zufrieden. Nach Endeckung des Mystizismus werden es zwei Bürger.
+
+Marktplatz
+Hebt Steuern und Luxusleisting um 50 % an.
+
+Bibliothek
+Erhöht Wissenschaftsleistung um 50%.
+
+Gerichtshof
+Verringert Korruption um 50% und macht die Stadt widerstandsfähiger gegen Bestechung durch feindliche Diplomaten. Bei Demokratie macht ein Gericht einen zufriedenen Bürger glücklich.
+
+Stadtmauern
+Der Verteidigungsfaktor aller Einheiten in der Stadt verdreifacht sich gegen alle Bodeneinheiten außer Haubitzen.
+
+Aquädukt
+Läßt die Stadt über Größe 8 anwachsen.
+
+Bank
+Hebt Steuern und Luxusleistung um zusätzliche 50% an (kumulativ mit Marktplatz).
+
+Kathedrale
+Macht drei unglückliche Bürger zufrieden (zwei nach der Entdeckung des Kommunismus).  Die Endeckung der Theologie fügt einen zufriedenen Bürger einer Statdt mit Kathedrale zu.
+
+Universität
+Erhöht Wissenschaftsleistung um zusätzliche 50% (kumulativ mit Bibliothek).
+
+Öffentliches Verkehrsystem
+Eliminiert durch Bevölkerung hervorgerufene Umweltverschmutzung.
+
+Kolosseum
+Drei unglückliche Bürger werden zufrieden (vier bei Elektronik.)
+
+Fabrik
+Erhöht Schilderproduktion um 50%.
+
+Fertigungsanlange
+Erhöht Schilderproduktion um zusätzliche 50% (kumulativ mit Fabrik).
+
+SDI-Verteidigungsanlange
+Schützt alles innerhalb von drei Quadraten der Stadt vor einem Atomangriff.
+
+Recyclingzentrum
+Verringert die durch Schilderproduktion verursachte Umweltverschmutzung um 2/3.
+
+Kraftwerk
+Erhöht Fabrikleistung um 50%.
+
+Wasserkraftwerk
+Erhöht Fabrikleistung um 50% und verringert durch Schilderproduktion verursachte Umweltverschmutzung um 50%. Wasserkraftwerke sind sicherer als Atomkraftwerke.
+
+Kernkraftwerk
+Erhöht Fabrikleistung um 50% und verringert durch Schilderproduktion verursachte Umweltverschmutzung um 50%. Atomkraftwerke beinhalten das Risiko eines Atomunfalls bevor bis Zivilisation Fusionskraft entdeckt.
+
+Börse
+Hebt Steuern und Luxusleistung um zusätzliche 50% an (kumulativ mit Marktplatz und Bank, zu einer Gesamtsteigerung um 150%).
+
+Abwassersystem
+Läßt eine Stadt über Größe 12 anwachsen.
+
+Supermarkt
+Läßt doppelt bewässerte Quadrate im Stadtbereich (Ackerland) 50% mehr Nahrung erwirtschaften.
+
+Autobahnen
+Alle Quadrate im Stadtbereich mit Straßen oder Eisenbahnen erwirtschaften 50% mehr Handel. Erhöht die Einnahmen durch Handelsrouten.
+
+Forschungslabor
+Erhöht Wissenschaftsleistung um zusätzliche 50% (kumulativ mit Bibliothek und Universität zu einer Gesamtsteigerung von 150%).
+
+SAM-Raketenbatterie
+Verdoppelt Verteidigungsfaktor aller Einheiten in der Stadt gegen Lufteinheiten und nicht-nukleare Raketenangriffe.
+
+Küstenbefestigung
+Verdoppelt die Verteidigungsfaktoren aller Einheiten in der Stadt gegen Küstenbombardierungen feindlicher Schiffe.
+
+Sonnenkraftwerk
+Erhöht Fabrikleistung um 50% und eliminiert alle durch Schilderproduktion verursachte Umweltverschmutzung.
+
+Hafen
+Läßt alle Ozeanquadrate im Stadtbereich eine zusätzliche Nahrungseinheit erwirtschaften.
+
+Bohrinsel
+Läßt alle Ozeanquadrate im Stadtbereich einen zusätzlichen Schild erwirtschaften.
+
+Flughafen
+Läßt die Stadt Veteranfliegereinheiten produzieren.  Jede Fliegereinheit, die einen ganzen Zug in der Stadt verbringt, ist völlig wiederhergestellt, Erlaubt den Einflug von Truppen.
+
+Polizeiwache
+Verringert durch Abwesenheit von Einheiten aus der Stadt hervorgerufenen Unzufriedenheit um eins.
+
+Hafenanlagen
+Jedes Schiff, das einen ganzen Zug in der Stadt verbringt, ist vollständig wiederhergestellt.
+
+Raumschiffstruktur
+Bildet das Gerüst Ihres Raumschiffs.
+
+Raumschiffkomponente
+Antriebskomponenten: jede Komponente trägt 25% zum Raumschiffantrieb bei.
+Treibstoffkomponenten: jede Komponente enthält genug Treibstoff für eine Antriebskomponente.
+
+Raumschiffmodul
+Bevölkerung: jedes Modul bietet ausreichend Wohnfläche für 10,000 Kolonisten.
+Lebenserhaltung: jedes Modul bietet Nahrung, Luft und Unterstützung für ein Bevölkerungsmodul.
+Sonnenkollektor: jedes Modul versorgt zwei andere Module mit Elektrizität.
+
+Kapitalisierung
+Verwandelt die ganze Schilderproduktion in Steuern.
+
+@WONDERS
+
+Pyramiden
+Zählen als Getreidespeicher in jeder Stadt.
+Effekt läuft nicht ab.
+
+Hängende Gärten
+Am Standort werden drei zufriedene Bürger glücklich. In allen anderen freundlichen Städten wird ein zufriedener Bürger glücklich.
+Wirkung verschwindet mit der Entdeckung der Eisenbahn.
+
+Kolossus
+Die Stadt, wo der Koloß steht, erwirtschaftet eine zusätzliche Handelseinheit auf jedem Quadrat, das bereits Handel erwirtschaftet.
+Wirkung läuft mit der Entdeckung des Flugs aus.
+
+Leuchtturm
+Triremen können Ozeane überqueren, ohne die Gefahr verlorenzugehen und bei allen anderen Marineeinheiten erhöht sich die Bewegungsrate um eins. Alle neu gebauten Schiffe erhalten Veteranen-Status.
+Wirkung läuft mit der Entdeckung des  Magnetismus aus.
+
+Große Bibliothek
+Die Zivilisation erhält automatisch jeden Zivilisationsfortschritt, der bereits von zwei anderen Zivilisationen entdeckt ist.
+Wirkung läuft mit der Entdeckung der Elektrizität aus.
+
+Orakel
+Verdoppelt die Wirksamkeit aller Tempel.
+Wirkung läuft mit der Entdeckung der Theologie aus.
+
+Große Mauer
+Funktioniert als Stadtmauern in allen freunlichen Städten. Verdoppelt die Angriffsstärke gegen Barbaren. Feindliche Zivilisationen müssen bei Verhandlungen Waffenstillstand oder Frieden anbieten.
+Wirkung läuft mit der Entdeckung der Metallurgie aus.
+
+Sun Tzus Kriegsakademie
+Alle neuen Bodentruppen erhalten Veteranenstatus, und jede bestehende Bodeneinheit, die einen Kampf gewinnt, erhält automatisch Veteranenstatus.
+Wirkung läuft mit der Entdeckung mobiler Kriegsführung aus.
+
+König Richards Kreuzzug
+Jedes Quadrat im Stadtbereich, wo das Wunder aufgebaut ist, erwirtschaftet einen zusätzlichen Schild.
+Wirkung läuft mit der Entdeckung der Industrialisierung aus.
+
+Marco Polos Botschaft
+Bei jeder rivalisierenden Zivilisation bauen Sie auomatisch eine Botschaft auf.
+Wirkung läuft mit der Entdeckung des Kommunismus aus.
+
+Michelangelos Kapelle
+Zählt als Kathedrale in jeder Ihrer Städte.
+Wirkung läuft nicht aus.
+
+Kopernikus Sternwarte
+Erhöht die Wissenschaftsleistung der Stadt, wo das Wunder steht, um 50%.
+Wirkung läuft nicht aus.
+
+Magellans Enteckungsreise
+Erhöht die Bewegungsrate aller See-Einheiten um zwei.
+Wirkung läuft nicht aus.
+
+Shakespeares Theater
+Alle unglücklichen Bürger in der Stadt werden zufrieden.
+Wirkung läuft nicht aus.
+
+Leonardos Werkstatt
+Immer wenn eine Ihrer Einheiten durch die Entdeckung einer neuen Technologie veraltetet ist, wird sie sofort kostenlos duch eine entsprechende moderne Einheit ersetzt.
+Wirkung läuft mit der Entdeckung des Automobils aus.
+
+J. S. Bachs Kathedrale
+Verringert die Zahl unglücklicher Bürger in jeder befreundeten Stadt auf dem Kontinent um zwei pro Stadt.
+Wirkung läuft nicht aus.
+
+Isaac Newtons College
+Verdoppelt die Wissenschaftsleistung der Stadt, wo sie steht.
+Wirkung läuft nicht aus.
+
+Adam Smiths Handelsgesellschaft
+Bezahlt die Unterhaltskosten für alle Stadtverbesserungen, die normalerweise eine Münze pro Zug kosten (Stadftverbesserungen, die mehr als eine Münze pro Zug kosten, sind nicht eingeschlossen)
+Wirkung läuft nicht aus.
+
+Darwins Reise
+Gibt automatisch zwei Zivilisationsfortschritte.
+Funktioniert nur bei dem Zug, bei dem sie aufgebaut wird.
+
+Freiheitsstatue
+Eliminiert die Zeit der Anarchie, die normalerweise beim Wechsel von Regierungsformen eintritt,  und läßt die Wahl jeder Regierungsform zu (selbst wenn die erforderlichen Fortschritte noch nicht entdeckt worden sind).
+Wirkung läuft nicht aus.
+
+Eiffelturm
+Wenn er gebaut (oder erbeutet) wird, ändert sich die Einstellung anderer Zivilisationen sofort 25% zu ihren Gunsten und verbessert sich im Laufe der Zeit. Andere Zivilisationen vergesessen Ihre Vergehens schneller.
+Wirkung läuft nicht aus.
+
+Hoover-Damm
+Funktioniert als Wasserkraftwerk in jeder befreundeten Stadt.
+Wirkung läuft nicht aus.
+
+Frauenwahlrecht
+Funktioniert als Polizeiwache in jeder befreundeten Stadt. (Verringert durch Abwesenheit der Truppen aus der Stadt hervorgerufenen Unglücklichkeit um pro Einheit)
+Wirkung läuft nicht aus.
+
+Manhattan-Projekt
+Läßt den Bau von Atomwaffen durch ALLE Zivilisationen zu.
+Wirkung läuft nicht aus.
+
+Vereinte Nationen
+Sie können automatisch Botschaften in allen rivalisierenden Zivilisationen aufbauen, und feindliche Zivilisationen müssen bei Verhandlungen Waffenstillstand oder Freiden anbieten. Außerdem kann man als Demokratie  50% der Zeit erfoldreich Krieg erklären.
+Wirkung läuft nicht aus.
+
+Apollo-Programm
+Läßt den Bau von Raumschiffverbesserungen bei ALLEN Zivilisationen zu und zeigt die ganze Karte.
+Wirkung läuft nicht aus.
+
+SETI-Programm
+Zählt als Forschungslabor in jeder befreundeten Stadt und verdoppelt so Ihre Wissenschaftsleistung.
+Wirkung läuft nicht aus.
+
+Krebsheilung
+Macht einen zufriedenen Bürger in jeder befreundeten Stadt glücklich.
+Wirkung läuft nicht aus.
+
+@ADVANCES
+
+Fortgeschrittener Flug
+Alphabet
+Amphibische Kriegsführung
+Astronomie
+Nukleare Theorie
+Fahrzeug
+Bankwesen
+Brückenbau
+Bronze-Arbeit
+Feierliche Bestattung
+Chemie
+Ritterlichkeit
+Gesetzcode
+Kombinierte Waffen
+Verbrennungsmotor
+Kommunismus
+Computer
+Wehrpflicht
+Bau
+Aktiengesellschaft
+Währung
+Demokratie
+Wirtschaft
+Elektrizität
+Elektronik
+Ingenieurwesen
+Umweltschutz
+Spionage
+Sprengstoffe
+Feudalismus
+Flug
+Fundamentalismus
+Fusionskraft
+Zukunftstechnologie
+Gentechnologie
+Guerrillakampf
+Schießpulver
+Reiten
+Industrialisierung
+Erfindung
+Eisenarbeit
+Gewerkschaft
+Lasertechnik
+Führerschaft
+Lese- und Schreibfertigkeit
+Werkzeugautomaten
+Magnetismus
+Kartographie
+Steinmetzkunst
+Massenproduktion
+Mathematik
+Medizin
+Metallurgie
+Miniaturisierung
+Mobile Kriegsführung
+Monarchie
+Monotheismus
+Mystik
+Navigation
+Kernspaltung
+Kernkraft
+Philosophie
+Physik
+Plastik
+Polytheismus
+Keramik
+Radio
+Eisenbahn
+Recycling
+Raffinierung
+Kühlung
+Die Republik
+Robotik
+Raketentechnik
+Kanalisation
+Seefahren
+Raumflug
+Hinterhältigkeit
+Dampfmaschine
+Stahl
+Supraleiter
+Taktiken
+Theologie
+Schwerkraftstheorie
+Handel
+Die Universität
+Kriegercode
+Rad
+Schreiben
+Benutzer-definierter Fortschritt
+@UNITS
+
+Krieger
+Phalanx
+Bogenschützen
+Legion
+Speerkämpfer
+Musketeere
+Schützen
+Marine
+Bergtruppen
+Partisanen
+Glaubensfanatiker
+Mechanisierte Infantetrie
+Mech. Infanterie
+Fallschirmjäger
+Streitwagen
+Elefant
+Reiter
+Ritter
+Kreuzritter
+Dragoner
+Kavalrie
+Panzer
+Katapult
+Kanone
+Artillerie
+Haubitze
+Marschflugkörper
+Nukleare Rakete
+Trireme
+Karavelle
+Fregatte
+Galleone
+Transporter
+Panzerschiff
+Zerstörer
+Unterseeboot
+Kreuzer
+AEGIS-Kreuzer
+Kriegsschiff
+Träger
+Kampfflugzeug
+Stealth-Kampfflugzeug
+Bomber
+Stealth-Bomber
+Hubschrauber
+Siedler
+Ingenieure
+Karawane
+LKW
+Diplomat
+Spion
+Entdecker
+Benutzer-definierte Einheit
+@ADVANCE COMMENTS
+Eliminiert die Gefahr eines Unfalls im Kernkraftwerk.
+Sie können zu der Regierung des gleichen Namens wechseln.
+Siedler/Ingenieure können Befestigungsanlagen bauen.
+Siedler/Ingenieure können Luftstützpunkte bauen.
+Siedler/Ingenieure können Eisenbahnen bauen.
+Siedler/Ingenieure können doppelt bewässern (Ackerland bauen).
+Jede Zukunftstechnologie zählt 5 Punkte zu Ihrem Zivilisationsstand.
+Kostenloser Zivilisationsfortschritt für die erste Zivilisation, die entdeckt
+Läßt zu:
+Siedler/Ingenieure können Straßen auf Flußquadraten bauen.
+@UNIT COMMENTS
+Kann nur bei Fundamentalismus aufgebaut werden.
+Vorbedingung:
+Ignoriert feindlich kontrollierte Zonen.
+Kann Flugzeuge im Flug angreifen.
+Kann direkt von einem Schiff angreifen.
+Unsichtbar für die meisten feindlichen Schiffe.
+Kann auf See verlorengehen, wenn es nicht am Ende seiner Bewegung an Land angrenzt
+Ignoriert Stadtmauern.
+Kann befreundete Flugeinheiten transportieren.
+Kann Fallschirmjäger abspringen lassen.
+Behandelt alle Quadrate als Straßenquadrate (benutzt nur 1/3 Bewegungspunkt pro vorgerücktes Quadrat)
+Verteidigung verdoppelt sich gegen berittene Einheiten.
+Kein Unterstützung notwendig bei Fudamentalismus.
+Zerstört nach Angriff.
+Verteidigung vedoppelt sich gegen Luft- und Raketenangriffe.
+Kann feindliche U-Boote in angrenzenden Quadraten aufspüren.
+mit
+Kosten:
+Wartung:
+Keine
+Angriff:
+Verteidigung:
+Trefferpunkte:
+Feuerkraft:
+Bewegung:
+Sichtfeld:
+unzutreffend
+Kann befeundete Bodeneinheiten transportieren.
+Kann Straßen bauen und Terrain verbessern.
+
+@TERRAIN COMMENTS
+Terrainart:
+Erhöht die Zahl von
+ Nahrung
+ Schilder
+ Handel
+ produziert in
+ von
+ nach
+ und
+Bewegungskosten:
+Eiheitsverteidigungs-Bonus:
+Auswirkung der Bewässerung:
+Züge zum Bewässern:
+Auswirkungen des Bergbaus:
+Züge zum Abbau:
+Auswirkungen der Ingenieurtransformation:
+Büffel
+Kohle
+Wüste
+Fisch
+Forst
+Obst
+Pelze
+Fasan
+Edelsteine
+Gletscher
+Gold
+Wiesen
+Hügel
+Eisen
+Elfenbein
+Dschungel
+Berge
+Oase
+Ozean
+Öl
+Torf
+Prärie
+Fluß
+Seide
+Gewürz
+Sumpf
+Tundra
+Walfische
+Weizen
+Wein
+*Pro Terrainart
+ erhöht
+jedes Terrain außer Ozeanen.
+Läßt schnellere Bewegung zu (Bewegungskosten = 1/3 Punkt). Einheits- Gibt einen 50%igen Verteidigungsbonus. Bietet auch Wasserzugang für Bewässerung.
+Mögliche Resourcen:
+Wiesen (Schild)
+Terrain
+Auswirkungen von Straßen:
++1 Handel
+Bewegungskosten = 1/3 Punkt
+Ochse
+@OBSOLESCENCE
+Macht die Hängenden Gärten überflüssig.
+Macht den Koloß überflüssig.
+Macht den Leuchtturm überflüssig.
+Macht die Große Bibliothek überflüssig.
+Macht das Orakel überflüssig.
+Macht die Große Mauer überflüssig.
+Macht Sun Tzus Kriegsakademie überflüssig.
+Macht König Richards Kreuzzug überflüssig.
+Macht Marco Polos Botschaft überflüssig.
+Macht Leonardos Werkstatt überflüssig.
+
+@HEADERS
+Zivilisationsfortschritte
+Stadtverbesserungen
+Weltwunder
+Einheiten
+Regierungsformen
+Terrain und besondere Resourcen
+Spielkonzepte
+Suche nach Thema
+Fügt ein zufriedener Bürger zu jeder Stadt mit einer Kathedrale hinzu.
+Bewegung aller Meereseinheiten erhöht sich um eins.
+Antrieb Inres Raumschiffes wird um 25% verstärkt.
+Fügt ein zufriedener Bürger zu jeder Stadt mit einem Tempel hinzu.
+Epoche:
+Kategorie:
+Urzeiten
+Renaissance
+Industrie
+Modern
+Militär
+Wirtschaft
+Gesellschaft
+Angewandt
+Akademisch
+
+@END

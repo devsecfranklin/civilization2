@@ -1,0 +1,476 @@
+;
+;         txt.étiquettes
+;
+
+@STRINGHEAP
+12000 ; don't change: controls string heap size
+
+@POPUPS
+OK
+Aide
+Annuler
+Personnaliser
+
+
+@LABELS
+458
+av. J.-C
+apr.J.-C
+Civilization II de Sid Meier
+Fabriquer des lutins
+Carte
+Statut
+Monde
+Ville
+Créer monde
+Déplacer des unités
+Voir Unités
+Loc
+Déplacements
+Vétéran
+AUCUN
+Barbares
+Barbare
+Attila
+Fleuve
+Chemin de Fer
+Route
+Terre Cultivable
+Mines
+Irrigation
+Encore
+Unités
+Aucun Ordre
+Fin du Tour
+Appuyer sur ENTER
+Village
+Citoyens
+Ville de
+Centrez sur ville
+Continuer
+Population
+Acheter
+Changer
+Sortie
+Vue
+Info
+Content
+Carte
+Renom.
+Stockage de la nourriture
+Tours
+Tour
+Forteresse
+Pollution
+sages
+scientifiques
+&Construire Nouvelle Ville|b
+&Relier Ville|b
+Construire &Route|r
+Construire &Piste RR|r
+Créer &Irrigation|i
+Changer en %STRING0|I
+Fabriquer &Mines|m
+Changer en %STRING0|M
+Etablir &Ville Natale|h
+Aller &de la maison à la ville|h
+Transformer en %STRING0|O
+&Améliorer Terre cultivable|i
+Sélectionner Unité à Activer
+Ressources de la Ville
+Nourriture
+Excédent
+Soutenir
+Gaspiller
+Production
+Commerce
+Corruption
+Imp
+Lux
+Sci
+Faim
+Pénurie
+Tricher!
+Tous!
+Aucune Vue Spéciale
+Toute la carte
+Aucun Joueur Humain
+Aucun Changement.
+Enlever les Ordres.
+Dormir / Embarquer sur Prochain Navire.
+Fortifier.
+Passer devant.
+Approvisionnement
+Demandes
+Merveilles
+Impôts
+Luxe
+Sciences
+Auto
+Dîmes 
+développent
+acquérent
+des
+Base Aérienne
+Soulèvement de barbares
+Importante Horde Barbare
+Agitation Indigène
+Révolte des Paysans
+Soulèvement de la Guérilla
+Fanatiques Religieux Armés
+Vérifier Intelligence
+il
+elle
+« Accepterez-vous %STRING4 à la place? »
+exigeons
+demandons
+insistons, sous les termes de notre alliance,
+avec reconnaissance
+chaleureusement
+cordialement
+Offrir
+prolonger notre
+signer une
+le
+la
+Sélectionnez unité à offrir
+En production
+Conditions
+Permet
+avec
+Unité
+Amélioration
+Préalablement
+Force d'Attaque
+Force de défense
+Taux de Déplacement 
+Points Ciblés
+Puissance de tir 
+Coût
+Premier
+Désordre
+Coût Total
+Revenu Total
+Découvertes
+Malheureux
+Satisfait
+des
+Allié
+Paix
+Cessez-le-Feu
+Guerre
+Aucune Ambassade
+Agressif/Agressive
+Rationnel/rationnelle
+Expansionniste
+Perfectionniste
+Civilisé
+Militariste
+Gouvernement
+Capitale
+Trésorerie
+Militaire
+A
+Contact
+Entretien
+Expire
+Construire Chemins de Fer
+Avancer.
+Etablir Itinéraire de Commerce.
+Aider à la création de MERVEILLES.
+Att
+Déf
+Action
+Coups                                                          
+Pouvoir
+Itinéraires
+ADM
+HP
+Perdu
+de
+prendre
+libérer
+prise
+libéré
+Près 
+Soutien De Cette Ville.
+Disperser
+ou
+commissionne
+lance
+découvre
+accorde
+termine
+construit
+produit
+Zoom sur Ville Natale.
+Activer Unité.
+Activer Unité et Fermer Ecran de Ville.
+Vivres
+Diagmotiser Lutins...
+Vue d'Essai Diagonale
+Progrès
+Unités
+Villes
+Structurel
+Propulsion
+Carburant
+Habitation
+Soutien de Vie 
+Panneau Solaire
+Soutien
+Energie
+Masse
+Temps de vol 
+Proba. de Réussite
+Tonnes
+Années
+Lancé
+Débarqué
+Lancer
+Civilization: Graphique de Puissance
+Le/la/les
+dans
+Civilisation
+Arrive dans/à
+et
+Impeccable
+Excellent
+Honorable
+Contestable
+Déshonorant
+Pauvre
+Ignoble
+Atroce
+Pitoyable
+Faible
+Inadéquat
+Modéré
+Fort
+Puissant
+Suprême
+Fusion Actionnée!
+A la recherche de
+Libre
+Sauvegarder fichiers
+Sélectionner nom du fichier pour jeu sauvegardé
+Sélectionner jeu à charger
+Continuer
+Govts: Aperçu
+le/la/les
+Bâtiment
+Inexploré
+Age de Bronze Monolithe
+Forum Classique
+Pavillon de l'Extrême-Orient 
+Château Médiéval
+Début Industrialisation
+Moderne
+Supplémentaire
+Supplémentaire
+OK
+Annuler
+Taux maximum 
+Comment devons-nous distribuer la Richesse
+Vérouiller
+Sélectionner Carte à charger
+Sélectionner Nom du Fichier pour carte sauvegardée
+Fichiers Carte
+Les deux
+Outils
+Rédacteur Carte Civilization II
+Peindre: Shift+ cliquez sur bouton gauche de la souris
+Saisir: Shift+ cliquez sur bouton de droite
+Ajouter un élément: Shift+ GAUCHE
+Effacer Elément: Shift+DROITE
+PROTEGER LITTORAL
+AUTODEFILER
+Peinture
+Pinceau
+Taille du Monde
+Spécial
+Commencer Villes
+Curseur
+1x1
+3x3
+5x5
+Croiser
+Etendue Ville
+?
+Plat
+Rond
+Attendre Entrée de joueurs 
+Jeux Disponibles
+Entrer Dans Jeu
+Rejeter Joueur
+Retirer du Jeu
+Commencement du Jeu
+Vouloir Jouer
+Va Jouer
+AUCUN ENCORE
+Entrer Dans Jeu
+Le Jeu de
+En Attente
+Mise en place                                             
+Choisissez Votre Portrait
+Conseil des Ministres
+Vue Statique 
+Dépister Passes Amicales
+Dépister Passes Ennemies
+Dépister Toutes Passes
+Parler Librement
+(Attendre les autres...)
+Disperser Unité.
+exige
+n'exige pas
+Parler avec
+Nous offrons
+offrir
+Proposer Traité
+Offrir Or
+Offrir Techno.
+Offrir Cartes
+Offrir D. de Guerre
+Refuser Offre
+Retirer Offre
+Proposer Ce Marché
+Alliance
+Traité de Paix
+Partager Cartes
+Or
+Sans Automatique
+Précédent
+Suivant
+Fermer
+Empire
+Royaume
+République du Peuple
+Empire Sacré
+République
+Etats-Unis
+STATUT DE LA VILLE
+MINISTRE DE LA DEFENSE
+MINISTRE DES AFFAIRES ETRANGERES
+CONSEILLER EN COMPORTEMENT
+CONSEILLER COMMERCIAL
+CONSEILER SCIENTIFIQUE
+MERVEILLES DU MONDE
+CINQ PREMIERES VILLES
+DEMOGRAPHIQUE
+SCORE DE LA CIVILIZATION
+Statistiques
+Pertes
+actif/ve
+en production
+Porter
+Air
+Aérien/ne
+Voir 2
+Ignorer ZOCs
+Ignorer Murailles
+Amphibie
+Porter Missiles
+Porter Air
+Larguer
+Tout en Route
+2x contre Cheval
+2x contre Air
+Côtier
+Intégrisme seulement
+Repérer Sous-Marins
+Commerce de la Ville
+Coûts d'Entretien
+Science Globale
+Offre et Demande
+Découvertes chaque
+Tours
+Avances de Civilisation Accomplis
+But
+La
+Taux d'Approbation:
+Population:
+PNB:
+Marchandises Produites:
+Superficie:
+Alphabétisation:
+Maladie:
+Pollution:
+Espérance de Vie:
+Taille des Familles:
+Service Militaire:
+Revenu Annuel:
+Productivité:
+Mtonnes.
+miles carré
+tonnes
+années
+années
+enfants
+million
+par personne
+1er
+2ème
+3ème
+4ème
+5ème
+6ème
+7ème 
+8ème
+9ème
+Citoyens
+Accomplissements
+Vaisseau Spatial
+Paix
+Score Total
+Score Bonus
+possible
+MODE TRICHER
+Tricheur
+EVALUATION DE LA CIVILIZATION
+A la fin de votre règne,
+vous êtes rappelé comme . . .
+Fichiers de Scénario
+Choisir Nom de Fichier Pour Scénario
+Choisir Scénario a Charger
+SCENARIO
+PAS UN SCENARIO
+Jan
+Fev
+Mars
+Avr
+Mai
+Juin
+Juil
+Août
+Sept
+Oct
+Nov
+Déc
+OBJECTIVE
+Objectives Totales
+Objectives
+Victoire Décisive
+Victoire Marginale
+Impasse
+Défaite Marginale
+Défaite Décisive
+Etranger
+Attitude
+CIVILIZATION II: SALLE DE GLOIRE
+à
+Score
+Evaluation de Civilization
+Enlever
+Unités Soutenues
+Améliorations de Ville
+Citoyens
+Carte des Ressources
+Unités Présentes
+Carte de Soutenir
+Analyse de Bonheur
+Arrivée Estimée
+Conqueré en
+Cliquez la souris pour continuer...
+Ce jeu est maintenant complet.
+
+

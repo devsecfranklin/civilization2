@@ -1,0 +1,384 @@
+;
+;   CONSEIL AUTO DE CIVILISATION
+;   Copyright (c) 1995 par MicroProse Software
+;
+;   Changer le contenu de ce dossier peut entraîner le
+;   malfonctionnement du jeu.
+;
+
+@MILITARY 
+@width=225
+@title=Conseiller Militaire
+@x=5
+@y=5
+
+@DOMESTIC
+@width=225
+@title=Conseiller National
+@x=-5
+@y=5
+
+@SCIENCE0
+@width=250
+@title=Conseiller Scientifique
+@x=-5
+Je recommande que nous développions %STRING0.
+
+@SCIENCE1
+@width=250
+@title=Conseiller Scientifique
+@x=-5
+Je recommande que nous développions %STRING0 pour
+pouvoir construire:
+
+@SCIENCE2
+@width=250
+@title=Conseiller Scientifique
+@x=-5
+Je recommande que nous développions %STRING0 pour
+pouvoir un jour apprendre:
+
+
+
+@
+@@Temple
+Les gens sont mécontents.
+Nous devrions construire un %STRING0.
+
+@
+@@Ampithéâtre
+Les gens sont de plus en plus agités.
+Calmons-les avec un %STRING0.
+
+@
+@@Cathédrale
+Les gens sont mécontents.
+Peut-être une %STRING0
+les distraira.
+
+@
+@@Casernes
+Nos armées ne peuvent pas être efficaces
+sans une formation appropriée!
+Nous devrions construire des %STRING0
+pour produire des unités terrestres de vétéran 
+et réparer les unités endommagées rapidement.
+
+@
+@@Installation Portuaire
+Nous devrions construire une %STRING0
+pour produire de vieilles unités navales
+et réparer rapidement les navires endommagés.
+
+@
+@@Aéroport
+Nous devrions construire un %STRING0
+pour produire de vieilles unités aériennes
+et réparer rapidement les avions endommagés.
+
+@
+@@Grenier
+Nous devrions bâtir un %STRING0
+pour promouvoir la croissance des villes.
+
+@
+@@Supermarché
+Pourquoi laissons- nous pourrir 
+la nourriture dans les champs? 
+Construisons un %STRING0 pour bien
+la distribuer!
+
+@
+@@Port
+Les gens ont faim.  Construisons
+un %STRING0 pour récolter
+la générosité de l'océan.
+
+
+@
+@@Marché
+Nos gens sont pauvres. Construisons
+un %STRING0 pour attirer les marchands et
+les négociants.
+
+
+
+
+
+
+@
+@@Banque
+Notre économie est stagnante.  Nous devrions
+construire une %STRING0 pour la stimuler.
+
+@
+@@Bourse
+Construisons une %STRING0 et 
+enrichissons-nous ensemble!
+
+@
+@@Autoroutes
+Notre système de transport désuet
+fait stagner l'économie.  Nous devons
+construire des %STRING0 tout de suite!
+
+@
+@@Bibliothèque
+La sagesse, non pas la puissance, est notre plus grand avantage.
+Construisons une %STRING0, pour  
+ne pas la gaspiller.
+
+@
+@@Université
+A la longue, l'instruction est la clé
+de la grandeur. Construisons une %STRING0 sur-le-champ.
+
+@
+@@Labo de Recherche
+Nous devrions construire un %STRING0
+pour accroître nos connaissances.
+
+@
+@@Tribunal
+Nous ne devons pas tolérer le désordre et
+la simple corruption!  Je suggère que nous construisions
+un %STRING0 pour imposer nos valeurs.
+
+@
+@@Murs de la Ville 
+Cette ville est virtuellement sans défense!
+Nous devrions construire des %STRING0 tout de suite!
+
+@
+@@Forteresse Côtière
+@@Batterie De missile SAM
+Nous devrions construire une %STRING0
+pour protéger notre ville.
+
+
+
+
+
+
+@
+@@Aqueduc
+Le peuple a soif!
+Nous devrions construire un %STRING0
+pour laisser s'agrandir notre ville.
+
+@
+@@Système D'Egout
+Les rues sont couvertes d'ordure!
+Nous devrions construire un %STRING0
+pour laisser s'agrandir notre ville.
+
+@
+@@Transport Collectif
+@@Centre de Recyclage
+Nous devons construire un %STRING0
+avant que notre propre gaspillage nous étouffe!
+
+@
+@@Usine
+@@Fabriquant
+@@Centrale Electrique
+@@Centrale Hydraulique
+@@Centrale Nucléaire
+@@Centrale Solaire
+Nous sommes en retard dans la productivité!
+Construisons rapidement une %STRING0.
+
+@
+@@Plate-forme Pétrolière
+Nous devons exploiter la richesse des mers!
+Construisons une %STRING0.
+
+@
+@@Défense SDI
+Nous devrions construire une %STRING0, à tout hasard.
+
+@
+@@Structure VS
+@@Composant VS
+@@Module VS
+Nous devrions construire un/une %STRING0
+pour coloniser d'autres mondes.
+
+@
+@@Colons
+Nous devrions construire des %STRING0
+pour coloniser ce continent.
+
+@
+@@Ingénieurs
+Il faut construire des %STRING0 pour développer
+ce continent.
+
+@
+@@Guerriers
+@@Pixers
+Nos villes sont vulnérables aux attaques.
+Construisons %STRING0 et défendons-les.
+
+@
+@@Mousquetaires
+@@Fusiliers
+Nous avons besoin de plus de %STRING0
+pour défendre notre nation.
+
+@
+@@Fanatiques
+Nous devons recruter %STRING0
+pour défendre nos croyances!
+
+@
+@@Phalange
+@@Infanterie Mécanisée
+Nous devrions construire un/une %STRING0
+pour défendre nos villes.
+
+@
+@@Légion
+Nous devrions construire de puissants %STRING0s
+et gouverner le monde connu!
+
+@
+@@Archers
+Nous devrions former nos hommes à utiliser
+l'arc et la flèche, car les archers
+sont forts pour l'attaque
+et la défense!
+
+@
+@@Troupes Alpines
+Nous devrions construire %STRING0
+pour défendre nos villes et attaquer
+nos ennemis.
+
+@
+@@Char
+Prenons l'offensive! Je
+suggére que nous construisions un %STRING0.
+
+@
+@@Catapulte
+Avec une %STRING0, nous pourrions découvrir
+les points forts de l'ennemi.
+
+
+
+
+
+
+@
+@@Hélicoptère
+Nous devrions créer une force  
+d'attaque mobile de %STRING0s.
+
+@
+@@Canon
+@@Obusier
+Nous devrions construire un %STRING0
+et réduire nos ennemis en miettes!
+
+@
+@@Bombardier
+@@Bombardier Furtif
+Construisons un %STRING0 et
+renvoyons nos ennemis à l'Age de Pierre!
+
+@
+@@Eléphant
+Nous devrions construire un %STRING0
+pour piétiner nos ennemis!
+
+@
+@@Croisés
+Nous devrions construire %STRING0 
+pour lutter contre une guerre sainte!
+
+@
+@@Avion de Chasse
+@@Avion de Chasse Furtif
+Nous avons besoin d'un/une %STRING0 
+pour défendre nos cieux!
+
+@
+@@Cavaliers
+@@Chevaliers
+@@Dragons
+@@Cavalerie
+Nous devrions construire %STRING0
+pour punir nos ennemis.
+
+@
+@@Marines
+@@Parachutistes
+Nous devrions construire %STRING0
+pour surprendre nos ennemis.
+
+@
+@@Armure
+@@Artillerie
+@@Partisans
+Construisons %STRING0 et
+donnons une leçon à nos ennemis!
+
+@
+@@Trireme
+@@Caravelle
+@@Galion
+@@Explorateur
+Nous devrions construire des %STRING0s
+pour explorer le monde.
+
+@
+@@Frégate
+@@Cuirassé
+@@Destroyer
+@@Croiseur
+@@Batîment de Ligne
+@@Sous-marin
+@@Croiseur EGIDE
+Nous devrions construire des %STRING0s
+pour gouverner les mers.
+
+@
+@@Porte-Avion
+@@Transport
+@@Missile Atmospherique
+@@DEFAULT
+Nous devrions construire un/une %STRING0.
+
+@
+@@Missile Nucléaire
+C'est peut-être le moment pour un gentil %STRING0.
+
+@
+@@Diplomate
+Nous devrions construire un %STRING0
+pour entrer en contact avec d'autres
+civilisations et voler leurs
+secrets.
+
+@
+@@Espion
+Nous devrions construire un %STRING0
+pour jouer de vilains tours à nos
+ennemis.
+
+@
+@@Caravane
+@@Fret
+Nous devrions construire un/une %STRING0
+pour établir des itinéraires de commerce
+avec d'autres civilisations.
+
+@
+@@Wonder
+Entreprenons un grand projet
+en l'honneur de notre civilisation,
+%STRING0!
+
+@
+

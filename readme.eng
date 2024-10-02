@@ -1,0 +1,39 @@
+
+Sid Meier's Civilization II ReadMe
+February 15, 1996
+
+{Installation Guide}
+
+Recommended installation:
+
+1. Use the default path or enter the drive letter and the directory to which
+   you would like Sid Meier's Civilization II to be installed.
+
+2. Choose the Custom Option from the installation menu and select the game
+   features that you would like installed to your hard drive. (You MUST
+   select "Required Game Files" in order to be able to play).
+
+3. After the game is installed Microsoft's WinG and Indeo Video Interactive
+   will be installed to your computer. These are necessary in order for the
+   game to function properly.
+
+Notes:
+   - If you wish to hear sound effects during the game, Recommended Game Files
+     must be selected in the custom install menu options. ("Play from CD" is
+     not supported for this option).
+   - In order to have the Civilopedia active in the game, Civilopedia must be
+     selected in the custom install menu options. ("Play from CD" is not
+     supported for this option).
+   - Most of the multimedia files for Civilization II are located on the CD ROM in
+     the Video subdirectory under civ2 ( d:\civ2\video ) and the Kings subdirectory
+     under civ2 ( d:\civ2\kings ). If you wish to copy these files to your harddrive, 
+     create two subdirectories under civ2 ( c:\mps\civ2\video ) and  ( c:\mps\civ2\kings ).
+     Copy all the files in the Video subdirectory of the Civilization II CD to the 
+     Video subdirectory that you just created and all the files in the Kings subdirectory
+      of the Civilization II CD to the Kings subdirectory that you just created.
+
+{Troubleshooting}
+
+1. 'General Protection Fault' - Your video driver may be old. Get a new video
+    driver from your video card maker or try one of the standard windows video
+    drivers.

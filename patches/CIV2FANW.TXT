@@ -1,0 +1,329 @@
+Welcome to Civ II Fantastic Worlds!
+
+----IMPORTANT: Read This----
+
+When you install the scenarios, the files for each are put into separate
+directories. They absolutely MUST stay that way. If you move files around,
+there's no telling what might happen, and Customer Service might not be able
+to fix it.
+
+**** Do not move the scenario files.****
+
+The same goes for any scenario games you save. When you save a scenario game
+(even if you do so using the Autosave function), that save file automatically
+goes into the directory with that scenario. When the time comes to load the file,
+look for it in the scenario directory, not in the normal Civilization II directory.
+
+This brings up one more important rule. If you copy a scenario save file to
+use with Civ II on another computer, make sure that you copy the file into
+the correct scenario directory.
+
+----Playing----
+
+Once the set-up is complete, the scenarios are ready to play. 
+To start:
+
+(1) If you want to see and hear the uninstalled video portions 
+    of the game, make sure that the Civ II Fantastic Worlds
+    CD-ROM is in the drive. (Remember, if you did not install
+    the Recommended files when you originally installed 
+    Civilization II, there will be no sound effects regardless
+    of whether the CD is in the drive. There will be some music.)
+
+    The Fantastic Worlds CD-ROM does not include the Wonder videos
+    or animated Heralds. If you want to see these, put the original
+    Civilization II CD in your drive instead of Fantastic Worlds.
+
+(2) If it is not already running, start Windows.
+
+(3) Now simply double-click the Civilization II icon (or click
+    Civ2 on the Windows '95 Start menu) to start the game.
+
+----A Quick Review----
+
+Although every Civilization II player has surely read and reread
+the manual several times, your mind might have wandered a little
+over the brief mentions of scenarios. Just in case, let's go through
+a quick rehash of how you load scenarios for play and what it means
+to win one.
+
+----Loading a Scenario----
+
+The first menu you see when the game starts up doesn't have a name.
+
+* Click the radio button next to 'Begin Scenario'.
+* Click on the OK button.
+
+Now you need to choose the scenario you want to play. The selection
+window works exactly like a typical Windows file selection window.
+
+* First, double-click on the directory named 'scenario'.
+* Next, double-click on the directory of the scenario you want.
+* Finally, double-click on the name of the scenario file itself.
+
+The MicroProse scenarios are each in a separate directory:
+
+Scenario			Directory	File
+----------------------------------------------------------
+The Age of Reptiles		Dinosaur	dinosaur.scn
+Atlantis			Atlantis	atlantis.scn
+Ice Planet			Iceplnet	iceplnet.scn
+Mars Now!			Mars		mars.scn
+Master of Magic, Jr.		Momjr		mom_jr.scn
+Master of Orion, Jr.		Moojr		moo_jr.scn
+The Mythic History of Midgard	Midgard		midgard.scn
+The New World			Newworld	newworld.scn
+Samurai				Samurai		samurai.scn
+The World of Jules Verne	Verne		verne.scn
+X-COM: Assault			X-com		x-com.scn
+
+The Best of the Net scenarios are all in sub-directories of the
+directory named BestNet2:
+
+Scenario			Directory	File
+-----------------------------------------------------------
+Battle of the Sexes		Battle		battle.scn
+Bears at Play			Bears		bears.scn
+Civ-Life!			Bio		bio.scn
+Hidden				Hidden		hidden.scn
+Mammoth				Mammoth		mammoth.scn
+Paradise			Paradise	paradise.scn
+Santa is Coming			Santa		santa.scn
+USA 2010			USA2010		usa2010.scn
+
+
+Once you've chosen a scenario, you see the introductory text, which
+explains the situation you're getting yourself into. Click OK when
+you've finished reading it. Now, you go through the normal decisions
+for the beginning of a Civilization II game.
+
+(1) Choose the civilization you want to lead. Every scenario includes
+    empires that are interesting to play - and occasionally some that
+    are not. Some tribes are only included to spice things up, and
+    weren't designed to be player-controlled. The recommended tribes
+    are mentioned in the introduction and the manual.
+
+(2) Select a Difficulty Level. The default is generally Deity, since we
+    assume scenario players are already somewhat experienced.
+
+(3) Enter the name under which you rule.
+
+(4) Choose the gender you want other civilizations' emissaries to use
+    when referring to your ruler.
+
+After that, the scenario begins in earnest.
+
+----Objectives and Winning----
+
+In some scenarios, scoring and winning are the same as in any normal game.
+However, some scenarios use the Objectives system instead. In this case,
+success and failure are measured in terms of who has how many objective cities
+(and sometimes wonders) under their control at the end of the game.
+
+One civilization in each Objectives scenario is considered the protagonist
+nation. It's always the same nation (noted in the introductory text), regardless
+of which one you choose to play. The designer of the scenario has marked certain
+cities as objectives. (To tell which cities are objectives, select Find City
+from the Kingdom menu.) Some cities are Major Objectives; these count for 3 times
+as much as normal objectives.
+
+The only object of the scenario is to capture and hold as many objectives as you
+can. This and this alone determines the outcome. If some of the Wonders of the
+World are also considered objectives, each objective wonder you capture also
+counts toward the total.
+
+There are four possible results of any Objective scenario. The number of
+objectives required for each is a pre-set characteristic of the scenario. The
+protagonist nation can:
+
+   Win a Decisive Victory,
+   Win a Marginal Victory,
+   Suffer a Marginal Defeat, or
+   Suffer a Decisive Defeat.
+
+Whatever the outcome for the protagonist, every other civilization gets the
+corresponding, opposite result. Thus, for example, if you're the protagonist
+and you win a Marginal Victory, all your opponents get a Marginal Defeat.
+
+----When You're Done----
+
+When you quit or finish a scenario, you return to that unnamed first menu.
+You can begin another scenario (or a regular game) if you wish. If you prefer
+to leave Civilization II, click Cancel.
+
+----Last Minute Updates----
+
+(1) The advice given to you by the High Council is almost never relevant or
+    correct during a scenario game. Ignore it.
+
+(2) The Civilopedia has been updated to reflect the changes for each MicroProse
+    scenario. The updated Civilopedias, however, are text only.
+
+(3) There are 8 new unit 'slots' for scenario builders. Each has its own sound file.
+    These files are named extra1.wav through extra8.wav. IMPORTANT: All sound files
+    for use with Civ II must be .wav format, 8-bit, mono, sampled at 22050 hz.
+
+(4) You can still play all of your old scenarios after installing Fantastic Worlds. 
+    The new editors are designed to work with the old files, but if you experience
+    problems, try adding the 5 new advance 'slots' and 8 new unit 'slots' in the new
+    rules.txt to the old rules.txt in each of your scenario directories.
+
+(5) After you install Fantastic Worlds, you might notice a new file in your Civ II
+    directory: 'civ2orig.exe'. This is a backup copy of the original executable. The
+    installation program copies an updated executable into this directory, so we save
+    the original as a backup. There might also be a 'Civ2scen.exe'; that's the backup
+    copy made by Conflicts in Civilization.
+
+(6) Fantastic Worlds includes all of the posted patches for Civ II (and more).
+
+(7) If you want to work with the events macro language, we recommend that you do so
+    using the new Events Editor. If you work with the events.txt file directly, there
+    will be problems loading versions of that scenario that you saved before you made
+    your changes. This might even cause the game to crash. If you have already done so,
+    you can fix the affected save file as follows:
+
+    * Go to the DOS prompt
+    * Enter the following command:
+
+          DIR\delevent DIR\scenario\SCEN\FILE.sav
+
+      where  DIR is the directory to which you installed Civ II,
+             SCEN is the name of the scenario directory, and
+             FILE.sav is the name of the save file.
+
+(8) Whenever you alter any file using one of the editors, the original version of
+    that file is saved as a backup file. The backup has the same name as the original
+    file, except that the extension is '.bak'. 
+
+(9) When you modify icons, the editor creates a .bmp file in your scenario directory;
+    the original Civ II files are never changed. The scenario always looks for the .bmp
+    file first, then if there is none, it reverts to the original .gif file.
+
+(10) You cannot use the editors to change Civ II--only to create scenarios. You don't
+     want to mess up the original game.
+
+(11) A new feature that didn't make it into the manual is the ability to randomly pick
+     one of several scenario files stored in the same scenario directory. This is used
+     in both the Samurai and Jules Verne scenarios to provide some challenging uncertainty
+     at the beginning of the sceanrio. You can use this feature in your scenarios, too,
+     if you follow these simple rules:
+
+     1. Build several similar scenarios and save each as an .scn file--all in the same
+        scenario directory. We recommend you name each with the same title, but different
+        numbers. (One file should have no number.) For example, in Jules Verne, we built
+        6 scenarios and named them Verne.scn, Verne1.scn, Verne2.scn, Verne3.scn,
+        Verne4.scn, and Verne5.scn. (Note that we did not use more than 8 characters in
+        any file name.)
+
+     2. Change the extensions of the numbered .scn files to .alt. Using Verne as an example
+        again, we changed our six files to Verne.scn, Verne1.alt, Verne2.alt, Verne3.alt,
+        Verne4.alt, and Verne5.alt. 
+
+     That's it. Whenever a player selects to play the scenario (the .scn file), Civ II
+     randomly picks one of the alternatives to play.
+
+     Note: All the scenarios use the same setup files (rules.txt, events.txt, etc.), but
+     if you plan to include an introductory message, you must make an individual one for
+     each of the alternate files. The message file has the name as the scenario file, but
+     a .txt extension. (Thus, Verne has six intoductions, labelled Verne.txt, Verne1.txt,
+     Verne2.txt, Verne3.txt, Verne4.txt, and Verne5.txt.)
+
+(12) Two units.gif files are included for the Jules Verne scenario. Units.gif provides
+     pictures of the adventure destinations (an extinct volcano for the journey to the
+     center of the earth, an Egyptian city for the lost city of Bala, etc.). Units2.gif
+     has no pictures, but only the bare terrain. To make the game more challenging,
+     you might not want to know the locations of the adventures. In this case, you can
+     rename units.gif to something else and rename units2.gif to units,gif. This makes
+     the adventure locations completely invisible.
+
+(13) In several scenarios, each tribe is able to build only a small portion of the 
+     units available. Unfortunately, we were unable to modify the Civilopedia to note
+     these restrictions. Consequently, don't be surprised if your tribe doesn't get every 
+     (or any) unit offered by a tech advance; they just aren't yours to build. This
+     generally doesn't cause confusion, except in the Midgard scenario. To cover that base,
+     here's a list of unit ownership for every civilization in Midgard. Any units not
+     mentioned are either available to everyone or available to no one.
+
+    MIDGARD UNIT OWNERSHIP
+    
+    Buteos
+    1. Hawkmen
+    2. Eaglemen
+    3. Great Eagles
+    4. Enchanted Gian
+    5. Frost Giant
+    6. Old Man
+
+    Elves
+    1. Elf Warriors
+    2. Elf Archers
+    3. Elf Riders
+    4. Treefolk
+    5. Changeling
+    6. Tree Guards
+
+    Merfolk
+    1. Mermen
+    2. Merguards
+    3. Giant Otterine
+    4. Triton Legion
+    5. Porpoise Pod
+    6. Kraken
+    7. Sorcerer
+
+    Goblins
+    1. Goblins
+    2. Trolls
+    3. Crag Wolves
+    4. Enchanted Ogre
+    5. Giant Spider
+    6. Sorcerer
+    
+    Stygians
+    1. Night Riders
+    2. Great Bats
+    3. Witches
+    4. Fell Wraith
+    5. Skeletons
+    6. Barrow Wights
+    7. Lich
+
+    Infidels
+    1. Infidels
+    2. Berserkers
+    3. I. Horsemen
+    4. Golden Horde
+    5. Baba Yaga
+    6. Sorcerer
+
+    Humans
+    1. Human Warriors
+    2. Housecarls
+    3. Rangers
+    4. Great Wizard
+    5. Enchanted Paladins
+
+    Available To All
+    1. Settlers
+    2. Dwarves
+    3. Ice Drake
+    4. Bombard
+    5. Ellida
+    6. Skidbladner
+    7. Dragon Boat
+    8. Shield Boat
+    9. Lightning Bolt
+   10. Fireball
+   11. Envoy
+   12. Spy
+   13. Caravan
+   14. Jack O'Lantern
+   15. Necromancers
+ 
+(14) You might have noticed that there are limits on where the shield placement cursor
+     (in the unit icon editor) will allow you to put the unit shield. That's because we
+     prevent you from accidentally using an illegal shield location. Remember that you
+     are placing the UPPER LEFT corner of the shield, and the shield cannot overlap the
+     lower limits of the diamond or any edge of the unit area.
+
+--END--

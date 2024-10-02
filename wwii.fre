@@ -1,0 +1,14 @@
+@SCENARIO
+@width=440
+@title=La Seconde Guerre Mondiale --Europe
+^^Durée: De %STRING1 à  %STRING2
+Nous sommes en Juin 1940.  Les Panzers allemands ont frappé les Ardennes,  
+passant à travers les défenses Alliés et sont arrivés dans Paris.  Six semaines 
+de « Blitzkrieg » et la France est tombée.  Est-ce que Churchill va pouvoir
+rallier ses troupes à temps? Ou bien l'Angleterre va connaître le même sort et 
+plier sous les Forces de l'Axes?  Pendant ce temps à l'Est, l'ours russe dort 
+tranquillement.  Le pact Molotov-Ribbentrop assure le flanc Est de l'Allemagne. 
+Mais où l'Axe va-t-elle chercher son "Lebensraum"? Sur les teppes russes?
+
+@end -- this line must be here!
+

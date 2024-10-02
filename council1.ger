@@ -1,0 +1,358 @@
+Ren Council Text  2/15/96   v2.21
+
+@M1
+0,80, Militär: Sie sollten mehr Einheiten aufbauen!
+f5, 82,129, Wissenschaft: Würden sie die zerstören, die sie ausbeuten können?
+#, end
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+s4, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+t3, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t5, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+end
+
+@M2
+131,234, Militär: Wir liegen in der Waffentechnologie zurück!
+f3, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+t2, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+t4, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+a1, 4091,4130, Einstellung: Es läuft nicht gut, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@M3
+236,316, Militär: Wir brauchen mehr Marine-Technologien!
+t2, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t4, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+f3, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+a1, 4091,4130, Einstellung: Es läuft nicht gut, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@M4
+318,423, Militär: Wir müssen Kasernen bauen!
+t3, 3601,3627, Handel: Ich bin anderer Meinung, Herr.
+t5, 3601,3627, Handel: Ich bin anderer Meinung, Herr.
+t1, 3429,3450, Handel: Ich bin anderer Meinung, Herr.
+f5, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+s4, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@M5
+425,558, Militär: Wir müssen Stadtmauern bauen, besoners in der Hauptstadt!
+t1, 560,620, Handel: Es läuft nicht gut, Herr.
+#, end 
+t3, 560,620, Handel: Es läuft nicht gut, Herr.
+#, end 
+t5, 560,620, Handel: Es läuft nicht gut, Herr.
+#, end 
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+s4, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+f5, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+t, 3564,3599, Handel: Seid vorsichtig bei Euren Ausgaben, Herr.
+end
+
+@M6
+622,744, Militär: Wir stehen gut da!
+f7, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+t7, 3307,3332, Handel: Ich stimme zu, Herr.
+s6, 3203,3230, Ausland: Dürfen wir sprechen, Herr?
+s1, 3203,3230, Ausland: Dürfen wir sprechen, Herr?
+a1, 3921,3960, Einstellung: Dürfen wir sprechen, Herr?
+end
+
+@M7
+746,863, Militär: Wir sind stark...laßt uns gegen andere Zivilisationen Krieg führen!
+f4, 82,129, Wissenschaft: Würden sie die zerstören, die sie ausbeuten können?
+#, end 
+s6, 3122,3144, Ausland: Ich stimme zu, Herr.
+f, 865,938, Wissenschaft: Denken Sie gut nach, Herr, bevor wir leichtfertig mit anderen Nationen spielen.
+#, end 
+end
+
+
+@S1
+940,1089, Ausland: Unsere Leistung in der Wissenschaft ist erschreckend, Herr.
+f3, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+#, a, 3887,3919, Einstellung: Hören Sie nicht auf sie, Herr.
+a1,1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+a2, 1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+a3, 1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+t2, 3307,3332, Handel: Ich stimme zu, Herr.
+t4, 3307,3332, Handel: Ich stimme zu, Herr.
+end
+
+@S2
+1091,1183, Ausland: Wir sollten die Wissenschaftsleistung erhöhen, Herr.
+f3, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+#, a, 3887,3919, Einstellung: Hören Sie nicht auf sie, Herr.
+t2, 3307,3332, Handel: Ich stimme zu, Herr.
+t4, 3307,3332, Handel: Ich stimme zu, Herr.
+t, 1185,1270, Handel: Nein! Wir sollten die Steuern so lassen!
+a1,1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+a2, 1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+a3, 1272,1328, Einstellung: Lassen Sie meine Luxusrate zufrieden, Herr.
+#, end
+end
+
+@S3
+1330,1460, Ausland: Wir sollten technische Verbesserungen einrichten, wie Bibliotheken, Universitäten und Forschungslabors.
+t3, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+t4, 3307,3332, Handel: Ich stimme zu, Herr.
+#, f5, 3708,3734, Wissenschaft: Hören Sie nicht auf sie, Herr.
+t5, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+t1, 3564,3599, Handel: Seid vorsichtig bei Euren Ausgaben, Herr.
+#, end 
+m2, 2938,2964, Militär: Ich stimme zu, Herr.
+m3, 2938,2964, Militär: Ich stimme zu, Herr.
+f3, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+f5,3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@S4
+1462,1569, Ausland: Wir sollten Handelswege einrichten, Herr.
+t,3307,3332, Handel: Ich stimme zu, Herr.
+m1, 4612,4676, Militär: Herr, mit einer guten Armee können wir uns nehmen, was wir wollen!
+#, end 
+m4, 4612,4676, Militär: Herr, mit einer guten Armee können wir uns nehmen, was wir wollen!
+#, end 
+m5, 2848,2910, Militär: Ich bin anderer Meinung, Herr.
+m2, 2912,2936, Militär: Ich stimme zu, Herr.
+#, f5, 3708,3734, Wissenschaft: Hören Sie nicht auf sie, Herr.
+m3, 2912,2936, Militär: Ich stimme zu, Herr.
+#, f5, 3708,3734, Wissenschaft: Hören Sie nicht auf sie, Herr.
+f5, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+end
+
+@S5
+1571,1632, Ausland: Wir machen uns gut, Herr.
+a,4014,4042, *
+m2, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+m3, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+t2, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t4, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+end
+
+@S6
+1634,1766, Ausland: Ich schlage vor, wir benutzen Spione um Technologien zu stehlen, oder Armeen, um sie uns zu nehmen.
+m1,3111,3120, *
+m2,2912,2936, Militär: Ich stimme zu, Herr.
+m3,2912,2936, Militär: Ich stimme zu, Herr.
+m6,2912,2936, Militär: Ich stimme zu, Herr.
+m7,2912,2936, Militär: Ich stimme zu, Herr.
+end
+
+@S7
+1768,1839, Ausland: Wir machen uns großatig, Herr!
+a1, 4091,4130, Einstellung: Es läuft nicht gut, Herr.
+a6, 4014,4042, *
+t1, 3493,3509, *
+t6, 3307,3332, Handel: Ich stimme zu, Herr.
+t7, 3307,3332, Handel: Ich stimme zu, Herr.
+f7, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+end
+
+
+@T1
+1841,1947, Handel: Wir haben Schwierigkeiten...erhöhe die Steuern oder stelle Steuereintreiber ein.
+a1, 2020,2062, Einstellung: Wir müssen das Volk zufrieden halten, Herr.
+#, end 
+a2, 2020,2062, Einstellung: Wir müssen das Volk zufrieden halten, Herr.
+#, end 
+a3, 2020,2062, Einstellung: Wir müssen das Volk zufrieden halten, Herr.
+#, end 
+s1, 1949,2018, Ausland: Herr, ich muß gegen jegliches Manipulieren der Wissenschaftsrate protestieren.
+s2, 1949,2018, Ausland: Herr, ich muß gegen jegliches Manipulieren der Wissenschaftsrate protestieren.
+end
+
+@T2
+2064,2204, Handel: Ich schlage voe, daß wir das Bankwesen entdecken.
+m2, 2767,2846, Militär: Ich bin anderer Meinung, Herr.
+m3, 2767,2846, Militär: Ich bin anderer Meinung, Herr.
+end
+
+@T3
+2206,2340, Handel: Ich schlage vor, daß wir mehr Banken errichten.
+f5,3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+m1, 4612,4676, Militär: Herr, mit einer guten Armee können wir uns nehmen, was wir wollen!
+#, end 
+m4, 2767,2846, Militär: Wir liegen in der Waffentechnologie zurück!
+#, end 
+m5, 2848,2910, Militär: Ich bin anderer Meinung, Herr.
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+s4, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@T4
+2342,2497, Handel: Ich schlage vor, daß wir den Handel entdecken.
+f, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+#, m2, 2991,3014, Militär: Hören Sie nicht auf sie, Herr.
+m3, 3111,3120, Pah! It is better naval technologies we should discover.
+end
+
+@T5
+2499,2597, Handel: Ich schlage vor, daß wir mehr Karawanen einrichten.
+m1, 4612,4676, Militär: Herr, mit einer guten Armee können wir uns nehmen, was wir wollen!
+#, end 
+m4, 2767,2846, Militär: Wir liegen in der Waffentechnologie zurück!
+#, end 
+m5, 2848,2910, Militär: Ich bin anderer Meinung, Herr.
+f5,3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@T6
+2599,2705, Handel: Wir machen uns gut, aber wir könnten die Steuern anheben um mehr Geld einzunehmen.
+a1,3962,4012, Einstellung: Es läuft nicht gut, Herr.
+a2,3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+#, end 
+a3,3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+#, end 
+s1,1949,2018, Ausland: Lassen Sie diesen Marder nur nicht die Wissenschaftsrate anrühren, Herr!
+s2,1949,2018, Ausland: Lassen Sie diesen Marder nur nicht die Wissenschaftsrate anrühren, Herr!
+end
+
+@T7
+2707,2765, Handel: Wir machen uns großartig, Herr!
+m1,3111,3120, *
+#, end 
+m4,3111,3120, *
+#, end 
+m5,3111,3120, *
+#, end 
+f5, 3795,3816, *
+#, end 
+a3,3962,4012, *
+end
+
+
+@F1
+4132,4253, Wissenschaft: Erforschen!
+r5, s, 3122,3144, Ausland: Ich stimme zu, Herr.
+r5, m, 2912,2936, Militär: Ich stimme zu, Herr.
+r5, a, 3818,3850, Einstellung: Ich stimme zu, Herr.
+r5, t, 3307,3332, Handel: Ich stimme zu, Herr.
+end
+
+@F2
+4255,4341, Wissenschaft: Laßt uns eine Allianz mit einer anderen Zivilisation schließen.
+m6, 3052,3109, Militär: Ich bin anderer Meinung, Herr.
+m7, 3052,3109, Militär: Ich bin anderer Meinung, Herr.
+t, 3307,3332, Handel: Ich stimme zu, Herr.
+s, 3122,3144, Ausland: Ich stimme zu, Herr.
+end
+
+@F3
+4343,4440, Wissenschaft: Wir sollten Spionage entdecken.
+s, 3122,3144, Ausland: Ich stimme zu, Herr.
+#, t2, 3362,3385, Handel: Hören Sie nicht auf sie, Herr.
+t4, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+m2, 3111,3120, *
+m3, 3111,3120, *
+end
+
+@F4
+4442,4540, Wissenschaft: Wir haben eine schlechten Ruf bei anderen Zivilisationen.
+m6, 4542,4610, Militär: Und ich sage, wir sollten sie vernichten!
+m7, 4542,4610, Militär: Und ich sage, wir sollten sie vernichten!
+end
+
+@F5
+4745,4868, Wissenschaft: Wir sollten Botschaften gründen.
+t3, 4678,4743, Handel: Ich bin anderer Meinung, Herr.
+t5, 4678,4743, Handel: Ich bin anderer Meinung, Herr.
+t1, 4678,4743, Handel: Ich bin anderer Meinung, Herr.
+m1, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+m4,3111,3120, Militär: Ich bin anderer Meinung, Herr.
+m5,2848,2910, Militär: Ich bin anderer Meinung, Herr.
+s3, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+s4, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+a3, 3852,3885, Einstellung: Ich bin anderer Meinung, Herr.
+end
+
+@F6
+4870,4980, Wissenschaft: Wir sollten Technologieen mit anderen Zivilisationen austauschen.
+m2, 2938,2964, Militär: Ich stimme zu, Herr.
+#, s7, 3174,3201, Ausland: Hören Sie nicht auf sie, Herr.
+m3, 2938,2964, Militär: Ich stimme zu, Herr.
+#, s7, 3174,3201, Ausland: Hören Sie nicht auf sie, Herr.
+s7, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+#, end
+s5, s, 3122,3144, Ausland: Ich stimme zu, Herr.
+t, 3307,3332, Handel: Ich stimme zu, Herr.
+end
+
+@F7
+4982,5072, Wissenschaft: Wir kommen in der Außenpolitik erstaunlich gut voran.
+s7, 3122,3144, Ausland: Ich stimme zu, Herr.
+a6, 4014,4042, *
+end
+
+
+@A1
+5074,5186, Einstellung: Wir müssen Entertainer schaffen, oder die Regierung fällt!
+r5, t, 3307,3332, Handel: Ich stimme zu, Herr.
+r5, s, 3122,3144, Ausland: Ich stimme zu, Herr.
+r5, m, 2912,2936, Militär: Ich stimme zu, Herr.
+r5, f, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+end
+
+@A2
+5188,5302, Einstellung: Wir müssen die Luxus-Rate scnell anheben!
+t1, 5304,5374, Handel: Herr, man braucht Geld und nicht Gecken, um ein Reich über Wasser zu halten!
+#, end
+t6, 5304,5374, Handel: Herr, man braucht Geld und nicht Gecken, um ein Reich über Wasser zu halten!
+#, end 
+t, 3629,3657, Handel: Ich bin anderer Meinung, Herr.
+s1, 5647,5753, Ausland: Herr, wir können die Lehre nicht dem Luxus opfern!
+#, end 
+s2, 5647,5753, Ausland: Herr, wir können die Lehre nicht dem Luxus opfern!
+#, end 
+f3, 3682,3706, Wissenschaft: Ich bin anderer Meinung, Herr.
+m2, 2966,2989, Militär: Ich bin anderer Meinung, Herr.
+m3, 2966,2989, Militär: Ich bin anderer Meinung, Herr.
+end
+
+@A3
+5376,5474, Einstellung: Es läuft nicht gut...wir brauchen Entertainer und Tempel.
+t1, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t6, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+s1, 3203,3230, Ausland: Einen Augenblick Ihrer Aufmerksamkeit, Herr?
+s2, 3203,3230, Ausland: Einen Augenblick Ihrer Aufmerksamkeit, Herr?
+m1, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+m4, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+m5, 3111,3120, Militär: Ich bin anderer Meinung, Herr.
+end
+
+@A4
+5476,5579, Einstellung: Wir sollten die Luxusrate anheben.
+t1, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t, 3334,3360, Handel: Ich bin anderer Meinung, Herr.
+s1, 5581,5645, Ausland: Ich bin anderer Meinung, Herr.
+s2, 5581,5645, Ausland: Ich bin anderer Meinung, Herr.
+s, 3146,3172, Ausland: Ich bin anderer Meinung, Herr.
+end
+
+@A5
+5755,5820, Einstellung: Wir machen uns gut.
+f7, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+end
+
+@A6
+5822,5900, Einstellung: Wir machen uns großartig!
+t1, 3493,3509, Handel: Ich bin anderer Meinung, Herr.
+t7, 3307,3332, Handel: Ich stimme zu, Herr.
+s7, 3122,3144, Ausland: Ich stimme zu, Herr.
+f7, 3659,3680, Wissenschaft: Ich stimme zu, Herr.
+end

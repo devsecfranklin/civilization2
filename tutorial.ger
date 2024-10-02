@@ -1,0 +1,341 @@
+;
+;   CIVILISATION In-Game Tutorial
+;   Copyright (c) 1995 von MicroProse Software
+;
+;   Die Änderung des Inhalts dieser Datei kann zu                  ;   Störungen im Spiel führen.
+;   
+;
+
+@FIRSTMOVE
+@width=400
+@y=5
+@title=Zivilisation Tutorial
+Ihre erste Aufgabe ist es, einen passenden
+Standort für Ihre Hauptstadt zu finden 
+und sie zu gründen. Die besten Standorte
+sind in der Nähe von Flüssen, Wiesen, Küsten 
+oder Gegenden in der Nähe von besonderen Ressourcen.
+
+@BUILDCITY
+@width=320
+@y=5
+@title=Zivilisation Tutorial
+Diese Stelle scheint ein guter Standort für eine       
+Stadt zu sein. 'Neue Stadt bauen' vom
+BEFEHLE-Menü wählen oder die 'b' Taste drücken, 
+um die Stadt hier zu gründen.
+
+@FIRSTPRODUCT
+@width=420
+@y=5
+@title=Zivilisation Tutorial: Ihre erste Stadt
+Jede Stadt kann zusätzliche Siedler, 
+militärische Einheiten oder 
+Stadtverbesserungen erhalten, um das Wachstum 
+Ihrer Zivilistation zu fördern.
+Nur ein Produkt kann pro Stadt in Produktion sein. 
+Diese Produktionsbefehle können zu jeder 
+Zeit geändert werden. Wählen Sie das gewünschte
+Produkt, indem Sie die 'ÄNDERN' Taste im folgenden
+Stadtinformationsbildschirm anklicken.
+
+@FIRSTCIV
+@width=420
+@title=Zivilisation Tutorial Zivilisationsfortschritte
+Städte funktionieren auch als Handelszentren und
+Informationsquellen.
+Ihre weisen Mäner und Wissenschaftler können
+diese Informationen sammeln, um wichtige neue 
+Fähigkeiten und Fertigkeiten für Ihre 
+Zivilisation zu erlernen.
+
+@FIRSTUNIT1
+@width=420
+@y=5
+@title=Zivilisation Tutorial: Erste Militärische Einheit
+Sie haben gerade Ihre erste militärische 
+Einheit geformt. Verwenden Sie die Tastaturpfeile   
+um diese Einheit zu bewegen und das BEFEHLE-Menü
+für besondere Befehle einzusetzen. Mit militärischen Einheiten 
+können Sie entdecken, sich verbreiten, angreifen und   
+Ihre Zivilisation verteidigen.
+
+@FIRSTUNIT2
+@width=500
+@title=Zivilisation Tutorial: Einheiten
+Stärken Sie Ihre Einheiten, um die Städte gegen 
+Barbaren oder feindliche Armeen zu schützen.                       Phalanxen und Speerkämpfer sind ausgezeichnete Verteidiger.
+Krieger, Bogenschützen, und Legionen können auch 
+nützlich sein.
+^
+Siedlereinheiten können neue Städte gründen, Strassen,    
+Bewässerungsanlagen und Bergwerke in der Nähe
+von existierenden Städten bauen. Wenn möglich, sollte 
+immer zumindest ein Siedler im Spiel sein.
+^
+Sich schnell bewegende Einheiten, wie Reiter, sind für  
+Entdeckungen von unerforschter Territorien nützlich.
+^
+Greifen Sie Ihre Feinde mit Bogenschützen, Streitwagen,
+Elefanten und Katapulte an.
+
+@ONECITY
+@width=420
+@y=5
+@title=Zivilisation Tutorial: Neue Städte
+Die Stadt %STRING0 ist bereits ziemlich gewachsen.
+Vielleicht sollte man jetzt erweitern und eine zweite 
+Stadt bauen. Um dies zu tun, %STRING0 anklicken, um eine Siedlereinheit zu formen. Eine Siedlereinheit kann zu einem
+neuen Standort ziehen und eine Stadt bauen.
+
+@CITYSTUFF
+@width=420
+@x=180
+@title=Zivilisation Tutorial: Stadtressourcen
+Die Bewohner einer Stadt produzieren verschiedene Ressourcen, jeweils abhängig des 
+nahen Geländtyps. Auf dem 
+Stadtinformationsbildschirm werden die "bewohnten" Gegenden mit "Weizen", "Schilder" und "Handelspfeile" angezeigt, die die Einwohner produzieren.
+^
+Experimentieren Sie mit dem Anklicken dieser Orte, um Einwohner
+von Ort zu Ort zu bewegen. Bitte merken, daß einige Orte mehr Produkte einer Art und weniger einer anderen produzieren.
+Die meisten Orte können durch das Hinzufügen von Strassen,
+Bewässerungsanlagen und/oder Bergwerken von Siedlern 
+verbessert werden. Bitte die Konfiguration anwenden, die für
+Sie am besten ist.
+^
+Sie können auch Bewohner völlig von der Landkarte entfernen,
+indem man sie zu "Entertainern" macht. Entertainer erzeugen Luxusartikel, produzieren aber keine Nahrungsmittel oder
+andere Ressourcen.
+
+@MINING
+@width=320
+@y=5
+@title=Zivilisation Tutorial: Bergbau
+Dieses Gebiet könnte mehr Ressourcen produzieren.
+Der Bergbau ('m' Taste) dieser Hügel könnte die   
+Produktionskapazität von %STRING0 erhöhen.
+
+@IRRIGATE
+@width=320
+@y=5
+@title=Zivilisation Tutorial: Bewässerung
+Dies ist eine passende Gegend für eine
+Bewässerungsanlage ('i' Taste). Mehr Nahrungsmittel 
+werden der Stadt %STRING0 helfen, 
+schneller zu wachsen.
+
+@ROAD
+@width=440
+@y=5
+@title=Zivilisation Tutorial: Straßen
+Dies wäre eine gute Stelle, um eine Straße
+zu bauen ('r' Taste). Ihre Einheiten können sich   
+schneller bewegen und mehr Handel kann in der
+Stadt %STRING0 entwickelt werden. Ihr Ziel bei der Erweiterung sollte Ihre Städte mit Straßen zu verbinden sein.
+
+@HELP1
+@width=500
+@title=Zivilisation Tutorial: Allgemeine Ratschläge Nr. 1:
+Verteidigen Sie Ihre Städte mit wenigstens einer
+(vorzugsweise zwei) guten Verteidigungseinheiten.
+^
+Finden Sie ein ausgewogenes Verhältnis zwischen
+Aufbessurung existierenden Städten und Gründung 
+neuer Städten.
+^
+Überschätzen Sie bei der Erweiterung nicht 
+Ihre Fähigkeit, sich zu verteidigen. Barbaren und
+feindliche Armeen können ohne Warnung erscheinen.
+
+@HELP2
+@width=500
+@title=Zivilisation Tutorial: Allgemeine Ratschläge Nr. 2:
+Schließen Sie Frieden mit Ihren stärkeren Nachbarn.
+Isolieren und erobern Sie Ihre schwächeren Nachbarn.
+^
+Verwenden Sie Trimeren und andere Schiffe, um die
+Meere zu erforschen und um Ihre Einheiten zu
+anderen Kontinenten transportieren.
+^
+Verwenden Sie Karawane, um Handelsrouten aufzuschließen
+und Ihre Wirtschaft zu stärken. Handel hilft dem Volk,
+Reichtum sowohl auch Wissen anzuschaffen.
+^
+Während Ihre Zivilistaion wächst, vergessen Sie 
+nicht, Ihre Diplomaten anzuwenden, um zu
+lernen, was Ihre Gegner planen.
+
+@DISORDER
+@width=480
+@title=Zivilisation Tutorial: Öffentliche Unruhen
+@button=Einzelheiten
+Eine Stadt erlebt zivile Unruhen, wenn die Anzahl der unzufriedenen Bürger die Anzahl der zufriedenen Bürger
+überschreitet. Wachstum und Produktion erliegen, wenn
+eine Stadt in Unruhe steht.
+^
+Gegenmaßnahmen zu Unruhen schließen ein:
+^* Erhöhung des Luxushandels.
+^* Transport von Militäreinheiten in die Stadt.
+^* Errichtung eines Tempels, einer Kathedrale oder eines 
+^* Kolosseums.
+^* Berufsänderung von Bürgern zu Entertainern.
+^* Änderung zu einer fundamentalistischen Regierung.
+^
+Wenn Sie Schwierigkeiten haben, oder weitere Informationen 
+benötigen, klicken Sie "Einzelheiten" an.
+
+@DISORDER2
+@width=600
+@title=Zivilisation Tutorial: Einzelheiten zu öffentlichen Unruhen
+1) Luxusartikel: Um den Luxushandel zu erhöhen, "Steuerrate" im KÖNIGREICH Menü wählen. 20 Prozent ist eine guter Steuersatz, besonders wenn Ihre Regierung eine Monarchie oder Republik ist. Ein zufriedener Büger erscheint pro zwei Luxusartikel, die die Stadt produziert.
+^
+2) Kriegsrecht: Wenn Ihre Regierung eine Despotie, Monarchie, oder
+kommunistisch ist, können Sie militärische Einheiten in Ihre Städte bringen, um die Unruhen zu unterdrücken. Bis zu drei Einheiten können für diesen Zweck in jeder Stadt verwendet werden. Jede
+Einheit bewirkt, daß ein unzufriedener Bürger zufrieden wird.
+^
+3) Tempel, Kolosseen und Kathedralen: Diese Stadtverbesserungen helfen, die Unruhen zu stillen, indem ein unzufriedener oder mehrere unzufriedene Bürger zufrieden werden. Wenn Ihre Stadt bereits Unruhen erfährt, könnte es erforderlich sein, das Gebäude zu "kaufen" (oder kurzzeitig Entertainer zu verwenden), da es keine Produktion während öffentlichen Unruhen gibt.
+
+
+@DISORDER3
+@width=600
+@title=Zivilisation Tutorial: Einzelheiten zu öffentlichen Unruhen
+4) Entertainers: Klicken Sie auf dem Stadtinformationsbildschirm  eines der bewohnten Quadraten im Stadtradius an, um diesen Bürger
+zum Entertainer zu machen. Entertainer produzieren keine Nahrungsmittel, Ressourcen oder Handel. Jeder Entertainer produziert jedoch zwei weitere Luxusartikel.
+^
+5) Fundamentalismus: Wenn Sie entdecken, daß die Zivilisation
+"Fundamentalismus" fördert, können Sie die Regierungsform zum Fundamentalismus ändern. Unter dem Fundamentalismus ist kein Bürger jemals unzufrieden (natürlich wird die wissenschaftliche Forschung  eingestellt).
+
+@SCHISM
+@width=320
+@title=Zivilisation Tutorial: Bürgerkrieg
+Die %STRING0 sind eine große und mächtige 
+Zivilisation. Rebellensplittergruppen drohen
+mit einem Bürgerkrieg. Wenn Ihre Armeen die 
+Hauptstadt der Rebellen einnehmen kann,
+könnte der Anschlag das Land in zwei Teile
+spalten!
+
+@SHIPS
+@width=480
+@y=5
+@title=Zivisation Tutorial: Schiffe
+Sie haben Ihre erste Schiffseinheit gebaut. Verwenden 
+Sie Schiffe, um die Meere zu erforschen und Ihre       
+Einheiten zu anderen Kontinenten zu transportieren.
+^
+Wenn Ihr Schiff eine Trireme ist, vergessen Sie nicht, 
+daß sie verloren gehen kann, wenn sie sich nicht am Ende jeder Runde nahe dem Land befindet.
+^
+Um eine Einheit in einem Hafen einzuschiffen, geben Sie  
+den Schlafbefehl ('s') für die Einheit, bevor Sie das Schiff auf das Meer bewegen. Wenn sich das Schiff bereits auf dem Meer
+befindet, bewegen Sie die Einheit einfach vom nächstliegenden
+Quadrat 'auf' das Schiff.
+^
+Um eine Einheit auszuschiffen, klicken Sie das Schiff an oder 
+drücken Sie die 'u' Taste, um sie zu entladen.
+
+@RAILROADS
+@width=480
+@title=Zivilisation Tutorial: Eisenbahn
+Sie haben soeben das Wissen über Eisenbahnen erhalten -            
+eine wichtige Errungenschaft. Ein Siedler (oder Ingenieur)
+wird eine Eisenbahn bauen, wenn Sie die 'r' Taste in einem
+Quadrat drücken, die bereits eine Straße hat.
+^
+Ihre Einheiten werden weite Strecken mit der Eisenbahn zurücklegen können. Eisenbahnen erhöhen auch die Ressourcenproduktion     
+in Quadraten, wo mindestens zwei 'Schilder' produziert werden.
+
+@FARMLAND
+@width=480
+@title=Zivilisation Tutorial: Ackerland
+Sie haben das Wissen der Kühlung erlangt. Bessere Lagerungsmethoden der Nahrungsmittel erlauben die Qualitätsverbesserung des Ackerlands. Ein Siedler (oder Ingenieur) kann das Ackerland aufbessern, wenn Sie die 'i' Taste im Qudrat drücken, die bereits Bewässerung hat. Dies wird die Nahrungsmittelproduktion in einer nahen Stadt erhöhen, wenn diese Stadt einen Supermarkt hat, um die Nahrungsmittel zu verteilen.
+
+@AIRUNIT
+@width=480
+@y=5
+@title=Zivilisation Tutorial: Fliegereinheiten
+Ihre Zivilisation hat die erste Fliegereinheit geformt.
+Fliegereinheiten können geformt werden, um Feindeinheiten und 
+Städte auszubomben. Sie können auch Ihren Luftraum von feindlichen Bombern verteidigen. Fliegereinheiten können auch für Entdeckungen verwendet werden.
+^
+Fliegereinheiten haben einen beschränkten Kraftstoffvorrat. Sie müssen in einer freundlichen Stadt landen, bevor Ihr Kraftstoff ausläuft.
+
+@REPUBLIC
+@width=480
+@title=Zivilisation Tutorial: Republik
+Ihre Zivilisation hat Kenntnis über eine andere Regierungsform
+erhalten, die REPUBLIK. Änderungen von Regierungsformen können Ihrer Zivilisation große Vorteile bringen. Andererseits kann die Änderung viele Probleme schaffen - sorgfältige Planung ist notwendig. Siehe die CIVILOPEDIA Angaben unter "Regierungen" für weitere Informationen über alle Regierungsformen. Wenn Sie Regierungsformen ändern wollen, müssen Sie eine Revolution erleben. Siehe das KÖNIGSREICH Menü.
+
+@DEMOCRATS
+@width=600
+@title=Zivilisation Tutorial: Republik & Demokratie
+Sie haben entschieden, Ihre Zivilisation als %STRING0 zu regieren. Dies ist eine große Änderung von früheren Regierungsformen  und wird eine Reihe von Herausforderungen (und Belohnungen!) mit sich bringen.
+^
+Während Ihre Büger mehr Freiheiten erhalten, beginnen  sie mehr Handel zu betreiben. Andererseits wird es schwieriger, die Bürger zufrieden zu halten. Eine der besten Möglichkeiten, dies zu erzielen, ist die teilweise Umleitung des Handels zu Luxusartikeln.
+Wählen Sie "Steuersatz" vom KÖNIGREICH Menü und setzen Sie die Luxusrate auf 20%. Da Ihre Bürger jetzt viel mehr Handel betreiben, können Sie sich das leicht leisten.
+^
+Ihre Bürger haben die Tendenz, unzufrieden zu werden, wenn Sie 
+Ihre militärischen Einheiten aus den Städten ziehen. Es wäre möglich, daß Sie einige Einheiten zurück zu den Städten schicken müssen. Einige Einheiten müssen vielleicht auch entlassen werden. Dieses Opfer ist es oft wert, wenn man das Wissenswachstum und den vergrößerten Reichtum, den man durch diese Änderung erreicht, in Betracht nimmt.
+
+@TRADE
+@width=420
+@title=Zivilisation Tutorial: Handel
+Sie haben gerade das Wissen über HANDEL erhalten. Ihre Städte können mehr KARAWANEN bauen, um die Handelsgüter zwischen verschiedenen Teilen der Welt zu transportieren. Karawanen, besonders von größeren Städten, können Ihren Reichtum und Ihr Wissen schnell vermehren.
+
+@CARAVAN
+@width=440
+@y=5
+@title=Zivilisation Tutorial: Karawane
+Sie haben gerade Ihre erste KARAWANE produziert. Bewegen Sie sie zu einer entfernten Stadt, um eine Handelsroute aufzuschließen. Handelsrouten mit kleinen, nahen und freundlichen Städten produzieren weniger Umsatz als Routen mit großen, entfernten
+und konkurrierenden Städten. Versuchen Sie eine Stadt zu finden, die die Güter benötigt, die Ihre Karawane transportiert (Sie können eine konkurrierende Stadt anklicken, um zu lernen, was sie verlangen). Karawanen können auch dazu verwendet werden, um beim Bauen der Wunder der Welt mitzuhelfen.
+
+@WRITING
+@width=420
+@title=Zivilisation Tutorial: Schreiben
+Ihre Zivilisation hat die Kunst des SCHREIBENS erlernt.
+Ihre Städte können jetzt DIPLOMATEN beauftragen, beim Kontakt mit anderen Zivilisationen behilflich sein. Diplomaten können Botschaften bei andern Mächten einrichten, auf Ihre Freunde aufpassen und sogar Wissen von Ihren Rivalen stehlen.
+
+@SEAFARING
+@width=420
+@title=Zivilisation Tutorial: Seefahrt
+Ihre Zivilisation hat die Kunst des SEEFAHRENS gelernt.
+Sie können FORSCHER produzieren, um bei der Entdeckung von 
+neuen Territorien zu helfen. Forscher können sich drei Quadrate-weit
+bewegen, wenn sie dran sind, egal über welches Terrain. Sie können daher große Strecken schnell zurücklegen. Wenn Sie es noch nicht getan haben, sollten Sie vielleicht TRIMEREN bauen, um Ihre 
+Forscher und andere Einheiten zu entfernten Kontinenten zu bewegen.
+
+
+@EXPAND0
+@width=520
+@title=Zivilisation Tutorial: Erweiterung (Nr. 1)
+Eine Zivilisation wächst, indem sie ihr Gebiet erweitert. Dies kann entweder durch die Gründung von neuen Städten oder durch die 
+Eroberung von konkurrierenden Städten erzielt werden. Vielleicht sollten wir eine unserer Städte anweisen, eine neue SIEDLER Einheit zu produzieren.
+
+@EXPAND1
+@width=520
+@title=Zivilisation Tutorial: Erweiterung (Nr. 2)
+Damit unsere Zivilisation wächst, müssen wir weitere Städte gründen.
+Vielleicht sollten wir diese SIEDLER senden, um eine neue Stadt zu gründen.
+
+@DAMAGE
+@width=520
+@title=Zivilisation Tutorial: Verletzte Einheiten
+Diese Einheit hat Verletzungen im Kampf erlitten, wie der
+Farbbalken anzeigt am oberen Rand des Einheitsbildes.
+Grün zeigt eine verhältnismäßig gesunde Einheit an. Gelb und Rot
+zeigen eine wachsende Anzahl von Verletzungen an.
+^
+Eine Einheit könnte sich teilweise heilen, wenn sie eine vollständige Runde ausgelassen wird (die LEERSTELLE Taste
+drücken). Einheiten heilen sich schneller in Städten und Festungen. Städte mit Kasernen können Bodeneinheiten in einer einzigen Runde reparieren. Andere Einrichtungen (Hafen, Flughafen) können Schiffe und Flugzeuge reparieren.
+
+
+@END
+??
+
+
+
+ 
+
+ 
+
+

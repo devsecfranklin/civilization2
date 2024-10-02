@@ -1,0 +1,46 @@
+
+Sid Meiers Civilization II,  ReadMe.txt
+den 15. Februar, 1996
+
+{Richtlinien zur Installation}
+
+Empfohlene Installierung:
+
+1. Bitte die vorgegebene Einstellung verwenden oder gewünschter   
+    Laufwerkbuchstaben eingeben mit dem Namen der Datei worin Sid 
+    Meiers Civilization II gespeichert werden soll.
+
+2. Bitte "Custom Option" - Benutzer definiert - im Installationsmenü anklicken
+    und die Spieleigenschaften wählen, die Sie auf die Festplatte laden wollen.
+    (Unbedingt die "erforderlichen Spieldaten" laden, da sonst das Spiel nich läuft.)
+
+3. Nachdem das Spiel installiert ist, werden Microsoft's WinG und "Indeo Video 
+    Interactive"  im Computersystem installiert.  Diese Programme sind erforderlich
+    für einen fehlerfreien Spielablauf.
+
+Bitte Beachten:
+
+   - Werden Soundeffeckte während des Spiels gewünscht, muß "empfphlene 
+      Spieldateien" von dem "Custom Install" Menüoptionen gewählt werden. 
+      ("Play from CD" -vom CD abspielen- kann nicht dur diese Option angewendet 
+      werden.)
+   - Werden die Civiliopedie während des Spiels gewünscht, muß "Civilopedie" 
+      von dem "Custom Install" Menüoptionen gewählt werden.  ("Play from CD" 
+      -vom CD abspielen- kann nicht dur diese Option angewendet werden.)
+
+  - Die meisten Multimediendateien for Civilization II befinden sich auf dem CD
+   ROM in VIDEO Unterverzeichnis unter CIV2 (D:\CIV2\VIDEO) und im "KINGS"
+   Unterverzeichnis unter CIV2 (D:\CIV2\KINGS).  Wollten Sie diese Dateien auf
+   Ihre Festplatte installieren, müßen zwei Unterverzeichnisse unter CIV2 
+   (C:\MPS\CIV2\VIDEO) und (C:\MPS\CIV2\KINGS) erstellt werden  Kopieren Sie
+   alle Dateien im VIDEO-Unterverzeichnis des Civilization II CDs zum VIDEO
+   Unterverzeichnis das Sie soeben erstellt haben und alle Dateien im KINGS 
+   Unterverzeichnis des Civilisation II CDs zum KINGS Unterverzeichnis das Sie
+   auch soeben erstellt haben.
+
+{Fehlersuche}
+
+1. 'General Protection Fault' - (Allgemeiner Schutz Fehler) Inr Videotreiber
+     könnte veraltert sein.  Verlangen Sie einen neuen Videotreiber von Ihrem 
+    Kartenhersteller oder versuchen Sie es mit einem Standard Viedotreiber für
+    Windows.

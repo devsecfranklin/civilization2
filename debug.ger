@@ -1,0 +1,151 @@
+;
+; Debug/Cheat popups
+;
+
+@MOTD
+@width=480
+@title=Zivilisation II
+...
+
+@TOOMANYCITIES
+Zu viele Städte!
+
+@ENDOFTURN
+Ende der Runde = %NUMBER0
+
+@DANGER
+@title=Danger Will Robinson!
+^Tatsache: %STRING0
+^Daten: %NUMBER0 / %NUMBER1 / %NUMBER2
+
+@DANGERHEX
+@title=Danger Will Robinson!
+^Tatsache: %STRING0
+^Hex: %HEX0 / %HEX1 / %HEX2
+
+@GAVETECH
+Alle Technolgien gegeben. 
+
+@TOOKTECH
+Alle Technologien genommen.
+
+@GAVEALL
+Alle Verbesserungen gegeben.
+
+@TOOKALL
+Alle Verbesserungen genommen.
+
+@FREEBIE
+Presto! Bau fertig.
+
+@MEMORY
+^Systemressourcen = %NUMBER0.
+
+@REVEALMAP
+@title=Landkartenansicht wählen.
+
+@SETHUMAN
+@title=Menschlichen Spieler wählen.
+
+@KILLCIV
+@title=Welche Zivilisation löschen?
+
+@PICKPLAYER
+@title=Einen Spieler wählen.
+
+@MONEY
+@title=Schatzkammer %STRING0 wählen  
+@width=300
+%STRING0e Schatzkammer derzeit {%NUMBER0$}.
+
+Neue Schatzkammer:
+
+@TERRAIN
+@title=Terraineigenschaften wählen
+@width=420
+@checkbox
+@button=Terrain
+@options
+Bewässerung
+Bergbau (Bew & Bergb = Ackerland)
+Straße
+Eisenbahn
+Festung
+Luftstützpunkt
+Luftverschmutzung
+
+@TERRAIN1
+@title=Terraintyp wählen  
+@width=300
+
+@GAMEYEAR
+@title=Anzahl der verstrichenen Runden ändern
+@width=300
+Anzahl der vergangenen Runden: %NUMBER0.
+
+Neue Anzahl der Runden:
+
+@CREATEUNIT
+@title=Zu erstellende Einheit wählen
+@width=480
+@listbox
+@button=Foreign
+@button=Veteran
+@button=Obs.
+@button=Adv.
+
+@MOVEDEBUG
+@title=Debug bewegen
+@x=0
+@y=0
+@width=200
+@options
+Schließen
+Zoom aus
+Zoom in
+Mitte bei Start
+Mitte bei Stopp
+
+
+@GOODYX
+@title=X Wert
+@width=300
+@options
+X:
+
+@GOODYY
+@title=Y Value
+@width=300
+@options
+Y:
+
+@GOODYMAP
+@title=Landkartenwert
+@width=300
+@options
+Landkarte:
+
+@GOODYDIV
+@title=Div Wert 
+@width=300
+@options
+Div:
+
+@NETLIST
+@title=Liste der Netzspieler
+@width=320
+
+
+
+
+@end
+
+??
+
+
+
+ 
+
+ 
+
+

@@ -1,0 +1,18 @@
+Unknown
+HeapRequestFailed
+NoMoreHeap
+CivKeyNotFound (Bad RULES.TXT)
+CivKeyNotFound(City) (Bad RULES.TXT)
+CivKeyNotFound(Units) (Bad RULES.TXT)
+TerrainKeyNotFound (Bad RULES.TXT)
+FileOpen
+MemoryRequestFailed
+MemoryLockFailed
+BadCity
+BadKing
+PopupLarger640x480
+PopupTooManyItems
+NewAllocFailed(xalloc)
+UnrecoverableMapRead
+
+

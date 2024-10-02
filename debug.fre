@@ -1,0 +1,142 @@
+;
+; Debug/Cheat popups
+;
+
+@MOTD
+@width=480
+@title=Civilisation II
+...
+
+@TOOMANYCITIES
+Trop de villes!
+
+@ENDOFTURN
+Fin du tour = %NUMBER0
+
+@DANGER 
+@title=Danger Will Robinson!
+^Fait: %STRING0
+^Données: %NUMBER0 / %NUMBER1 / %NUMBER2
+
+@DANGERHEX
+@title=Danger Will Robinson!
+^Fait: %STRING0
+^Hex: %HEX0 / %HEX1 / %HEX2
+
+@GAVETECH
+Toutes les technologies données.
+
+@TOOKTECH
+Toutes les technologies prises.
+
+@GAVEALL
+A donné toutes les améliorations.
+
+@TOOKALL
+A pris toutes les améliorations.
+
+@FREEBIE
+ >Pouf! Construction terminée.
+
+@MEMORY 
+^Ressources du système = %NUMBER0.
+
+@REVEALMAP
+@title=Sélectionnez Vue Carte
+
+@SETHUMAN
+@title=Sélectionnez Joueur Humain
+
+@KILLCIV
+@title=Supprimer Quelle Civilisation?
+
+@PICKPLAYER
+@title=Choisissez Joueur
+
+@MONEY 
+@title=Changer Trésorerie %STRINGO
+@width=300
+Trésorerie %STRINGO actuellement {%NUMBER0 or}.
+
+Nouvelle trésorerie:
+
+@TERRAIN
+@title=Sélectionnez Caractéristiques du Terrain
+@width=420
+@checkbox
+@options
+@button=Terrain
+Irrigation
+Mines (Irr & Min = Ferme)
+Route
+Chemin de fer
+Forteresse
+Base Aérienne
+Pollution
+
+@TERRAIN1
+@title=Sélectionnez Type de Terrain 
+@width=300
+
+@GAMEYEAR
+@title=Changer # De Tours Effectués
+@width=300
+# Tours Effectués: %NUMBER0.
+
+Nouveaux # de Tours:
+
+@CREATEUNIT
+@title=Sélectionnez Unité à créer
+@width=480
+@listbox
+@button=Etranger
+@button=Veteran
+@button=Arch.
+@button=Adv.
+
+@MOVEDEBUG
+@title=Déplacer Debug
+@x=0
+@y=0
+@width=200
+@options
+Près
+Zoom extérieur
+Zoom intérieur
+Centrer sur début
+Centrer sur arrêt
+
+
+@GOODYX
+@title=X Valeur
+@width=300
+@options
+X:
+
+@GOODYY
+@title=Y Valeur
+@width=300
+@options
+Y:
+
+@GOODYMAP
+@title=Valeur Carte
+@width=300
+@options
+Carte:
+
+@GOODYDIV
+@title=Valeur Div
+@width=300
+@options
+Div:
+
+@NETLIST
+@title=Liste des Joueurs sur le Net
+@width=320
+
+
+
+
+@end 
+

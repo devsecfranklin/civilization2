@@ -1,0 +1,519 @@
+
+                     Civ II(c) Scenario Macro Language
+
+              Copyright(c) 1996, 1997 MicroProse Software Inc.
+
+  The "Conflicts in Civilization" and "Fantastic Worlds" disks enhance the
+scenario support built into the original Civ II game. In building our scenarios,
+there were many things that we wanted to be able to do, but that Civilization II
+wasn't designed for. That is why we came up with the idea of a simple macro language.
+Something that was easy to change, fairly simple, yet powerful enough to do
+what we wanted. The macro language is a little 'down and dirty', and shouldn't
+be really called a 'language'. You may find some inconsistences, and probably
+some problems, but we hope that even as primitive as it is you will find it
+useful. Using the macro support you can now change how the computer behaves
+when playing your scenario.
+
+  The basic element of the macro language is called an 'event'. An 'event' is
+a combination of a trigger and an action. A doorbell ringing, for example,
+would be a trigger, someone getting up to answer the door would be an action.
+To add 'event' support for a scenario, just create a text file called
+'events.txt' in your scenario directory and fill it with your own events.
+(With Fantastic Worlds, you can also use the Events Editor on the cheat menu.)
+
+  There are several 'triggers' and 'actions' built into the macro language.
+Let's say, for example, that on the eighth turn you want to remind the player
+that they have only four more turns before the end of the scenario. In this
+example, the trigger is the turn number equalling sixteen, and the action is
+to display some text. In the macro language it would look like this:
+
+@BEGINEVENTS
+
+@IF
+TURN
+turn=16
+@THEN
+TEXT
+You have only four more turns to meet your victory conditions!
+ENDTEXT
+@ENDIF
+
+@ENDEVENTS
+
+That's it! Now on the beginning of the sixteenth turn a popup box will be
+displayed with the reminder text in it.
+
+Now lets break down that example.
+
+@BEGINEVENTS - the events.txt file must have this label in it before any
+               events are defined. This tells the program that we are
+               about to define our list of events.
+
+@IF - the beginning of our event definition. This tells the computer
+      that we are going to define a trigger next.
+
+TURN - the type of trigger. In this case we are saying that we want to
+       trigger our event based on a certain turn number.
+
+turn=16 - trigger when the game turn equals 8.
+
+@THEN - this tells the computer that our action is coming up next.
+
+TEXT - the type of action. We want to display some text.
+
+You have only four more turns... - our text to display.
+
+ENDTEXT - we have no more text to display. We need this statement so
+          that we can have multiple lines of text and still know when
+          the text ends.
+
+@ENDIF - the end of our event definition. Every event ends with this.
+
+@ENDEVENTS - the events.txt file must have this label at the end of
+             the list of events. This tells the program that we have
+             finished defining events.
+
+
+*IMPORTANT: in this version of the macro support you must NOT use spaces
+before or after the '=' sign. 'turn=16' works, 'turn =16' or 'turn= 16'
+will not work. This will change in the future as we improve the macro
+interpreter.
+
+Debugging: You can add the statement @DEBUG after the line @BEGINEVENTS if
+you want the event parsing debugger to be enabled. This will enable a basic
+debugger to be turned on, which will open a window during the loading of the
+'events.txt' file and print out labels as it finds them. You should be able
+to figure out where the parser fails by looking at the last good information
+that was parsed and compare it to the 'events.txt' file. Whatever statements
+come immediately after the last good information is probably the cause of the
+failure.
+
+Now the macro language was really created to add 'flavor' to the
+scenario, so lets try an example that is a little more inspiring. You
+will also see that while we can have only one 'trigger', we can have
+multiple actions!
+
+Here is a hypothetical example for an American Revolution scenario:
+
+  If England takes New York from the Americans, then display
+  the text 'New York captured by the Redcoats! Enraged local
+  citizens join the fight for liberty!'. Also create a new American
+  militia unit and try to start it at map location 84,22. If that is
+  not a legal choice (enemy units already there etc.) then try
+  84,23 then 79,31.
+
+Here is the macro language equivalent:
+
+@IF
+CITYTAKEN
+city=New York
+attacker=English
+defender=Americans
+@THEN
+TEXT
+New York captured by the Redcoats! Enraged local
+citizens join the fight for liberty!
+ENDTEXT
+CREATEUNIT
+unit=American militia
+owner=Americans
+veteran=false
+homecity=none
+locations
+84,22
+84,23
+79,31
+endlocations
+@ENDIF
+
+New terms:
+
+CITYTAKEN - trigger when a particular city is captured.
+
+city= - is the name of the city that was captured.
+
+attacker= - who captured the city.
+
+defender= - who lost the city.
+
+CREATEUNIT - an action that consists of creating a new unit.
+
+unit= - the name of the unit to create. These names can be found in the
+rules.txt file in the scenario directory. Make sure you spell the unit
+name EXACTLY as it appears in the rules.txt file.
+
+owner= - who 'owns' the new unit.
+
+veteran= - whether the unit has veteran status.
+
+homecity= - the 'home' city of the unit.
+
+locations - this says that we have some map locations coming. You can define
+up to 10.
+
+84,22 - the first map location that the computer will try to put the unit.
+
+84,23 - the second map location....
+
+79,31 - the last map location. If we can put it here that the unit is not
+created.
+
+endlocations - this is the marker that says we have no more locations to
+define.
+
+
+That's all there is to it.
+
+
+Here is the list of triggers and actions that are currently supported:
+
+TRIGGER             REQ'D PARAMETERS     PARAMETER VALUES
+------------------------------------------------------------------
+UNITKILLED          unit=                unit name or ANYUNIT*
+                    attacker=            civilization name or ANYBODY*
+                    defender=            civilization name or ANYBODY*
+
+NEGOTIATION         talker=              civilization name or ANYBODY*
+                    talkertype=          HUMAN, COMPUTER, HUMANORCOMPUTER
+                    listener=            civilization name or ANYBODY*
+                    listenertype=        HUMAN, COMPUTER, HUMANORCOMPUTER
+
+CITYTAKEN           city=                name of city
+                    attacker=            civilization name or ANYBODY*
+                    defender=            civilization name or ANYBODY*
+
+TURN                turn=                number or EVERY
+
+TURNINTERVAL        interval=            number
+
+RANDOMTURN          denominator=         number
+
+SCENARIOLOADED      none                 none
+
+NOSCHISM            defender=            civilization name or ANYBODY*
+
+RECEIVEDTECHNOLOGY  receiver=            civilization name or ANYBODY*
+                    technology=          tech index number
+
+
+ACTION                REQ'D PARAMETERS     PARAMETER VALUES
+----------------------------------------------------------------------
+TEXT                  TEXT                 text follows on next line
+                      ENDTEXT              none
+
+CREATEUNIT            owner=               civilization name or ANYBODY* or trigger wildcard**
+                      unit=                unit name
+                      veteran=             yes,no,false,true
+                      homecity=            name of home city, or "none"
+                      locations            n x,y coordinates on next line(s)
+                      endlocations
+
+CHANGEMONEY           receiver=            civilization name or trigger wildcard**
+                      amount=              number
+
+MAKEAGGRESSION        who=                 civilization name or trigger wildcard**
+                      whom=                civilization name or trigger wildcard**
+
+JUSTONCE              none                 none
+
+MOVEUNIT              unit=                unit name
+                      owner=               civilization name or trigger wildcard**
+                      maprect              4 x,y coordinates follow on next line
+                      moveto               1 x,y coordinate follow on next line
+                      numbertomove=        number or ALL
+
+PLAYWAVEFILE                               filename
+
+PLAYCDTRACK                                number
+
+GIVETECHNOLOGY        technology=          technology index number
+                      receiver=            civilization name or trigger wildcard**
+
+DESTROYACIVILIZATION  whom=                civilization name or trigger wildcard**
+
+CHANGETERRAIN         terraintype=         terrain index number
+                      maprect              4 x,y coordinates follow on next line
+
+
+* NOTE: ANYBODY means all civilizations meet requirements
+        ANYUNIT means all units meet requirements
+
+** NOTE: In actions linked to certain triggers, you can use the trigger wildcards to
+         represent the name of a civilization that was involved in triggering the action.
+         They are as follows:
+
+TRIGGERATTACKER     specifies the civilization that is the aggressor in a conflict trigger
+                    (UNITKILLED or CITYTAKEN)
+TRIGGERDEFENDER     specifies the civilization that is the defender in a conflict trigger
+                    (UNITKILLED or CITYTAKEN)
+TRIGGERRECEIVER     specifies the civilization that has the technology named in a
+                    RECEIVEDTECHNOLOGY trigger
+
+
+Usage notes:
+
+  Although you can have multiple actions, there can only be one action of
+each type. You can, for example, use MOVEUNIT, CHANGEMONEY and CREATEUNIT
+all in the same event, but you can't use CREATEUNIT twice in the same
+event. If you want to create more than one unit, create another event
+using an identical trigger, then use CREATEUNIT in the second event to
+create your second unit.
+
+Example:
+
+@IF
+TURN
+turn=1
+@THEN
+CREATEUNIT
+...                // create first unit here
+@ENDIF
+
+@IF
+TURN
+turn=1
+@THEN
+CREATEUNIT         // create second unit here
+...
+@ENDIF
+
+As of this version, there is a 32KB heap dedicated for events. This is the
+memory used for each internal event structure, and all TEXT information.
+
+Here are more detailed notes for triggers and actions:
+
+UNITKILLED -   use this when you want to respond to a particular unit
+               being killed in battle. Great for leaders, one of a kind
+               units, special objectives. The attacker is who killed the
+               unit, the defender is who owned the unit.
+
+NEGOTIATION -  is triggered when two civilizations try to talk to each
+               other. *IMPORTANT: there is an assumed automatic
+               'action' result here that stops the two civilizations
+               from talking to each other. Essentially this stops them
+               from creating a peace treaty. This is useful in
+               historical scenarios where two particular governments
+               just would not agree. In the American Civil War, for
+               example, as long as the Confederates were bent on
+               secession, Lincoln would not agree to a peace. When using
+               this trigger also realize that many things will trigger
+               negotiations in the game, especially between computer
+               controlled players. Although it might be tempting to add
+               some flavor to the game with a text popup whenever two
+               civilizations try to meet ("Lincoln and Davis meet face
+               to face, but Davis is adamant "Our cause is no different
+               than our founding fathers - LIBERTY!"....), this can
+               happen so often as to make the scenario unplayable.
+
+CITYTAKEN -    is triggered when a city changes ownership. This trigger is
+               excellent for reacting to key cities being captured. A good
+               trigger-action combination is to trigger on a capital city
+               being captured, then use MOVEUNIT to tell units in a rectangle
+               around the capital to move back to the capital, essentially
+               trying to recapture it.
+
+TURN -         triggers at the beginning of the given turn. This can be
+               useful for bringing in reinforcements on specific dates
+               in historical scenarios, re-inacting troop movements etc.
+
+TURNINTERVAL - this is a repeating trigger. The turn number given is the
+               number of turns between triggers. A trigger of 'turn=4'
+               means trigger every fourth turn. This is a great way to
+               'nudge' units to continue to go after specific goals.
+
+RANDOMTURN -   this is checked at the beginning of every turn to see if
+               the event is triggered. It essentially is a 'there is a
+               one in x chance that this event will trigger this turn'. If
+               denominator equals 30 then there is a 1 in 30 chance every
+               turn that this event will trigger. Adding JUSTONCE is a
+               great way to add a random, one time only event.
+
+SCENARIOLOADED -this is currently only supported for starting a particular
+                CD audio track when a scenario is loaded. Any other use will
+                cause unpredictable results.
+
+NOSCHISM -when a civilization's capital is taken the game determines
+          if the civilization should be split into two seperate
+          civilizations. If this flag is here than don't split the
+          civilization.
+
+RECEIVEDTECHNOLOGY - is activated when a civilization receives (through whatever
+                     means) the specified technology and every turn thereafter,
+                     as long as the civilization retains the advance. This can cause
+                     irregularities unless you want the action to happen every turn
+                     for the rest of the game. To prevent that, include the JustOnce
+                     action in the event. The receiver is the civilization that gets
+                     the advance. The technology index number is the position of the
+                     advance in the advances list in rules.txt. (Index numbers begin
+                     at zero (Advanced Flight), and go up to 100 (Extra Advance 7).
+                     You cannot trigger on Future Technology (90).
+
+CREATEUNIT -   creates a new unit. The computer will generate a new
+               unit, (without charging any expense :)), and try to put
+               it on the map at the first location specified in the
+               locations list. If it cannot it will try each subsequent
+               location given. The multiple locations were needed in
+               case a location already had an enemy unit there or was
+               illegal in some other way (e.g. trying to put a land unit
+               in the ocean).
+
+CHANGEMONEY -  add or subtracts money from a civilization. Put a '-'
+               sign in front of the amount if you want to subtract
+               money. If, after the civilization's money amount is
+               adjusted, it is less than zero, the program will just
+               force it to zero.
+
+MAKEAGGRESSION-will cause two civilizations to cancel their peace
+               treaty, if one exists, and 'who' will declare war on
+               'whom'.
+
+JUSTONCE -     is a special flag that tells the program to just execute
+               this event once. If, for example, you want to do
+               something special the first time a city is taken, but not
+               if it is taken again, use CITYTAKEN and JUSTONCE.
+
+DONTPLAYWONDERS - turns off the wonder movies. If your scenario changes
+               a wonder, you don't want the player to see a movie that does
+               not match your wonder. This is generally only used with
+               SCENARIOLOADED to turn them off at the beginning of the game.
+
+PLAYWAVEFILE - will play the wave file specified. It will first look in
+               the '\sound' directory in the current scenario directory
+               for the file.
+
+PLAYCDTRACK -  tells CD player to play audio track number. On the original
+               Civ II CD and the scenario CD the first 'track' is the program
+               information, so the first audio track is actually track 2.
+               Because of this you must pass a number greater than or equal
+               to 2.
+
+MOVEUNIT -     tells the specified number of units of the given type, in the
+               given maprect region to move to a specific location.  The
+               program will only activate units that are not fortified, not
+               sleeping (sentry duty), don't already have a destination, not
+               building fortifications, and not a nuclear weapon.  There are
+               many uses for this function, you could, for example, have
+               German tanks in World War II go after Stalingrad.  You cannot
+               move human controlled units. *IMPORTANT: the maprect
+               coordinates need to be in a specific order. The first
+               coordinate given must be the left corner, next is the upper
+               right, next is lower right, then lower left. See below:
+
+                                     '1'---'2'
+                                      |     |
+                                     '4'---'3'
+
+GIVETECHNOLOGY - Bestows an advance on the named civilization. The technology
+                 index number is the position of the advance in the advances
+                 list in rules.txt. Index numbers begin at zero (Advanced Flight),
+                 and go to 100 (Extra Advance 7). The receiver is the civilization
+                 on which the bestowing is descending.
+
+DESTROYACIVILIZATION - This one is exactly what it sounds like. Cities, units, and
+                       everything else is completely wiped out. Whom is the
+                       civilization slated to meet its doom.
+
+CHANGETERRAIN - This changes all the terrain in a specified rectangular region of
+                the map to the specified type. Specify the type using the terrain
+                index number, which is the position of the desired type in the
+                terrain list in rules.txt. Index numbers begin at zero (Desert),
+                and go to 10 (Ocean). The coordinates define the corners of the
+                rectangular region. They must be separated by a comma and a single
+                space and be listed in the following specific order to be valid.
+                (They also must be valid map coordinates.) The first coordinate must
+                be the upper left corner; next comes the upper right, then lower right,
+                and finally lower left. Thus:
+
+                                     '1'---'2'
+                                      |     |
+                                     '4'---'3'
+
+EXAMPLES:
+
+@BEGINEVENTS
+
+// we will debug this, remove this after we establish that everything works
+@DEBUG
+
+// example of UNITKILLED, TEXT and PLAYWAVEFILE
+@IF
+UNITKILLED
+unit=R. E. Lee
+attacker=ANYBODY
+defender=Confederates
+@THEN
+TEXT
+Robert E. Lee Slain in Battle! Jefferson Davis says "We
+have lost our sword against tyranny."
+ENDTEXT
+PLAYWAVEFILE
+funeral.wav
+@ENDIF
+
+// example of CITYTAKEN, TEXT and MOVEUNIT
+@IF
+CITYTAKEN
+city=Paris
+attacker=ANYBODY
+defender=French
+@THEN
+TEXT
+Paris has fallen! All of France mobilizes to retake the
+capital.
+ENDTEXT
+MOVEUNIT
+unit=ANYUNIT
+numbertomove=ALL
+owner=French
+maprect
+10,21, 20,21, 20,31, 10,31
+moveto
+15,26
+@ENDIF
+
+// example of TURNINTERVAL, TEXT, PLAYWAVEFILE
+@IF
+TURN
+turninterval=12
+@THEN
+TEXT
+The Americans celebrate Independance Day!
+ENDTEXT
+PLAYWAVEFILE
+america.wav
+@ENDIF
+
+// example of SCENARIOLOADED, remember this is only
+// supported for playing a CD track when scenario
+// has just loaded
+@IF
+SCENARIOLOADED
+@THEN
+PLAYCDTRACK
+14
+@ENDIF
+
+// example of UNITKILLED, TEXT and CHANGEMONEY
+@IF
+UNITKILLED
+unit=Spanish Galleon
+attacker=English
+defender=Spanish
+@THEN
+TEXT
+The English sink a Spanish treasure ship, but not
+before removing 600 gold!
+ENDTEXT
+CHANGEMONEY
+receiver=English
+amount=600
+@ENDIF
+
+@ENDEVENTS
+
+Look for future enhancements/bug fixes on our home page 'www.microprose.com'.
+
+
+Kerry Wilkinson
+& John Possidente
+MicroProse Studios Inc.

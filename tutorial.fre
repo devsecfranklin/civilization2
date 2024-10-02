@@ -1,0 +1,415 @@
+;
+;   Tutorial du Jeu CIVILISATION
+;   Copyright (c) 1995 par MicroProse Software
+;
+;   Changer le contenu de ce fichier peut entraîner le
+;   malfonctionnement du jeu.
+;
+
+@FIRSTMOVE
+@width=400
+@y=5
+@title=Tutorial de Civ                                       
+Votre première tâche est de trouver un emplacement      
+approprié et de fonder votre capitale.
+Les meilleurs emplacements pour les villes sont près des fleuves,
+des prairies, des régions côtières, ou des régions
+à proximité de ressources spéciales.
+
+@BUILDCITY
+@width=320
+@y=5
+@title=Tutorial de Civ
+Cet endroit semble être un bon emplacement pour une
+ville. Sélectionnez 'Construire Nouvelle Ville ' du
+menu COMMANDES ou utilisez la touche 'b' pour y fonder
+une ville .
+
+@FIRSTPRODUCT
+@width=420
+@y=5
+@title=Tutorial de Civ: Votre Première Ville
+Chacune de vos villes peut créer des colons supplémentaires,
+des unités militaires, ou des améliorations de ville
+pour promouvoir la croissance de votre civilisation.
+Seulement un élément par ville peut être             
+en production. Les commandes de production peuvent être changées
+à tout moment. Sélectionnez l'élement que vous désirez
+créer en cliquant sur le bouton  'CHANGER'  
+sur l'écran information de ville qui suit.
+
+@FIRSTCIV
+@width=420
+@title=Tutorial de Civ : Progrès de la Civilisation 
+Les villes représentent aussi des centres de commerce et
+de flux d'information. Vos hommes sérieux
+et vos scientifiques peuvent recueillir cette information
+afin d'acquérir de nouvelles aptitudes et techniques 
+importantes pour votre civilisation.
+
+@FIRSTUNIT1
+@width=420
+@y=5
+@title=Tutorial de Civ: Première Unité Militaire
+Vous venez de créer votre première unité militaire.
+Employez les flèches du clavier pour déplacer
+cette unité et le menu COMMANDES pour donner
+des ordres spéciaux. Les unités militaires vous permettent
+d'explorer, d'accroître, d'attaquer, et de
+défendre votre civilisation.
+
+@FIRSTUNIT2
+@width=500
+@title=Tutorial de Civ: Les Unités
+Renforcez les unités dans vos villes pour les
+protéger contre des barbares ou des armées ennemies.
+Les Phalanges et les Pixers font d'excellents défenseurs: 
+Les Guerriers, les Archers, et les Légions peuvent être également
+utiles.
+^
+Les unités de colons peuvent aussi bien fonder de nouvelles
+villes que construire des routes, l'irrigation, et
+des mines autour des villes existantes.  Si vous pouvez, essayez
+d'avoir au moins un colon en jeu à tous moments .
+^
+Les unités rapides comme les Cavaliers sont utiles pour
+l'exploration de territoires inexplorés.
+^
+Attaquez vos ennemis avec des Archers, des Chars, des Eléphants,
+et des Catapultes.
+
+@ONECITY
+@width=420
+@y=5
+@title=Tutorial de Civ: Nouvelles Villes
+La ville de %STRING0 s'agrandit considérablement.
+C'est peut être le bon moment de s'agrandir en 
+construisant une seconde ville. Pour cela, cliquez sur %STRING0
+et instruisez le/la de créer une unité de Colons. Une unité de
+colons peut aller sur un nouvel emplacement et construire une 
+ville.
+
+@CITYSTUFF
+@width=420
+@x=180
+@title=Tutorial de Civs: Ressources des Villes
+Les habitants d'une ville produisent des ressources différentes
+selon les types de terrain à proximité. Sur l'écran d'information
+de ville, les espaces "habités" sont indiqués par le "blé",
+"les boucliers", et les " flèches de commerce" que les habitants
+produisent.
+^
+Entraînez-vous à cliquer sur ces espaces pour déplacer les
+habitants d'un espace à un autre; notez que certains espaces
+produisent plus de certaines choses, moins d'autres. La plupart
+des espaces peuvent être améliorés avec le rajout de routes, de
+d'irrigation, et/ou de mines par les Colons. Trouvez la
+configuration qui vous convient le mieux.
+^
+Notez que vous pouvez aussi retirer complètement des citoyens de
+la carte , en en faisant des "Animateurs".  Les Animateurs
+produisent des objets de luxe, mais ne produisent aucune
+nourriture ou autres ressources.
+
+@MINING
+@width=320
+@y=5
+@title=Tutorial de Civ: Exploitation Minière
+Cette région pourrait produire plus de ressources.
+Le minage (touche 'm') de ces collines ajoutera à
+la capacité de production de %STRING0.
+
+@IRRIGATE
+@width=320
+@y=5
+@title=Tutorial de Civ: Irrigation
+Cela serait un bon endroit pour construire l'irrigation (touche
+'i'). Davantage de nourriture aidera la ville de %STRING0 à
+croître plus rapidement.
+
+@ROAD
+@width=440
+@y=5
+@title=Tutorial de Civ: Routes
+Cela serait un bon endroit pour construire une route (touche
+'r'). Vos unités seront capables de se déplacer plus vite et plus
+de commerce sera généré dans la ville de %STRING0.  Au fur et à
+mesure que vous vous agrandissez, essayez de connecter vos villes
+avec les routes.
+
+@HELP1
+@width=500
+@title=Tutorial de Civ: Principes Généraux #1
+Défendez vos villes avec au moins une
+(de préférence deux) bonne unité défensive.
+^
+Trouvez un équilibre entre améliorer vos villes
+existantes et s'aventurer à l'extérieur pour trouver de
+nouvelles villes.
+^
+Ne vous agrandissez pas au-delà de votre capacité à vous défendre
+vous-même; les barbares et les armées hostiles
+peuvent apparaître sans avertir.
+
+@HELP2
+@width=500
+@title=Tutorial de Civ: Principes Généraux #2
+Faites la paix avec vos voisins les plus forts. 
+Isolez et conquérez vos voisins les plus faibles.
+^
+Utilisez des Triremes et autres navires pour explorer 
+les mers et transporter vos unités dans d'autres continents.
+^
+Utilisez des Caravanes pour établir des itinéraires de commerce
+et renforcer votre économie. Le commerce aide vos citoyens à
+accumuler à la fois richesse et connaissances.
+^
+Au fur et à mesure que votre civilisation croît, n'oubliez pas
+d'utiliser vos Diplomates pour savoir ce que vos adversaires
+mijotent.
+
+@DISORDER
+@width=480
+@title=Tutorial de Civ: Désordre Civil
+@button=Details
+Une ville tombe dans le Désordre Civil quand
+le nombre de citoyens mécontents dépasse
+le nombre de citoyens contents. La croissance
+et la production cessent lorsqu'une ville est
+dans le désordre.
+^
+Les remèdes contre le désordre consistent à:
+^* Accroître le volume du commerce utilisé pour les Objets de
+Luxes.
+^* Mettre des unités militaires dans la ville.
+^* Contruire un Temple, une Cathédrale, ou un Colosseum.
+^* Faire des citoyens des animateurs.
+^* Passer à un gouvernement Fondamentaliste.
+^
+Cliquez sur "Détails" pour d'autres détails, ou si vous
+avez des difficultés.
+
+@DISORDER2
+@width=600
+@title=Tutorial de Civ: Détails sur le Désordre Civil 
+1) Luxes: Augmenter la volume du commerce utilisé pour
+les produits de luxes, sélectionnez "Taux Fiscal" dans le menu
+ROYAUME.
+20%% est souvent un bon taux, surtout si votre gouvernement
+est une Monarchie ou une République.  Pour tous les deux produits
+de luxe que votre ville produit, un nouveau citoyen content
+apparaît.
+^
+2) Loi Martiale: Si votre gouvernement est un Despotisme,
+une Monarchie,ou un gouvernement Communiste, vous pouvez mettre
+des unités militaires dans vos villes pour supprimer le désordre.
+On peut, pour cela, se servir d'un maximum de 3 unités dans
+chaque ville.  Chaque unité rend un citoyen mécontent, content.
+^
+3) Temples, Colosseums, et Cathédrales: Ces améliorations de
+villes aident à réduire le désordre en rendant contents un ou
+plus citoyens mécontents. Bien sûr, si votre ville est déjà dans
+le désordre, vous avez peut-être besoin d' "Acheter" le bâtiment
+(ou employer temporairement des animateurs ), puisque aucune
+production n'a lieu quand il y a désordre civil.
+
+@DISORDER3
+@width=600
+@title=Tutorial de Civ: Détails du désordre Civil
+4) Animateurs: Sur l'écran d'information de ville , cliquez
+sur des espaces habités sur l'étendue de la ville pour faire
+de ce citoyen un animateur. Les animateurs ne produisent aucune
+nourriture, ressource, ou aucun commerce; à la place, chacun
+produit deux produit de luxes supplémentaires.
+^
+5) Fondamentalisme: Si vous avez découvert le progrès de la
+civilisation appelé "Fondamentalisme", vous pouvez passer au
+Fondamentalisme comme forme de gouvernement. Sous le
+Fondamentalisme, aucun citoyen n'est jamais mécontent (bien sûr,
+la recherche scientifique est limitée).
+
+@SCHISM
+@width=320
+@title=Tutorial de Civ: La Guerre Civile
+Les %STRING0 sont une grande et puissante
+civilisation. Cependant, des factions rebelles menacent de
+commencer une guerre civile. Si vos armées peuvent prendre leur 
+capitale, le choc pourrait partager le pays en deux!
+
+@SHIPS
+@width=480
+@y=5
+@title=Tutorial de Civ: Les navires
+Vous avez construit votre première unité navale. Utilisez les
+navires pour explorer les mers et transporter vos
+unités dans d'autres continents.
+^
+Si votre navire est un Trireme, souvenez-vous qu'il peut être
+perdu s'il ne termine pas chaque tour près d'un espace terrestre.
+^
+Pour embarquer une unité sur un navire au port, exécutez la
+commande dormir ('s') pour l'unité avant de mettre le navire à 
+la mer.
+Ou, pendant que le navire est en mer, mettez simplement l'unité
+d'un espace avoisinant sur le navire.
+^
+Pour débarquer une unité, cliquez sur le navire ou appuyez sur la
+la touche 'u' pour décharger. 
+
+@RAILROADS
+@width=480
+@title=Tutorial de Civ: Chemins de fer
+Vous venez juste d'acquérir la connaissance des chemins de fer,
+un accomplissement important. Un Colon (ou Ingénieur)
+construira un chemin de fer si vous appuyez sur la touche 'r'
+dans un espace qui a déjà une route.
+^
+Vos unités pourront parcourir de longues distances sur
+Les chemins de fer.  Les chemins de fer augmentent également la
+production de ressources dans les espaces qui produisent déjà   
+au moins deux 'boucliers'.
+
+@FARMLAND
+@width=480
+@title=Tutorial de Civ: Terres cultivables
+Vous connaissez maintenant la Réfrigération. De meilleures
+techniques de stockage de nourriture vous permettent
+d'améliorer la qualité de vos terres cultivables. Un Colon (ou
+Ingénieur) améliorera les terres cultivables en cliquant sur la
+touche 'i' dans un espace qui a  déjà l'irrigation. Cela
+augmentera la production de nourriture dans une ville proche, une
+fois que cette ville a un Supermarché pour distribuer
+la nourriture.
+
+@AIRUNIT
+@width=480
+@y=5
+@title=tutorial de Civ: Unités Aériennes
+Vous civilisation a construit sa première unité aérienne.
+Les unités aériennes peuvent servir au bombardement des villes et
+des unités ennemies; elles peuvent aussi défendre vos cieux des
+bombardiers ennemis. Les unités aériennes peuvent être aussi
+utilisées pour l'exploration.
+^
+Les unités aériennes ont un approvisionnement limité de
+carburant; Elles doivent revenir dans une ville amie ou à la
+base aérienne avant épuisement du carburant.
+
+@REPUBLIC
+@width=480
+@title=Tutorial de Civi: La République
+Votre civilisation a gagné la connaissance d'une autre forme
+de gouvernement, la REPUBLIQUE. Le changement de gouvernements
+peut apporter des avantages considérables à votre civilisation;
+d'un côté, cela peut créer de gros casses-tête. Il est nécessaire
+de bien prévoir. Pour plus de  renseignements sur toutes les
+formes de gouvernement, voir les entrées CIVILOPEDIE sous
+"Gouvernements". Si vous voulez vraiment changer de
+gouvernements, il doit y avoir une Révolution (voir le menu  
+Royaume).
+
+@DEMOCRATS
+@width=600
+@title=Tutorial de Civ: La République & la Démocratie
+Vous avez choisi de gouverner votre civilisation comme une
+%STRING0.
+C'est un changement majeur comparé aux formes précédentes de 
+gouvernement, qui vous mettra devant un nouvel ensemble de défis
+(et de récompenses!)
+^
+Comme vos citoyens gagnent plus de libertés individuelles, ils
+commencent à produire plus de commerce. Par contre, il devient
+plus difficile de les satisfaire. Une des meilleures manières de
+les rendre contents est de détourner un certain volume de votre
+commerce vers les Produits de Luxe. Sélectionnez "Taux Fiscal" du
+Menu Royaume et fixez votre Taux De Luxe à 20%%.  Puisque vos
+citoyens produisent maintenant beaucoup plus de commerce, vous
+pouvez facilement vous permettre cela.
+^
+Vos citoyens auront aussi tendance à devenir mécontents, quand
+vous envoyez vos unités militaires à l'extérieur de vos villes.
+Il se peut que vous ayez à  faire rentrer certaines de
+de vos unités dans les villes. Il se peut que vous ayez 
+même à disperser certaines unités. Ce sacrifice en vaut souvent
+la peine pour ce qui est de la connaissance et la richesse que
+vous obtiendrez en échange. 
+
+@TRADE
+@width=420
+@title=Tutorial de Civ: Le Commerce
+Vous venez d'acquérir la connaissance du commerce. Vos villes
+peuvent produire maintenant des CARAVANES pour les marchandises
+échangées dans les différentes parties du monde. Les caravanes,
+surtout de vos plus grandes villes, peuvent rapidement accroître 
+vos richesses et vos connaissances.
+
+@CARAVAN
+@width=440
+@y=5
+@title=Tutorial de Civ: Les Caravanes
+Vous venez juste de créer votre première CARAVANE. Mettez la dans
+une ville éloignée pour établir un itinéraire de commerce.  Les
+itinéraires de commerce avec des villes amies, petites et proches
+produisent moins de revenu que ceux avec des villes ennemies,
+grandes, et distantes.  Essayez de trouver une ville qui réclame
+les biens que votre caravane transporte (vous pouvez cliquer sur
+une ville ennemie pour connaître ses demandes).  Vous pouvez
+également vous servir des Caravanes pour aider à la création des
+Merveilles du Monde.
+
+@WRITING 
+@width=420
+@title=Tutorial de Civi: L'Ecriture
+Votre civilisation a appris l'art d'ECRIRE. Vos villes peuvent
+maintenant commissionner DES DIPLOMATES pour aider à entrer en 
+contact avec d'autres civilisations. Les diplomates peuvent
+établir des ambassades avec d'autres pouvoirs, vous aider à
+surveiller vos amis, et même voler les connaissances de vos
+rivaux.
+
+@SEAFARING
+@width=420
+@title=Tutorial de Civ: La Marine
+Votre civilisation a maîtrisé l'art de la MARINE.
+Vous pouvez maintenant produire DES EXPLORATEURS pour vous aider
+à découvrir de nouveaux territoires. Les explorateurs peuvent
+déplacer trois espaces par tour sans tenir compte du terrain, ce
+qui les aide à couvrir beaucoup de terrain rapidement. Si vous ne
+l'avez pas encore fait, envisagez de bâtir des TRIREMES pour
+transporter vos explorateurs et d'autres unités dans des
+continents éloignés.
+
+
+@EXPAND0
+@width=520
+@title=Tutorial de Civ: Expansion (#1)
+Une civilisation croît avec l'expansion de son territoire. Cela
+peut être accompli soit en fondant de nouvelles villes soit en
+conquérant des villes rivales. Peut-être nous devrions demander 
+à une de nos villes de produire une nouvelle unité de COLONS.
+
+@EXPAND1
+@width=520
+@title=Tutorial de Civ: Expansion (#2)
+Pour que notre civilisation s'accroîsse, nous devons nous étendre
+sur de nouveaux emplacements de villes.  Peut-être nous devrions
+envoyer ces COLONS fonder une nouvelle ville.
+
+@DAMAGE
+@width=520
+@title=Tutorial de Civ: Unités Endommagées
+Cette unité a été endommagée au combat, comme indiqué
+par la barre colorée sur le bouclier de la unité.
+Le Vert indique une unité relativement saine; Le 
+Rouge et Jaune indiquent des niveaux élevés de dommages.
+^
+Une unité peut guérir en partie elle-même en sautant un tour
+complet (appuyez sur la barre SPACE). Les unités se réparent
+elles-mêmes plus rapidement dans des villes et des forteresses.
+Les villes avec des casernes peuvent réparer des unités
+terrestres dans une seul tour. D'autres améliorations 
+(Installations Portuaires, Aéroport) peuvent réparer les navires
+et les unités aériennes.
+
+
+@END

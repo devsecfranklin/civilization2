@@ -1,0 +1,126 @@
+;
+;   CIVILIZATION MAIN MENU
+;   Copyright (c) 1995 von MicroProse Software
+;
+;   Die Änderung des Inhalts dieser Datei kann zu Störungen beim     ;   Spiel führen.
+;
+
+@GAME
+&Spiel
+Spiel&Optionen|Ctrl+O
+Grafische O&ptionen|Ctrl+P
+Stadt&berichtsoptionen|Ctrl+E
+Musik &wählen
+&Spiel speichern|Ctrl+S
+Spiel &laden|Ctrl+L
+&Abtreten|Ctrl+R
+Been&den|Ctrl+Q
+
+@KINGDOM
+&Königreich
+&Steuerrate|Shift+T
+Thronsaal &ansehen|Shift+H
+Stadt &finden|Shift+C
+&REVOLUTION|Shift+R
+
+@VIEW
+&Ansehen
+Einheiten &bewegen|v
+&Einheiten ansehen|v
+Zoom &In|z
+Zoom &Aus|x
+Maximaler &Zoom In|Ctrl+Z
+&Standard Zoom|Shift+Z
+&Mittlerer Zoom Aus|Shift+X
+Maximaler Z&oom Aus|Ctrl+X
+Land&kartennetz zeigen|Ctrl+G
+&Fenster arrangieren
+&Verstecktes Terrain zeigen|t
+A&nsicht zentrieren|c
+
+
+@ORDERS
+&Befehle
+&Neue Stadt bauen|b
+Straße bau&en|r
+Be&wässerungsanlage bauen|i
+Bergwer&ke bauen|m
+&Transformieren zu ...|o
+Lu&ftstützpunkt bauen|e
+Fest&ung bauen|f
+Auto Siedler|k
+Luftverschmutzung &reinigen|p
+&Plündern|Shift+P
+E&ntladen|u
+&Gehen zu|g
+&Fallschirmjäger abwerfen|p
+Luf&tbrücke bauen|l
+&Heimatstadt bestimmen|h
+&Befestigen|f
+&Schlafen|s
+&Auflösen|Shift+D
+&Einheit aktivieren|a
+&Warten|w
+&Runde überspringen|SPACE
+
+@ADVISORS
+Be&rater
+&Mit Obersten Rat sprechen|Ctrl+T
+&Stadtstatus|F1
+&Verteidigungsminister|F2
+&Außenminister|F3
+&Einstellungsberater|F4
+&Handelsberater|F5
+&Wissenschaftlicher Berater|F6
+
+@WORLD
+Wel&t
+&Wunder der Welt|F7
+&5 größte Städte|F8
+&Civilizationsspielstand|F9
+&Demographie|F11
+&Raumschiffe|F12
+
+@CHEAT
+&Mogeln
+Schalter Mogelmodus|Ctrl+K
+Einheit &schaffen|Shift+F1
+Landkarte &offenbaren|Shift+F2
+Menschlichen &Spieler bestimmen|Shift+F3
+Spieljahr bestim&men|Shift+F4
+&Zivilisation töten|Shift+F5
+Te&chnologie fortschreiten|Shift+F6
+&Technologien ändern|Ctrl+Shift+F6 
+Regierung &zwingen|Shift+F7
+&Terrain beim Cursor ändern|Shift+F8
+&Alle Einheiten beim Cursor zerstören|Ctrl+Shift+D
+&Geld wechseln|Shift+F9
+Ein&heit ändern|Ctrl+Shift+U
+Stadt &ändern|Ctrl+Shift+C
+&König ändern|Ctrl+Shift+K
+Szenarioparameter|Ctrl+Shift+P
+Als Szenario speichern|Ctrl+Shift+S
+
+
+@PEDIA
+&Civiliopädie
+&Zivilizationsfortschritte
+Stadt&verbesserungen
+&Wunder der Welt
+Militärische &Einheiten
+&Regierungen
+&Terraintypen
+&Spielkonzepte
+&Vollständige Civilopedia
+&Über Civilization II
+
+
+??
+
+
+
+ 
+
+ 
+
+

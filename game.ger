@@ -1,0 +1,4463 @@
+;
+;   ZIVILISATION POPUP FELDER
+;   Copyright (c) 1995 von MicroProse Software
+;
+;   Die Änderung des Inhalts dieser Datei kann zu Störungen im  
+;   Spiel führen.
+;
+
+@MAINMENU
+@width=200
+@title=Civilization II
+@options
+Neues Spiel starten
+Mit vorgegebener Welt starten
+Welt umbauen
+Inszenierung starten
+Spiel laden
+Ruhmeshalle ansehen
+Zivilisationgestaltung
+
+@MAINMENU2
+@width=200
+@title=Start für mehrere Spieler
+@options
+Neue Landkarte starten
+Mit vorgegebener Welt starten
+Gespeichertes Spiel laden
+
+@STARTORJOIN
+@width=300
+@title=Hölle für mehrere Spieler (Sie wurden gewarnt!)
+@options
+Spiel starten
+Bei einem Spiel mitmachen
+
+@NETNAME
+@width=320
+@title=Ihren Netznamen eingeben
+@options
+Netzname:
+
+@WAITFORGAME
+@width=220
+@title=Spiel für mehrere Spieler
+Warten, um beim Spiel mitzumachen
+
+@WAITFORSETUP
+@width=220
+@title=Spiel für mehrere Spieler
+Warten auf Setup der Spieler...
+
+@YOUAREAREJECT
+@width=320
+@title=Spiel für mehrere Spieler
+Sie wurden abgewiesen!
+
+@GAMECLOSED
+
+@width=320
+@title=Spiel für mehrere Spieler
+Dieses Spiel ist leider geschlossen
+
+@CUSTOMLAND
+@width=320
+@title=Umbauen: Landmasse
+@button=Willkürlich
+@default=1
+@options
+Klein
+Normal
+Groß 
+
+@CUSTOMFORM
+@width=320
+@title=Umbauen: Landform 
+@button=Willkürlich
+@default=1
+@options
+Archipel
+Normal
+Große Kontinente
+
+@CUSTOMCLIMATE
+@width=320
+@title=Ändern: Klima  
+@button=Willkürlich
+@options
+@default=1
+Trocken
+Normal
+Naß
+
+@CUSTOMTEMP
+@width=320
+@title=Ändern: Temperatur
+@button=Willkürlich
+@options
+@default=1
+Kühl
+Gemäßigt
+Warm
+
+@CUSTOMAGE
+@width=320
+@title=Ändern: Alter
+@button=Willkürlich
+@options
+@default=1
+3 Milliarden Jahre
+4 Milliarden Jahre
+5 Milliarden Jahre
+
+
+@USESEED
+@width=320
+@title=Landkarten-Ressourcen
+Sollten die Dörfer- und Ressourcenquadtrate 
+dieser Welt willkürlich sein?
+
+Ja
+Nein
+
+@USESTARTLOC
+@width=320
+@title=Startstandorte
+Möchten Sie die Startstandorte der Spieler
+randomisieren?
+
+Ja 
+Nein
+
+
+@SAVEERROR
+@width=200
+@title=Spiel speichern
+Spiel nicht gespeichert! Fehler: %STRING0.
+
+@SAVEOK
+@width=300
+@title=Spiel gespeichert!
+^^%STRING0 %STRING1 des %STRING2
+^^%STRING3
+
+@LOADNOTSAVE
+@width=200
+@title=Spiel laden
+Spiel nicht geladen: Datei ist kein gespeichertes Spiel.
+
+@LOADOLDSAVE
+@width=200
+@title=Spiel laden
+Spiel nicht geladen: Datei ist in einem veralteten Format.
+
+@LOADBADSAVE
+@width=200
+@title=Spiel Laden
+Spiel nicht geladen. Fehler: %STRING0.
+
+@LOADOK
+@width=300
+@title=Schwierigkeitsstufe: %STRING4
+^^%STRING0 %STRING1 der %STRING2
+^^%STRING3
+
+
+@DIFFICULTY
+@width=320
+@title=Schwierigkeitsstufe wählen
+@options
+Häuptling (am leichtesten)
+Kriegsherr
+Prinz 
+König
+Herrscher
+Gottheit (am schwierigsten)
+
+@SIZEOFMAP
+@width=320
+@title=Größe der Welt wählen
+@button=Nach Maß
+@default=1
+@options
+Klein  (40x50 Quadrate, schnelles Spiel)
+Normal (50x80 Quadrate)
+Groß  (75x120 Quadrate, langes Spiel)
+
+@CUSTOMSIZE
+@width=320
+@title=Größe der Welt wählen   
+Regel: X mal Y darf nicht weniger als 10.000 sein.
+Regel: Jedes Ausmaß muß nicht mehr als  20 sein.
+
+Landkarte X Größe:
+Landkarte Y Größe:
+
+
+@ENEMIES
+@width=320
+@title=Anzahlt der Konkurrenten wählen
+@button=Willkürlich
+@options
+7 Zivilisationen
+6 Zivilisationen
+5 Zivilisationen
+4 Zivilisationen
+3 Zivilisationen
+
+@BARBARITY
+@width=320
+@title=Stufe der barbarischen Aktivitäten wählen
+@button=Willkürlich
+@default=2
+@options
+Nur Dörfer   
+Vagabundierende Banden
+Rastlose Stämme
+Wütende Horden
+
+@RULES
+@width=320
+@title=Spielregeln wählen
+@options
+Standardregeln benutzen
+Regeln personalisieren
+
+@GENDER
+@width=320
+@title=Geschlecht wählen
+@options
+Männlich
+Weiblich
+
+
+@TRIBE
+@width=600
+@title=Ihren Stamm wählen
+@button=Nach Maß
+
+
+@CUSTOMTRIBE
+@width=440
+@title=Ihren Stamm ändern  
+@button=Titles
+@options
+Führer:
+Stamm:
+Volk:
+
+@CUSTOMTRIBE2
+@width=440
+@title=Offizielle Titel bestimmen
+
+@NAME
+@width=440
+@title=Ihren Namen eingeben  
+@options
+Name:
+
+@CUSTOMCITY
+@width=320
+@title=Ihren Stadttyp wählen
+
+
+
+@ADVANCED
+@checkbox
+@width=440
+@title=Fortgeschrittene Eigenschaften wählen
+@options
+Einfacher Kampf
+Flache Welt
+Computergegner wählen
+Beschleunigter Start
+Blutgier (Keine Raumschiffe erlaubt)
+Ausgeschiedene Spieler nicht wiederstarten
+
+
+@ACCELERATED
+@width=400
+@title=Anfangssjahr wählen
+@options
+%NUMBER0 v.Chr. (Normaler Start)
+%NUMBER1 v.Chr.
+%NUMBER2 v.Chr. (Beschleunigter Start)
+
+@OPPONENT
+@width=320
+@title=Gegner wählen #%NUMBER0
+@options
+Willkürlich
+
+@GAMEOPTIONS
+@checkbox
+@width=480
+@title=Civilization II %STRING0
+@options
+Soundeffekte
+Musik
+Immer beim Ende der Runde warten.
+Bei jeder Runde automatisch speichern.
+Feindaktivitäten zeigen.
+Keine Pause nach Feindbewegungen.
+Schnelle Bewgung.
+Sofortiger Rat.
+Tutorial Hilfe.
+Einheiten mit Maus (Cursorpfeilen) bewegen.
+EINGABE Taste schließt den Bildschirm.
+
+@GRAPHICOPTIONS
+@checkbox
+@width=480
+@title=Grafikoptionen wählen 
+@options
+Thronsaal  
+Diplomatische Immunität
+Animierte Herolde (Mendestens 16 mb RAM erfordertisch)
+Civilopädie für Forschritte
+Obersten Rat
+Wunderfilme
+
+@@Stadtanimationen
+
+
+@MESSAGEOPTIONS
+@checkbox
+@width=480
+@title=Stadtberichtsoptionen Wählen
+@options
+Warnen, wenn Stadtwachstum stillsteht (Aquädukt/Abwassersystem).
+Gebaute Stadtverbesserungen zeigen.
+Gebaute nicht-kriegsführende Einheiten zeigen.
+Ungültige Bauanweisungen zeigen.
+Unruhen in Städten ansagen.  
+Wiederhergestellte Ruhe in der Stadt angeben.
+"Wir lieben den König" Tag verkünden.
+Warnen, wenn der Nahrungsstand gefährlich niedrig ist.
+Warnen, wenn Luftverschmutzung vorkommt.
+Warnen, wenn die Produktionsänderung Schilder kosten wird.
+"Zoom-to-City" NOT default action.
+
+@INIT
+@width=440
+@y=-5
+@title=Am Anfang . . .
+%STRING0, Sie sind aufgerückt als Anführer
+der %STRING1. Möge Ihre Herrschaft lange
+und erfolgreich sein. Die %STRING1 haben das Wissen über
+Bewässerung, Bergbau, %STRING2 und Straßen.
+
+
+@NOTONMAP
+@title=Illegale Bewegung 
+Einheiten können nicht über den Rand 
+der Landkarte bewegt werden.
+
+@ZOC
+@width=440
+@title=Zivilisationsregeln: Zonen der Kontrolle
+Eine Einheit kann sich nicht von einem Quadrat neben
+der Einheit eines Gegners zu einem anderen 
+Quadrat neben einer Einheit des Gegners bewegen.
+^
+Es gibt einige Ausnahmen zu dieser Regel.
+Diplomaten, Karwanen, Schiffe und Lufteinheiten.
+^
+Eine Einheit kann auch zu jeder Zeit eine Stadt
+betreten oder sie verlassen und Einheiten können auch ein
+Quadrat betreten, das bereits von einer freundlichen Einheit besetzt ist.
+
+@FEATURE
+@title=Muß Unh sagen.
+Diese Eigenschaft ist noch nicht eingesetzt.
+
+@AMPHIB
+@title=Zivilisationsregeln: Amphibische Landungen
+Bodentruppen müssen auf Land gesetzt werden,
+bevor sie kämpfen können.  Ausnahme: Marineeinheiten
+
+
+@NONCOMBAT
+@title=Zivilsationsregeln: Kampfeinheiten
+Einheiten wie Siedler, Karawanen und Diplomaten, 
+die eine Kampfstärke von 0 haben, werden als    
+nicht-kämpfende Einheiten angesehen. Sie können
+keine Kämpfe mit Feindeinheiten beginnen.
+
+@FIGHTER
+@title=Zivilisationsregeln: Luftwaffeeinheiten
+Nur Kampfflugzeuge können feindliche Einheiten angreifen.
+
+@FUEL
+@title=Zivilsationsregeln: Kraftstoff
+Ihrem Flugzeug ist der Kraftstoff ausgegangen.
+Kampfflugzeuge und nukleare Einheiten müssen
+am Ende jeder Runde zu einer Stadt oder zum Träger  zurückkehren. Bombereinheiten müssen
+am Ende
+ihrer zweiten Runde zurückkehren.        
+
+@FATIGUE
+@title=Ermüdung
+Diese Leute sind müde, Ahnherr. Wenn wir
+sie in dieser Runde zum Angriff zwingen, werden
+sie mit %NUMBER0/%NUMBER1 Stärke kämpfen.
+
+"Attacke!"
+"Laß sie rasten."
+
+
+@LANDFALL
+@title=Ausschiffen
+Sollen wir ausschiffen und
+die Schiffe zurücklassen?
+
+Bleiben Sie bei den Schiffen
+An Land gehen
+
+@NOLANDFALL
+@title=Ausschiffen
+Unser Schiff kann kein Landquadrat betreten
+und alle Bodentruppen im Schiff haben sich in
+dieser Runde bereits bewegt.
+
+@OCCUPY
+Nur Bodeneinheiten können eine 
+feindliche Stadt besetzen.
+
+@TRIREME
+@title=Zivilationsregeln: Triremen
+Ihre Trireme ist im Meer verlorengegangen.
+Eine Trimere kann verloren gehen, wenn sie Ihre Runde
+nicht nahe dem Land endet.
+
+@FAMINE0
+@title=Stadtberater
+Nahrungsspeicherung in %STRING0 erschöpft.
+Siedler verloren.
+
+@FAMINE1
+@title=Stadtberater
+Nahrungsspeicherung in %STRING0 erschöpft.
+Hungersnot befürchtet.
+
+@FAMINE2
+@title=Stadtberater
+Nahrungsspeicherung in %STRING0 erschöpft.
+Handelsroute nach %STRING1 unterbrochen.
+
+@DESTROYED
+@title=Militärischer Berater
+%STRING0e Zivilisation von %STRING1 zerstört.
+
+@DECREASE
+@title=Innenpolitischer Berater
+Bevölkerungsrückgang in %STRING0.
+
+@FOODSHORTAGE
+@title=Innenpolitischer Berater
+Nahrungsmittel in %STRING0 laufen langsam aus, Ahnherr!
+
+@BUILT
+@title=Innenpolitischer Berater
+%STRING0 %STRING3 %STRING1.
+
+@BUILT2
+@title=Außenpolitischer Berater
+%STRING0 (%STRING2) %STRING3 %STRING1.
+
+@BUILT3
+@title=Innenpolitischer Berater
+%STRING0 %STRING3 %STRING1. (Stadt auf autobauen
+eingestellt).
+
+@MANHATTAN
+@title=Militärischer Berater    
+Sensoren berichten einen ATOMWAFFEN-Test
+nahe %STRING0!
+
+
+@MOVECAPITAL
+@title=Außenpolitischer Berater
+%STRING1e Hauptstadt bewegte sich zu %STRING0.
+
+
+@SUPPORT
+@title=Militärischer Berater
+%STRING0 kann %STRING1 nicht unterstützen.
+Einheit aufgelöst.
+
+
+@DISORDER
+@title=Innenpolitischer Berater
+@width=280
+Volksunruhen in %STRING0.  Bürgermeister
+flieht in Panik.
+
+@REVOLT
+@title=Innenpolitische Krise!
+Unzufriedene Bürger von %STRING0 revoltieren:
+Regierung scheitert!
+
+@NEWGOVT
+@title=Zeitung  
+%STRING0 verkündet %STRING1 der neue
+%STRING2e %STRING3!
+
+@CHANGED
+@title=Außenpolitischer Berater
+Spione berichten: %STRING0 Regierung
+zu %STRING1 geändert.  %STRING2 verkündete %STRING3.
+
+@OVERTHROWN
+@title=Außenpolitischer Berater
+Spionen berichten: Die %STRING0 Regierung 
+wurde gestürzt.
+
+@RESTORED
+@title=Innenpolitischer Berater
+Ruhe wurde in %STRING0 wiederhergestellt.
+
+@WELOVEKING
+@title=Innenpolitischer Berater
+'Wir lieben den/die  %STRING1' Tag in %STRING0 gefeiert.
+
+@WEDONTLOVEKING
+@title=Innenpolitischer Berater
+'Wir lieben den/die  %STRING1' Feier in %STRING0 abgesagt.
+
+@FURTHERGROWTH
+@title=Innenpolitischer Berater
+%STRING0 benötigt %STRING1 für weiteres Wachstum.
+
+@POLLUTION
+@title=Wissenschaftlicher Berater
+Luftverschmutzung nahe %STRING0.
+
+@CHERNOBYL
+@title=Zeitung
+Nukleare Katastrophe in %STRING0!
+Verseuchung befürchtet!
+
+@INHOCK
+@title=Innenpolitischer Berater
+%STRING0 kann %STRING1 nicht weiter finanzieren.
+%STRING1 verkauft für %NUMBER0 Gold.
+
+@ONLYSETTLERS
+@title=Zivilisationsregeln: Siedler
+Diese Funktion kann nur von Siedlern
+und Ingenieuren durchgeführt werden.
+
+@ENGINEERS
+@title=Zivilisationsregeln: Ingenieure
+Diese Funktion kann nur von Ingenieuren
+durchgeführt werden.
+
+@CITYATSEA
+@title=Zivilisationsregeln: Städte
+Erstunlicherweise können Städte
+nicht auf dem Meer gebaut werden.
+
+@ONLY10
+@title=Zivilisationsregeln: Städte
+Siedler und Ingenieure können nicht verwendet werden
+um die Stadt um mehr als %NUMBER0 zu vergrößern. 
+
+@@Siedler und Ingenieure können nicht verwendet
+@@werden, um die Bevölkerung einer Stadt über 10
+@@zu erhöhen.
+
+@CANTIMPROVE
+@title=Zivilisationsregeln: Terrain
+Diese Funktion kann hier nicht durchgeführt werden.
+
+@CANTDO
+@title=Zivilisationsregeln: Befehle
+Diese Funktion kann hier nicht durchgeführt werden.
+
+@BRIDGES
+@title=Zivilisationsregeln: Brückenbauen
+Straßen können nicht in Quadraten mit Flüssen
+gebaut werden, bis Ihre Zivilisation das Geheimnis des 
+Brückenbaus entdeckt hat.
+
+@RAILROADS
+@title=Zivilisationsregeln: Eisenbahnen      
+Eine Straße besteht bereits in diesem Quadrat.
+Straßen können nicht zu Eisenbahnen verbessert werden,
+bis Ihre Zivilisation das Geheimnis der Eisenbahnen
+entdeckt hat.
+
+@ALREADYROAD
+@title=Zivilisationsregeln: Straßen          
+Dieses Quadrat hat bereits Straßen und Eisenbahnen.
+Keine weiteren Straßen werden hier benötigt.
+
+@BRIDGEBUILDING
+@title=Zivilisationsregeln: Brückenbauen
+Straßen können nicht in Flußquadraten gebaut werden,
+bis Ihre Zivilisation das Geheimnis des 
+Brückenbaus entdeckt hat.
+
+@NOWATER
+@title=Zivilisationsregeln: Bewässerung      
+Dieses Quadrat hat keinen Zugang zum Wasser.
+Ein bewässertes Quadrat muß neben
+einem Fluß oder Ozeanquadrat oder neben einem
+bereits bewässerten Quadrat liegen.
+
+@FARMLAND
+@title=Zivilisationsregeln: Ackerland   
+Dieses Quadrat hat bereits Bewässerung. Bewässerung
+kann nicht zum Ackerland verbessert werden,
+bis Ihre Zivilisation das Geheimnis der Kühlung
+entdeckt hat.
+
+@ALREADYIRRIGATION
+@title=Zivilisationsregeln: Bewässerung      
+Dieses Quadrat hat bereits Bewässerung. Kein 
+weitere Bewässerung ist hier möglich.
+
+@ALREADYFARMLAND
+@title=Zivilisationsregeln: Ackerland   
+Dieses Quadrat hat bereits Ackerland. Keine 
+weitere Bewässerung ist hier möglich.
+
+@ALREADYMINING
+@title=Zivilisationsregeln: Bergbau   
+Dieses Quadrat hat bereits Bergbau. Keine 
+weiterer Bergbau ist hier möglich.
+
+@ALREADYFORT
+@title=Zivilisationsregeln: Festungen   
+Dieses Quadrat hat bereits eine Festung.
+
+@RADIO
+@title=Zivilisationsregeln: Luftunterstützungspunkte
+Luftunterstützungspunkte können nicht 
+gebaut werden, bis Ihre Zivilisation das 
+Geheimnis des Radios entdeckt hat.
+
+@ALREADYAIR
+@title=Zivilisationsregeln: Luftunterstützungspunkte
+Dieses Quadrat hat bereits einen Luftunterstützungspunkt.
+
+@CONSTRUCTION
+@title=Zivilisationsregeln: Festungen   
+Festungen können nicht gebaut werden, 
+bis Ihre Zivilisation das Geheimnis 
+des Baus entdeckt hat.
+
+@NOPOLLUTION
+@title=Zivilisationsregeln: Luftverschmutzung   
+In diesem Quadrat gibt es keine Luftverschmutzung.
+
+@NAMECITY
+@title=Wie soll diese Stadt heißen?
+@options
+Name der Stadt:
+
+
+@RENAMECITY
+@title=Wie soll diese Stadt nun heißen?
+@options
+Neuer Name der Stadt:
+
+
+@ADJACENTCITY
+@title=Zivilisationsregeln: Städte   
+Städte können nicht in nebeneiander liegenden
+Quadraten gebaut werden.
+
+
+@DISBAND
+@title=Warnung!
+Wirklich %STRING0 auflösen?
+
+Nein
+Ja 
+
+
+@PRODUCTION
+@title=Was sollen wir in %STRING0 bauen?
+@width=440
+@listbox
+@button=Auto
+@button=Hilfe
+
+@RESEARCH
+@title=Welche Entdeckung sollen  %STRING0 anstreben?
+@width=350
+@listbox
+@button=Hilfe
+@button=Ziel
+
+@HELPON
+@title=Hilfe über welches Thema?
+@width=320
+@options
+
+@RESEARCHGOAL
+@title=Welchen Fortschritt versuchen Sie zu entdecken?
+@width=480
+@listbox=10
+@button=Hilfe
+
+@RESEARCHTHESE
+@title=Wissenschaftlicher Berater
+@width=400
+Erforschen wir also 
+
+@STEALTHESE
+@title=Wissenschaftlicher Berater
+@width=400
+Stehlen wir also
+
+@RESEARCHNONE
+@title=Wissenschaftlicher Berater
+@width=400
+Keine Fortschritte, die zu %STRING0 führen, können zu
+dieser Zeit erforscht werden.
+
+@STEALNONE
+@title=Wissenschaftlicher Berater
+@width=400
+Keine Fortschritte, die zu %STRING0 führen, können zu
+dieser Zeit gestohlen werden.
+
+@CIVADVANCE
+@title=Zivilisationsfortschritte
+@width=320
+%STRING0e %STRING1 entdecken das Geheimnis: %STRING2.
+
+@SETHOMECITY
+@title=Zivilisationsregeln: Heimatstädte   
+@width=320
+Um die "Heimatstadt" einer Einheit (die Stadt, 
+die die Einheit unterstützt) zu ändern, müssen 
+Sie zuerst die Einheit in die neue Heimatstadt 
+bewegen und dann die 'H' Taste drücken oder 
+den 'Heimatstadt bestimmen' Befehl geben.
+
+@PICKGOVT
+@title=Regierungsform wählen
+@width=240
+
+@ELVISERR
+@title=Zivilisationsregeln: Spezialisten   
+Eine Stadt von weniger als fünf Bevölkerungseinheiten
+kann keine Steuereinzieher oder Wissenschaftler unterstützen.
+
+@CHILDCLICK
+@width=320
+@title=Unterstützte Einheitsinformationen
+^%STRING0
+^Standort: %STRING1
+
+Keine Änderungen.
+Landkarte auf Einheit zentrieren.
+Landkarte auf Einheit zentrieren und Stadtbildschirm schließen.
+Der Einheit befehlen, nach Hause zurückzukehren.
+
+
+@UNITOPTIONS
+@width=320
+@title=Einheitsinformationen
+^%STRING0
+^Heimatstadt: %STRING2
+
+
+@COMPLETE0
+@title=%STRING0 kaufen
+^Kosten der Fertigstellung von %STRING0: %NUMBER0 Gold
+^Schatzkammer: %NUMBER1 Gold
+
+@COMPLETE1
+@title=%STRING0 kaufen
+^Kosten der Fertigstellung von %STRING0: %NUMBER0 Gold
+^Schatzkammer: %NUMBER1 Gold
+
+Fertigstellen.
+Schon gut.
+
+
+@COMPLETE2
+@title=%STRING0 kaufen
+^Kosten der Fertigstellung von %STRING0: %NUMBER0 Gold
+^Schatzkammer: %NUMBER1 Gold
+^VOLKSUNRUHEN.
+
+@COMPLETE3
+@title=%STRING0 kaufen
+@width=320
+^Kosten der Fertigstellung von %STRING0: %NUMBER0 Gold
+^Schatzkammer: %NUMBER1 Gold
+^
+Regeln für mehrere Spieler: Diese Aktion ist nicht während der Instandhaltung zugänglich.
+Warten bis die Hauptrunde beginnt.
+
+@COMPLETE4
+@title= %STRING0 kaufen
+@width=320
+^Kosten, %STRING0 zu erfüllen: %NUMBER0 Gold.
+^Schatzkammer: %NUMBER1 Gold.
+^
+Multispieler Schiedsrichter: Ein anderer Spieler plant gerade
+eine Handlung in dem Bereich.  Versuchen Sie es noch einmal
+in einem Moment. 
+
+@HOCKTHIS
+@title=Stadtverbesserungen verkaufen
+Möchten Sie Ihr %STRING0 für %NUMBER0 Gold verkaufen?
+
+Verkaufen.
+Schon gut.
+
+@CANTHOCKTHIS
+@title=Ziv2 Regeln: Palast
+@width=320
+Sie können ihren Palast nicht verkaufen, aber Sie dürfen
+ihn verlegen, indem Sie einer anderen Stadt anordnen, einen zu bauen. 
+
+
+@CHANGETAX
+@title=Neuen Steuersatz wählen
+@width=260
+^Regierungsform: %STRING0
+^Maximaler Steuersatz: %NUMBER0%%
+
+@CHANGELUX
+@title=Neuen Luxussteuersatz wählen
+@width=260
+^Regierungsform: %STRING0
+^Maximaler Steuersatz: %NUMBER0%%
+
+@FINDCITY
+@title=Wo zum Teufel ist . . .
+@width=260
+@listbox
+
+@REVOLUTION
+@width=240
+@title=Revolution
+Möchten wir eine Revolution, um  
+%STRING0 %STRING1 zu stürzen?
+
+Ja 
+Nein
+
+@STARTREV
+@width=240
+@title=Revolution!
+Die %STRING0 revoltieren!
+Bürger verlangen eine neue Regierung.
+
+@WARENDS
+@width=320
+@title=Diplomaten berichten
+Der Krieg zwischen die %STRING0 und die %STRING1
+ist zu Ende.
+
+
+@SIGNPEACE
+@width=320
+@title=Diplomaten berichten
+%STRING0 und %STRING1 unterzeichen ein Friedensabkommen.
+
+@ALLYMAKESPEACE
+@width=320
+@title=Außenminister   
+Die %STRING0 berichten, daß sie ein Friedensabkommen 
+mit den %STRING1 abgeschlossen haben.
+
+@ALLYMAKESWAR
+@width=320
+@title=Außenminister      
+Die %STRING0 berichten, daß sie jetzt Krieg mit den
+%STRING1 führen.
+
+@SIGNALLIED
+@width=320
+@title=Spione berichten
+%STRING0 und %STRING1 unterschreiben ein geheimes Bündnis
+gegen die %STRING2!
+
+@SIGNNATO
+@width=320
+@title=Diplomaten berichten
+%STRING0 und %STRING1 unterschreiben "%STRING2 Pakt", um
+%STRING3e Agression einzudämmen!
+
+@JOINWAR
+@width=320
+@title=Diplomaten berichten
+Die %STRING0 verkünden, daß sie dem Krieg mit %STRING1
+gegen %STRING2 beitreten werden!
+
+@CANCELALLIED
+@width=320
+@title=Diplomaten berichten
+%STRING0 und %STRING1 brechen ihr Bündnis
+
+@CANCELPEACE
+@width=320
+@title=Diplomaten berichten
+%STRING0 und %STRING1 brechen ihr Friedensabkommen.
+
+@ALLYUNDERATTACK
+@width=320
+@title=Außenminister   
+Die %STRING0 berichten, daß sie von %STRING1
+angegriffen wurden.
+
+@DEMANDHELP
+@width=320
+@title=%STRING0er Abgesandter
+"Wir wurden von den miesen %STRING1 angegriffen!
+Unter den Bedingungen unseres Bündnisses bestehen 
+wir darauf, daß Sie uns sofort zur Hilfe kommen.
+
+"Nein wir haben zu viel zu tun"
+"Ja! Erteilen wir den %STRING1 eine Lektion!"
+
+@HELPBONUS
+@width=320
+@title=%STRING0er Abgesandter
+"Vielleicht sollten wir Ihnen %NUMBER0 Goldstücke geben,
+um Sie entsprechend zu belohnen?"
+
+"Nein, wir sind nicht interessiert."
+"Erklären Sie Krieg gegen %STRING1."
+
+@DIDNTHELP
+@width=320
+@title=%STRING0er Abgesandter
+"Gut, aber kommt dann nicht später und bettelt 
+um Hilfe."
+
+
+@ALLYATTACKING
+@width=320
+@title=Außenminister   
+Die %STRING1 haben eine Nachricht hinterlassen,
+daß sie %STRING0 angreifen.
+
+@DECLAREWAR
+@width=320
+@title=Diplomaten berichten.
+%STRING0 und %STRING1 erklären Krieg gegeneinander.
+
+
+@TOOMANYUNITS
+@width=320
+@title=Zu viele Einheiten!
+Keine neue Einheit kann erstellt werden, da bereits
+zu viele Einheiten im Spiel sind. Einige Einheiten sollten
+aufgelöst werden.
+
+@SURPRISETRIBE
+@width=240
+@title=Dorf   
+Sie haben einen fortgeschrittenen Stamm entdeckt.
+
+@SURPRISENOMADS
+@width=300
+@title=Dorf   
+Sie entdecken eine Gruppe von wandernden Nomaden.
+Sie sind willig, Ihrem Stamm beizutreten.
+
+@SURPRISESCROLLS
+@width=240
+@title=Dorf   
+Sie haben Schriftrollen mit antikem Wissen entdeckt.
+
+@SURPRISEMERCS
+@width=300
+@title=Dorf   
+Sie haben einen freundlichen Stamm von erfahrenen Söldnern entdeckt.
+
+@SURPRISEBARB
+@width=300
+@title=Dorf   
+Sie haben eine Horde von Barbaren entfesselt!
+
+@SURPRISENOTHING
+@width=320
+@title=Dorf   
+Unkraut wächst in leeren Ruinen. Dieses Dorf wurde 
+schon lange verlassen.
+
+@SURPRISEMETALS
+@width=300
+@title=Dorf   
+Sie haben wertvolle Metallablagerungen im Wert 
+von %NUMBER0 Gold gefunden.
+
+@SNEAK
+@width=300
+@title=Verteidigungsminister
+Überraschungsangriff von %STRING0 Streitkräften!
+
+@BREAKCEASE
+@width=300
+@title=Verteidigungsminister
+Die  %STRING0 hat den Waffenstillstand gebrochen!
+
+@CANCELPEACE
+@width=300
+@title=Außenminister   
+%STRING0 bricht den Friedensvertrag mit %STRING1.
+
+@RANSOM
+@width=300
+@title=Verteidigungsminister
+Führer der Barbaren festgenommen!  %NUMBER0 Gold Lösegeld bezahlt.
+
+@PROMOTED
+@width=300
+@title=Verteidigungsminister
+Für Tapferkeit im Kampf wurde unsere
+%STRING0 Einheit zum Veteranenstatus befördert.
+
+@MULTIPLEWIN
+@width=300
+@title=Verteidigungsminister
+%NUMBER0 Einheiten zerstört.
+
+@MULTIPLELOSE
+@width=300
+@title=Verteidigungsminister
+%NUMBER0 Einheiten sind verloren.
+
+@CITYCAPTURE
+@width=300
+@title=Verteidigungsminister
+%STRING1 %STRING3 %STRING0.  %NUMBER0
+Goldstücke geplündert.
+
+@CITYCAPTURE2
+@width=300
+@title=Spionen berichten
+%STRING1 %STRING3 %STRING2e Stadt %STRING0.
+
+@CITYWINALLY
+@width=320
+@title=Außenminister
+Die %STRING1 berichten, daß sie %STRING4 der
+%STRING2 Stadt von %STRING0 haben.
+
+@CITYLOSEALLY
+@width=320
+@title=Außenminister
+Die %STRING2 berichten, daß sie die Stadt von
+%STRING0 an den %STRING1 verloren haben.
+
+@TAKECIV
+@width=320
+@title=Zivilisationsfortschritt wählen
+@listbox
+@button=Ziel
+
+@TOOKCIV
+@width=320
+@title=Zivilisationsfortschritt gestohlen!
+%STRING0 klauen %STRING1!
+
+@BADBUILD
+@width=320
+@title=Baubefehle veraltet     
+%STRING0 baut %STRING1,  
+wurde aber bereits gebaut.
+
+@BADSPACE
+@width=320
+@title=Überschuß von Ersatzteilen für Raumschiffe
+%STRING0 baut %STRING1,wird 
+aber nicht mehr benötigt.
+
+@BARBARIANSLAND
+@width=320
+@title=Verteidigungsminister
+Barbarische Plünderer landen nahe %STRING0.  Die     
+Bürger sind alarmiert!
+
+@BARBARIANS
+@width=320
+@title=Bericht von Reisenden
+%STRING0 nahe %STRING1!
+
+@PRODCHANGE
+@width=320
+@title=Zivilisationsregeln: Änderung der Produktion
+@default=1
+Ahnherr, wenn wir unsere Herstellung von Produkten 
+verschiedener allgemeiner Typen (Einheiten, 
+Stadtverbesserungen, Wunder der Welt) ändern, müssen
+wir eine %NUMBER0%% Produktionsstrafe bezahlen.
+
+%STRING0 weiterhin produzieren.
+Zu %STRING1 mit einer %NUMBER0%% Strafe ändern.
+
+@@PRODCHANGE
+@@width=480
+@@title=Zivilisationsregeln: Änderung der Produktion
+@ Sie können die Herstellung zwischen Produkten des 
+@ gleichen allgemeinen Typs ohne Strafe ändern. Zum Beispiel,
+@ wenn Sie Stadtmauern bauen, können Sie zu einer Kornkammer
+@ umändern (eine andere Stadtverbesserung).
+@ ^
+@ Wenn es sich aber bei der Änderung um verschiedene Typen
+@ handelt--zwischen Stadtmauern und einer Legion (einer Einheit)   @ oder zwischen
+Stadtmauern und Hängenden Gärten (einem Wunder
+@ der Welt) muß eine Produktionsstrafe von %NUMBER0%% von bereits
+@ produzierten Schildern bezahlt werden. Wenn Sie trotzdem ändern
+@ können Sie Ihre Entscheidung rückgängig machen, bis Sie Städte   @ ändern oder die Runde
+endet.            
+@
+@ Weiterhin %STRING0 produzieren.
+@ Zu %STRING1 mit einer %NUMBER0%% Strafe ändern.
+
+@BARRACKS
+@width=320
+@title=Verteidigungsminister
+Die Entwicklung von %STRING0 hat alle existierenden Kasernen
+überholt gemacht. Veralterte Kasernen für %NUMBER0 Gold verkauft.
+
+@EMISSARY
+@width=320
+@title=%STRING0er Abgesandter
+Ein Abgesandter von %STRING1 %STRING2 der %STRING3
+möchte mit Ihnen sprechen. Werden Sie %STRING4 empfangen?
+
+"Ja. Ich werde eine Audienz gewähren."
+"Nein. Schicken Sie %STRING4 fort."
+
+@EMISSARYFORCE
+@width=320
+@title=%STRING0er Abgesandter
+Der %STRING1e Abgesandter verlangt nichtsdestoweniger eine 
+Audienz!
+
+@GREETINGS00
+@width=320
+@title=%STRING0er Abgesandter
+"Gruß vom erhabensten %STRING1: %STRING2
+der %STRING3_._._."
+
+@GREETINGS01
+@width=320
+@title=%STRING0er Abgesandter
+"Ich bringe Kundschaft von %STRING1, Anführer und %STRING2
+der %STRING3_._._."
+
+@GREETINGS02
+@width=320
+@title=%STRING0er Abgesandter
+"Ich bringe eine Nachricht von unserem weisesten %STRING2: %STRING1
+der %STRING3_._._."
+
+@GREETINGS03
+@width=320
+@title=%STRING0er Abgesandter
+"Ich spreche für %STRING5, wobei Sterbliche zittern:
+ %STRING2 %STRING1 der %STRING3_._._."
+
+
+@GREETINGS10
+@width=320
+@title=%STRING0er Abgesandter
+"Oh unzuverläßigster Führer der Ungläubigen,
+höre jezt den erhabensten %STRING1: %STRING2
+der %STRING3_._._."
+
+@GREETINGS11
+@width=320
+@title=%STRING0er Abgesandter
+"Oh Verräter, höre jetzt die Worte von %STRING1,
+Anführer und %STRING2 der %STRING3_._._."
+
+@GREETINGS12
+@width=320
+@title=%STRING0er Abgesandter
+"Verräterischer %STRING6! Bereite Dich auf eine Nachricht von 
+unserem weisesten %STRING2: %STRING1
+der %STRING3_._._. vor.
+
+@GREETINGS13
+@width=320
+@title=%STRING0er Abgesandter
+"Hüte Dich, unzuverläßigster %STRING6.
+Ich spreche für %STRING5,wobei Sterbliche zittern:
+%STRING2 %STRING1 der %STRING3_._._."
+
+@NUCLEARWEAPONS
+^
+"Unsere Worte sind mit ATOMWAFFEN untermauert!"
+
+
+@YOURNUKES1
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre nuklearen Tests sind alarmierend! Wir bitten 
+Sie eindringlich, von einer zivilsierten Nation
+zur anderen, diese furchtbaren Waffen zu zerstören,
+bevor sie uns alle zerstören!"
+
+@YOURNUKES2
+@width=320
+@title=%STRING0er Abgesandter
+"Wir sehen, daß Sie dem Verein der Atommächte beigetreten 
+sind. Wir werden Ihre Abschreckung respektieren, aber sollten
+Sie versuchen uns zu erpressen, wird unsere Vergeltung
+schnell und niederschmetternd sein."
+
+@NOEXCHANGEMAD
+@title=%STRING0er Abgesandter
+@width=320
+"Wir haben kein Interesse an der primitiven
+Wissenschaft Ihrer erbärmlichen Zivilisation."
+
+@NOEXCHANGEMEDIUM
+@title=%STRING0er Abgesandter
+@width=320
+"Unsere glorreiche Wissenschaft ist weit über
+alles fortgeschritten, das Sie verstehen können.
+Wir sehen kaum einen Grund, Zeit mit Leuten Ihrer
+Sorte zu verschwenden.
+
+@NOEXCHANGEWONDER
+@title=%STRING0er Abgesandter
+@width=320
+"Alle unsere großen Weisen sind mit unserem glanzvollen Projekt, %STRING1 beschäftigt.
+Vielleicht
+sollten wir später noch einmal sprechen."
+
+@NOEXCHANGENOW
+@title=%STRING0er Abgesandter
+@width=320
+"Wir haben kein Interesse, Wissen zu dieser
+Zeit auszutauschen.
+
+@EXCHANGEGIFT
+@title=%STRING0er Abgesandter
+@width=320
+"Ihre primitive Zivilisation kann uns zu dieser Zeit nichts
+anbieten. Wir geben Ihnen jedoch ein Geschenk von   
+%STRING1, um bei der Modernisierung Ihrer Gesellschaft zu helfen.
+
+@EXCHANGEGIFT2
+@title=%STRING0er Abgesandter
+@width=320
+"Wir sind über den armseligen Status entsetzt, zu dem
+Ihre Gesellschaft gesunken ist. Wir haben keine andere
+Wahl, als Ihnen ein Geschenk von %STRING1 zu geben, das      
+hoffentlich bei der Modernisierung Ihrer Zivilisation helfen wird.
+
+@SELLTECH
+@title=%STRING0er Abgesandter
+@width=320
+"Ihre nutzlose Technologie interessiert uns nicht.
+Wir werden Ihnen jedoch das Geheimnis von %STRING1
+für den bescheidenen Preis von %NUMBER0 Gold verkaufen."
+
+Schon gut.
+Zahle Sie %NUMBER0 Gold.
+
+@SELLTECH2
+@title=%STRING0er Abgesandter
+@width=320
+"Unsere Ressourcen sind überlaste und wir können nichts
+entbehren. Wir könnten Ihnen jedoch das Geheimnis:
+%STRING1 für den bescheidenen Preis von %NUMBER0 Gold verkaufen."
+
+Schon gut.
+Zahlen Sie %NUMBER0 Gold.
+
+@SYMPATHY
+@title=%STRING0er Abgesandter
+@width=320
+"Wir haben mit Ihrem trostlosen Zustand Mitleid,  
+können Ihnen aber zu dieser Zeit nicht helfen."
+
+@EXCHANGE0
+@title=%STRING0er Abgesandter
+@width=320
+"Wir bemerken, daß Ihre primitive Zivilisation
+nicht einmal %STRING1 entdeckt hat. Wir wünschen
+das Geheimnis: %STRING3. Möchten Sie das Wissen mit uns austauschen??"
+
+"Nein. Wir brauchen %STRING1 nicht."
+"Okay, tauschen wir Wissen aus."
+
+@EXCHANGE1
+@title=%STRING0er Abgesandter
+@width=320
+"Wir sind mit Ihrem %STRING2en
+Konzept "%STRING3" fasziniert. Werden Sie uns
+im Austausch mit vielleicht
+"%STRING1"  über das Konzept "%STRING3" informieren?"
+
+"Nein. Wir brauchen %STRING1 nicht."
+"Okay, tauschen wir Wissen aus."
+
+@EXCHANGEPETTY
+@title=%STRING0er Abgesandter
+@width=320
+"Wir spotten über solch belangloses
+Wissen. Kommen Sie zurück, wenn Sie etwas 
+Lohnendes anzubieten haben.
+
+@CANCELTREATY0
+@title=%STRING0er Abgesandter
+@width=320
+"Sie sind mit unseren miesen 
+Nachbarn alliiert: den %STRING1. Wir, die
+%STRING2 wollen, daß Sie das Bündnis sofort brechen!"
+
+"Niemals, die %STRING1 sind unsere Freunde."
+"Ja! Bringen wir den %STRING1 eine Lektion bei!"
+
+@CANCELTREATY1
+@title=%STRING0er Abgesandter
+@width=320
+"Wir haben Frieden mit unseren teuflischen
+Nachbaren, den %STRING1 geschlossen. Wir, die
+%STRING2 wünschen, daß Sie dieses Abkommen
+sofort brechen!
+
+"Niemals! Die %STRING1 sind unsere Freunde."
+"Ja! Bringen wir den %STRING1 eine Lektion bei!"
+
+@CANCELTREATY2
+@title=%STRING0er Abgesandter
+@width=320
+"Wir sind eifrig dabei, unseren gemeinsamen
+Feind, die %STRING1 niederzuschmettern. Wir, die 
+%STRING2, wünschen, daß Sie sofort Krieg gegen sie
+erklären und uns helfen!"
+
+"Niemals! Die %STRING1 haben uns nichts angetan."
+"Ja! Bringen wir den wertlosen %STRING1 eine Lektion bei!"
+
+@CANCELALLIANCE0
+@width=320
+@title=Verteidigungsminister
+Unser Bündnis mit den %STRING1 wurde gebrochen.   
+Alle unsere Einheiten im %STRING2 Gebiet wurden zu unseren
+nächsten Städten verlegt. Die %STRING2 Einheiten
+in unserem Gebiet wurden ebenfalls verlegt.
+
+@CANCELALLIANCE1
+@width=320
+@title=Spionbericht
+Die %STRING1 und %STRING3 haben ihr Bündnis    
+gebrochen.
+
+
+@TRIBUTE0
+@width=320
+@title=%STRING0er Abgesandter
+"Sie sind es nicht wert, Frieden mit
+uns zu schließen. Wir werden jedoch
+zustimmen, Ihre schwache Zivilisation
+nicht zu zerschmettern, wenn wir %NUMBER0 Gold 
+als Tribut erhalten."
+
+"Wir lachen über Ihre leeren Drohungen."
+Zahlen Sie %NUMBER0 Gold Tribut.
+
+
+@TRIBUTE1
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre armselige Zivilisation ist kaum wert,
+erobert zu werden. Wir könnten auf diese Freude
+für jetzt verzichten, wenn wir %NUMBER0 Gold 
+als Tribut erhalten."
+
+"Wir lachen über Ihre kleinliche Prahlerei."
+Zahlen Sie %NUMBER0 Gold Tribut.
+
+@TRIBUTE2
+@width=320
+@title=%STRING0er Abgesandter
+"Wir sind verärgert, daß Sie weiterhin Länder verpesten, die 
+rechtlich uns gehören. Wir werden Sie jedoch nicht von diesem 
+Kontinent vertreiben, wenn Sie Wiedergutmachung in 
+der Höhe von %NUMBER0 Gold bezahlen."
+
+"Das ist Erpressung und wir dulden das nicht."
+ZahlenSie %NUMBER0 Gold Wiedergutmachung."
+
+@TRIBUTE3
+@width=320
+@title=%STRING0er Abgesandter
+"%STRING1, unser mächtiger %STRING2 sieht Ihre Zivilisation
+als eine unbedeutende Provinz in unserem %STRING3en Reich an. 
+Vielleicht wird %STRING4 Ihre fortgesetzte Unabhängigkeit 
+im Austauch für %NUMBER0 Gold erdulden."
+
+"Niemals! Wir werden uns nicht vor Tyrannei und Gier beugen."
+Zahlen Sie %NUMBER0 Gold.
+
+@TRIBUTE8
+@width=320
+@title=%STRING0er Abgesandter
+"Ihr dekadenter Lebensstil macht uns krank. Wir werden
+nicht untätig zusehen, während Sie die Ressourcen der   
+Welt plündern. Wir bestehen darauf, daß Sie NUMBER0 Gold 
+mit uns sofort teilen."
+
+"Hah! Wir werden unser gutes Geld nicht auf Sie verschwenden!"
+Zahlen Sie %NUMBER0 Gold.
+
+@TRIBUTE9
+@width=320
+@title=%STRING0er Abgesandter
+"%STRING1, unser mächtiger %STRING2 hat dieses
+langweiliges Bündnis satt. Vielleicht wird es
+%STRING4 weiter fortstetzen, wenn sie 
+%NUMBER0 Gold erhalten."
+
+"Wir sind nicht die persönlichen 
+Finanzierer von %STRING1!"
+Zahlen Sie %NUMBER0 Gold.
+
+@TAKECIV0
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Zivilisation erscheint uns lächerlich.
+Wir werden zustimmen, Ihre wertlose Zivilisation
+nicht zu vernichten, wenn wir das Geheimnis:
+%STRING1 erhalten."
+
+"Wir ignorieren Ihre leeren Drohungen."
+Geben Sie das Geheimnis von %STRING1.
+
+
+@TAKECIV1
+@width=320
+@title=%STRING0er Abgesandter
+"Wir lachen über Ihre jämmerliche
+Zivilisation. Wir werden sie nicht am
+Boden zertreten, wenn Sie uns das Geheimnis:
+%STRING1 geben."
+
+"Wir werden nicht von Drohungen eingeschüchtert."
+Geben Sie das Geheimnis: %STRING1.
+
+@TAKECIV2
+@width=320
+@title=%STRING0er Abgesandter
+"Wir wissen, daß Sie das Geheimnis: %STRING1 haben.  
+Geben Sie uns das Geheimnis oder erleiden Sie die Folgen!"
+
+"Folgen, ist doch Wurst!"
+Geben Sie das Geheimnis: %STRING1.
+
+
+@TAKECIV8
+@width=320
+@title=%STRING0er Abgesandter
+"Die Größe Ihrer Zivilisation ist ein Beispiel für alle
+aber unsere Leute sind eifersüchtig auf Ihren privilegierten
+Lebensstil. Nur das Geheimnis: %STRING1 wird sie zufriedenstellen!"
+
+"Nein. Ihre Bevölkerung ist noch nicht für dieses Wissen geeignet."
+Geben Sie das Geheimnis: %STRING1.
+
+@TAKECIV9
+@width=400
+@title=%STRING0er Abgesandter
+"%STRING3, unser mächtiger %STRING2 hat dieses
+langweiliges Bündnis satt. Vielleicht wird es
+%STRING4 weiter fortstetzen, wenn sie das 
+Geheimnis: %STRING1 erhalten."
+
+"Unsere Geheimnisse gehören uns und bleiben es."
+Geben Sie das Geheimnis: %STRING1.
+
+@OVERABARREL
+@width=320
+@title=%STRING0er Abgesandter
+"Schmeichelhafte Unterwürfigkeit gefällt uns, aber unsere 
+Gnade kann nicht so leicht gekauft werden. Sie müssen
+uns auch das Geimnis: %STRING1 geben!"
+
+"Heh! Ich dachte, es war abgemacht!"
+Geben Sie das Geheimnis: %STRING1.
+
+@BEGONE0
+@width=320
+@title=%STRING0er Abgesandter
+"Das ist dann das Ende dieses lästigen Bündnisses!  Hinweg
+von unserem Gebiet!"
+
+@BEGONE1
+@width=320
+@title=%STRING0er Abgesandter
+"Das ist dann das Ende dieses lästigen Bündnisses!  Hinweg
+von unserem Gebiet!"
+
+@NOVIOLATORS
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben keine Truppen auf Ihrem Gebiet."
+
+
+@PROVOKE0
+@width=320
+@title=%STRING0er Abgesandter
+"Unsere Geduld ist erschöpft. Wir können Ihre widerwärtigen
+Provokationen nicht mehr dulden. Bereiten Sie
+sich auf KRIEG vor!"
+
+@PROVOKE1
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben genug von Ihrer Dreistigkeit.
+Es ist an der Zeit, daß unsere Armeen Ihnen 
+eine Lektion im Benehmen erteilen. Bereiten Sie 
+sich auf KRIEG vor!"
+
+@PROVOKE2
+@width=320
+@title=%STRING0er Abgesandter
+"Sie haben uns das letzte Mal beleidigt. Jetzt
+sollen Sie unseren Stahl kosten. Bereiten Sie
+sich auf KRIEG vor!"
+
+@REJECT0
+@width=320
+@title=%STRING0er Abgesandter
+"Sie lehnen unser großzügiges Angebot ab?
+Ihre Frechheit muß bestraft werden.
+Bereiten Sie sich auf KRIEG vor!"
+
+@RID0
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben uns entschlossen, die Welt
+von Ihrer wertlosen Zivilisation zu befreien.
+Bereiten Sie sich auf KRIEG vor!"
+
+@ACCURSEDWALL
+@width=320
+@title=%STRING0er Abgesandter
+"Wenn es nicht für die verfluchte Große Mauer wäre,
+würden wir Ihnen eine Lektion im Benehmen beibringen."
+
+@ACCURSEDUN
+@width=320
+@title=%STRING0er Abgesandter
+"Seien Sie froh, daß Sie die verfluchten Vereinten Nationen
+um Ihren kleinen Finger gewickelt haben. Ansonsten würden wir Ihnen gerne eine Lektion im
+Benehmen beibringen.
+
+@SENATEPEACE
+@width=320
+@title=Außenminister   
+Der Senat trifft sich mit den %STRING1en Abgesandten
+hinter Ihrem Rücken und unterzeichnet ein permanentes
+Friedensabkommen.
+
+@SENATECEASE
+@width=320
+@title=Außenminister   
+Der Senat trifft sich mit den %STRING1en  Abgesandten
+hinter Ihrem Rücken und unterzeichnet einen 
+Waffenstillstand!
+
+
+@WALLOVERPEACE
+@width=320
+@title=Verteidigungsminister
+Ahnherr! Wir können unsere Kriegsbemühungen
+gegen diese uneinnehmbare Große Mauer nicht aufrechterhalten!
+Friedensvertrag unterschrieben.
+
+@WALLOVERCEASE
+@width=320
+@title=Außenminister   
+Ahnherr! Wir können unsere Angriffe
+gegen diese uneinnehmbare Große Mauer nicht 
+aufrechterhalten!
+Waffenstillstand unterschrieben!
+
+@UNOVERPEACE
+@width=320
+@title=Außenminister
+Die Weltmeinung erlaubt uns keine andere
+Wahl, als den U.N. vermittelten Friedensvertrag anzunehmen.
+Friedensvertrag unterschrieben!
+
+@UNOVERCEASE
+@width=320
+@title=Außenminister   
+Die Weltmeinung erlaubt uns keine andere
+Wahl, als den U.N. vermittelten Waffenstillstand anzunehmen.
+Waffenstillstand unterschrieben!
+
+@PROPOSEALLIANCE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir sehen große Gelegenheiten der Zusammenarbeit  
+zwischen unseren beiden Völkern. Werden Sie einem militärischen
+Bündnis mit uns beitreten, damit wir eine vereinigte Front gegen
+unsere gemeinsamen Feinde bilden?"
+
+"Ja, wir treten einem solchen Bündnis gerne bei."
+"Leider können wir uns zu dieser Zeit nicht festlegen."
+
+@GRANTCEASE
+@width=320
+@title=%STRING0er Abgesandter
+"Nun gut. Da Sie den richtigen Respekt gezeigt haben,
+könnte %STRING1 willens sein, Ihnen einen Waffenstillstand 
+zu gewähren."
+
+"Wir akzeptieren dankbar und unterwürfig."
+"Niemals! Wir werden bis zum bitteren Ende kämpfen!"
+
+@WALLCEASE
+@width=320
+@title=%STRING0er Abgesandter
+"Obwohl wir davon träumen, Ihre Zivilisation in Ruinen
+zu legen, haben wir keine andere Wahl als Ihnen einen 
+Waffenstillstand anzubieten."
+
+"Sehr gut, wir akzeptieren."
+"Feiglinge! Wir werden bis zum bitteren Ende kämpfen!"
+
+@PROPOSECEASE
+@width=320
+@title=%STRING0er Abgesandter
+"Das %STRING1e Volk hat diesen endlosen Krieg satt.
+Wir schlagen einen Waffenstillstand vor."
+
+"Wir akzeptieren -- beenden wir diesen fürchterlichen Krieg
+"Feiglinge! Wir werden bis zum bitteren Ende kämpfen!"
+
+@PROPOSEPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben einen permanenten Friedensvertrag vorbereitet, 
+der die Freundschaft zwischen unseren beiden Völkern bestätigt
+und unsere gemeinsame Grenzen für alle Zeiten bestimmt. Werden Sie ihn unterschreiben?"
+
+"%STRING1 sollen Frieden mit uns schließen."
+"Nein, Ihre Bedingungen sind unannehmbar."
+
+
+@NOPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"So sei es. Wir warnen Sie jedoch, daß unsere 
+Streitkräfte wachsam sein werden und keine 
+Aggressionen dulden werden.
+
+
+
+@OVERRULECEASE
+@width=320
+@title=Außenminister   
+Sie wurden vom Senat überstimmt. Waffenstillstand unterschrieben!
+
+@OVERRULEPEACE
+@width=320
+@title=Außenminister
+Sie wurden vom Senat überstimmt. Permanenter Friedensvertrag unterschrieben!
+
+@ALLIANCE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir bestätigen dieses Abkommen von immerwährender
+Zusammenarbeit, Freundschaft und der gemeinsamen
+Verteidigung zwischen den Völkern der %STRING1en und
+%STRING2en Zivilisationen. So sei es geschrieben - 
+so sei es getan."
+
+@TREATY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir bestätigen diesen Vertrag von ewiger
+Freundschaft und guten Willens zwischen
+den Völkern der %STRING1en und
+%STRING2en Zivilisationen. Wir werden unsere
+Streitmächte sofort von Ihrem Gebiet 
+zurückziehen."
+
+@CEASEFIRE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir versprechen ein sofortiges Ende
+der Feindseligkeiten zwischen den %STRING1en
+und %STRING2en Zivilisationen."
+
+@CEASEEXPIRE
+@width=320
+@title=Außenminister
+Unser Waffenstillstandsabkommen mit den %STRING1
+ist abgelaufen.
+
+@APOLOGIZE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir bitten ergebenst um Entschuldigung für den unbeabsichtigten 
+Verstoß gegen Ihr Gebiet. Unsere Truppen wurden zurückgezogen
+und werden Sie nicht mehr belästigen."
+
+@GIVECIV
+@width=320
+@title=%STRING0er Abgesandter
+"Enden Sie diesen Krieg und wir werden 
+Ihnen das Geheimnis: %STRING1 mitteilen."
+
+"Wir haben kein Interesse an %STRING1."
+"Nun gut, wir werden  Waffenstillstand gewähren."
+
+@GIVECASH
+@width=320
+@title=%STRING0er Abgesandter
+"Für  Waffenstillstand bieten wir
+Ihnen %NUMBER0 Gold als Tribut zu Ihrer
+offenbaren Herrlichkeit."
+
+
+Angebot ablehnen
+Waffenstillstand unterschreiben.
+
+@GROVEL
+@width=320
+@title=%STRING0er Abgesandter
+"Haben Sie Erbarmen mit unserer bescheidenen
+und friedliebenden Zivilisation. Wir werden
+Ihnen unser ganzes Gold (%NUMBER0 Gold) und
+Wissen geben, wenn Sie uns in Frieden leben lassen."
+
+Angebot ablehnen
+Waffenstillstand unterschreiben.
+
+
+@CONTINUEWAR
+@width=320
+@title=%STRING0er Abgesandter
+"Dann sei es so! Unsere Armeen sind für den KRIEG mobilisiert!
+Sie werden für Ihren törichten Stolz bezahlen.
+
+
+@CASHFORPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Vielleicht sollten wir Ihnen  %NUMBER0 Goldstücke geben,
+damit es sich lohnt...?"
+
+Angebot ablehnen
+Friedensabkommen unterschreiben.
+
+
+@ATTITUDEALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Trotz Ihrer herablassenden Einstellung haben
+wir uns entschieden, unser Bündnis zur Zeit nicht 
+zu brechen."
+
+@ATTITUDEPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Trotz Ihrer respektlosen Einstellung
+werden wir Ihnen den Zorn unserer
+mächtigen Armeen ersparen."
+
+@ATTITUDE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben Ihre Unverschämtheit satt.
+Betrachten Sie sich als gewarnt."
+
+@WELCOMEALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir, die %STRING1 feiern unser ewiges Bündnis   
+mit dem %STRING2en  Volk und ihrem weisesten und
+großzügigsten Anführer: %STRING3 %STRING4."
+
+@WELCOMEPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir, die %STRING1 begrüßen die Freundschaft   
+mit dem %STRING2en Volk und ihrem weisesten und
+großzügigsten Anführer:   %STRING3 %STRING4."
+
+@WELCOME
+@width=320
+@title=%STRING0er Abgesandter
+"Wir, die %STRING1 finden Gefallen an dieser
+Periode des Verständnisses zwischen unseren beiden Völkern."
+
+@HOWDYALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir begrüßen immer die Gelegenheit, unseren ewigen
+Allierten, die %STRING2,  zu Diensten zu stehen."
+
+@HOWDYPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir freuen uns immer, mit unseren Freunden, den
+%STRING2 zu sprechen."
+
+@HOWDY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir werden gerne mit unseren Nachbarn, die %STRING2 sprechen."
+
+@DOODYALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir begrüßen immer die Gelegenheit, unseren ewigen
+Allierten, die %STRING2 zu Diensten zu stehen."
+Fassen Sie sich jedoch bitte kurz, da wir wenig Zeit haben."
+
+@DOODY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir werden Ihnen eine Audienz gewähren. Verschwenden Sie aber 
+nicht unsere wertvolle Zeit."
+
+@NOTORIOUSBIG
+@width=320
+@title=%STRING0er Abgesandter
+"Ihr Verrat der %STRING1 ist legendär. Nehmen Sie nicht an,
+daß Sie uns auf die gleiche Art behandeln können. Halten Sie Ihr Wort ein und wir werden
+Brüder sein. Verraten Sie uns 
+und Sie werden unseren Stahl kosten."
+
+@NOTORIOUSSMALL
+@width=320
+@title=%STRING0er Abgesandter
+"Nachrichten über Ihre schlechte Behandlung der %STRING1 
+ist Ihnen vorausgegangen. Sollten Sie denken, uns genauso zu behandeln, werden wir
+bitteren Widerstand leisten!"
+
+@NOTORIOUSHATE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir schmuzeln über den grausamen Verrat unserer verhaßten 
+Feinde, die %STRING1. Nehmen Sie nicht an, uns genauso zu 
+behandeln, da wir kaum so töricht sind."
+
+@WORTHLESS
+@width=320
+@title=%STRING0er Abgesandter
+"Obwohl wir dieses Dokument unterschreiben, sind wir  
+uns völlig bewußt, daß das Abkommen nicht das Papier wert
+ist, auf dem es gedruckt ist. Sie sind bescheuert, wenn Sie  
+erwarten, daß wir uns anders verhalten würden.
+
+@OUTAHEREALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir bitten vielmals um Entschuldigung aber dringende
+Staatsangelegenheiten halten uns ab, eine Audienz zu
+dieser Zeit zu gewähren.
+
+@OUTAHERE
+@width=320
+@title=%STRING0er Abgesandter
+"Sie haben genug unserer wertvollen Zeit mit Ihrem endlosen Schwatzen verschwendet.
+Hinweg!"
+
+
+@ALLYPLEA
+@width=320
+@title=%STRING0er Abgesandter
+"Unser Krieg mit den verhaßten %STRING1 geht nicht gut
+und es wäre möglich, daß wir nicht viel länger durchhalten
+können! Senden Sie bitte sofort militärische Hilfe!"
+
+@ALLYBRAG
+@width=320
+@title=%STRING0er Abgesandter
+"Wir freuen uns, zu berichten, daß wir die verhaßten %STRING1
+bei Ihrem Kragen haben. Wir werden bald unsere letzte Offensive 
+beginnen."
+
+@DIPLOMACY
+@width=320
+@title=%STRING0er Abgesandter
+Sie antworten: "Wir...
+
+@DIPLOMACYMENU
+betrachten diese Diskussion als beendet an."
+schlagen ein permanentes strategisches Bündnis vor."
+schlagen einen permanenten Friedensvertrag vor."
+bitten um ein Geschenk von Ihnen, unseren liebenswürdigen Allierten."
+verlangen ein Tribut für unsere Geduld."
+bestehen auf einen Rückzug Ihrer Truppen."
+brechen dieses wertloses Bündnis."
+möchten einen Vorschlag machen..."
+möchten Ihnen ein Geschenk anbieten..."
+
+@TREATYMENU
+@width=320
+@title=%STRING0er Abgesandter
+Einen Vertragsvorschlag wählen:
+
+@TREATYOPTIONS
+Schon gut.
+Ein militärisches Bündnis vorschlagen.
+Einen permanenten Friedensvertrag vorschlagen.
+Den Bruch des Bündnisses androhen.
+Einen Angriff androhen.
+Den Rückzug der Truppen verlangen.
+Das Bündnis brechen.
+Den Friedensvertrag brechen.
+
+
+@FAVORMENU
+@width=320
+@title=%STRING0er Abgesandter
+Einen Vorschlag wählen:
+
+Schon gut.
+Wissen austauschen.       
+Krieg gegen einen Feind erklären.
+Weltlandkarten zeigen.
+
+
+@GIFTMENU
+@width=320
+@title=%STRING0er Abgesandter
+Ein Geschenk zum Angebot auswählen:
+
+Schon gut.
+Wissen anbieten.
+Geld anbieten.
+Militärische Einheit anbieten.
+
+@ALLIANCENOBETRAY
+@width=320
+@title=%STRING0er Abgesandter
+"Sehen Sie uns als Ididoten an. Wir wissen sehr 
+gut was Ihren sogenannten 'Freunden' geschieht."
+
+@NOBETRAYWEAK
+@width=320
+@title=%STRING0er Abgesandter
+"Obwohl wir Ihre Größe bewundern, können wir nicht übersehen,
+daß diejenigen, die Verträge mit Ihnen unterschreiben, oft
+bedauerliche Unfälle haben. Wir müssen daher dankend ablehnen."
+
+
+@ALLIANCENOWINNING
+@width=320
+@title=%STRING0er Abgesandter
+"Nein. Wir werden nicht Sklaven des dekadenten
+%STRING1 Reichs werden."
+
+@ALLIANCENODISLIKE
+@width=320
+@title=%STRING0er Abgesandter
+"Nein. Wir möchten uns nicht mit Ihrer armseligen
+%STRING1en Zivilisation verbinden."
+
+@ALLIANCENOSMALL
+@width=320
+@title=%STRING0er Abgesandter
+"Nein. Ihre schwache Zivilistation kann uns nichts anbieten."
+
+@ALLIANCENOTHANKS
+@width=320
+@title=%STRING0er Abgesandter
+"Die große %STRING2e Zivilisation kann Ihre eigenen Grenzen schützen. Mit unseren mächtigen
+Armeen und wenigen Feinden,
+sehen wir wenig Nutzen für ein Bündnis."
+
+@ALLIANCENOPATIENCE
+@width=320
+@title=%STRING0er Abgesandter
+"Ihr Angebot ist faszinierend, aber im Moment haben wir 
+keine Zeit, es zu diskutieren."
+
+@PERHAPSTHROWIN0
+@width=320
+@title=%STRING0er Abgesandter
+"Wenn Sie vielleich %NUMBER0 Gold hinzugeben, könnten
+wir zu einer Vereinbarung kommen..."
+
+Angebot ablehnen.
+%NUMBER0 Gold hinzugeben.
+
+@PERHAPSTHROWIN1
+@width=320
+@title=%STRING0er Abgesandter
+"Eine gute Idee, Werden Sie jetzt %NUMBER0 Gold hinzufügen,
+daß es sich für uns lohnt?"
+
+Angebot ablehnen.
+%NUMBER0 Gold hinzugeben.
+
+
+@PERHAPSSECRET0
+@width-320
+@title=%STRING0er Abgesandter
+"Wenn Sie uns vielleicht das Geheimnis: %STRING3 
+geben, könnten wir zu einer Vereinbarung kommen..."
+
+Angebot ablehnen.
+Geben Sie das Geheimnis: %STRING3.
+
+
+@PERHAPSSECRET1
+@width-320
+@title=%STRING0er Abgesandter
+"Eine angemessene Idee. Übrigens haben wir immer die
+%STRING1e Kunst:  %STRING3 bewundert. Werden Sie es 
+uns lehren?"
+
+Angebot ablehnen.
+Geben Sie das Geheimnis: %STRING3.
+
+
+@PERHAPSSOLIDARITY
+@width=320
+@title=%STRING0er Abgesandter
+"Sehr gut. Sie müssen aber Ihre Würdigkeit zeigen, indem 
+Sie Krieg gegen unsere verhaßten Feinde, die %STRING4 erklären."
+
+"Sie gehen zu weit, mein Freund."
+"So sei es! Wir werden gerne die %STRING4 für Sie zerschmettern!"
+
+@PERHAPSPROVEIT
+@width=320
+@title=%STRING0er Abgesandter
+"Ausgezeichnet! Sie müssen jetzt Ihre Würdigkeit zeigen, indem 
+Sie Krieg gegen unsere verhaßten Feinde, die %STRING4 erklären."
+
+"Sie gehen zu weit, mein Freund."
+"So sei es! Wir werden die %STRING4 eine Lektion erteilen."
+
+@PERHAPSDIDNTPROVE
+@width=320
+@title=%STRING0er Abgesandter
+"Dann hinweg mit Ihnen!"
+
+@PERHAPSTHANKSANYWAY
+@width=320
+@title=%STRING0er Abgesandter
+"Ach, Ihre bekundete Freundschaft ist nur oberflächig?
+Dann danken wir Ihnen für Ihr Geschenk, aber wir werden dieses 
+Dokument nicht unterschreiben."
+
+@PERHAPSBYE
+@width=320
+@title=%STRING0er Abgesandter
+"Ach, Ihre bekundete Freundschaft ist nur oberflächig?
+Dann hinweg mit Ihnen!"
+
+@PEACENOBETRAY
+@width=320
+@title=%STRING0er Abgesandter
+"Glauben Sie, daß wir Idioten sind? Sobald wir 
+uns umdrehen, finden wir einen Dolch in unserem
+Rücken! Hinweg!"
+
+@PEACENOWINNING
+@width=320
+@title=%STRING0er Abgesandter
+"Nein. Wir werden nicht dazu manipuliert, Ihren
+Machiavellischen Plänen zu dienen."
+
+@PEACENODISLIKE
+@width=320
+@title=%STRING0er Abgesandter
+"Nein. Ihre schwache Zivilisation ist es nicht
+wert, Frieden mit uns zu schließen."
+
+@PEACENOPATIENCE
+@width=320
+@title=%STRING0er Abgesandter
+"Ihr Angebot ist faszinierend, aber wir können nicht
+durch feste Vereinbarungen gefesselt sein."
+
+@GIVEMORECIV
+@width=320
+@title=%STRING0er Abgesandter
+"Als Zeichen unserer Freundschaft werden wir
+das Geheimnis von %STRING1 mit Ihnen teilen."
+
+@GIVEMORE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir geben Ihnen das Geschenk von %NUMBER0 Gold
+als Tribut zu Ihrer friedlichen Natur."
+
+@GIVEMOREALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir geben Ihnen das Geschenk von %NUMBER0 Gold
+in Anerkennung der alten Freundschaft zwischen
+unseren Völkern."
+
+@TAUNTALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Gier und Ihr Jammern machen uns krank. Betrachten Sie 
+dieses Bündnis als aufgelöst!"
+
+@FEEBLEALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Unsere Geduld läuft aus. Versuchen Sie es nicht, mein Freund."
+
+@FEEBLE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir ignorieren Ihre lahmen Drohungen."
+
+@CANCELALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Betrachten Sie also unser Bündnis als aufgelöst.
+Wir werden aber diesen verhaßten Tag lange nicht vergessen."
+
+@CANCELOURPEACE
+@width=320
+@title=%STRING0er Abgesandter
+"Betrachten Sie also unseren Friedensvertrag als null und 
+nichtig. Wir werden aber diesen verhaßten Tag lange nicht vergessen."
+
+@MUSTATTACK
+@width=320
+@title=%STRING0er Abgesandter
+"Sie müssen die miesen. . ."
+
+Schon gut.
+
+@NOCONTACT
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben keinen Kontakt mit den %STRING1."
+
+@ATWAR
+@width=320
+@title=%STRING0er Abgesandter
+"Wir führen bereits Krieg mit den wertlosen %STRING1."
+
+@MERCENARY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir werden rücksichtslos die miesen
+%STRING1 erschlagen, wenn wir
+%NUMBER0 Gold erhalten, um unsere Ausgaben zu decken."
+
+"Schon gut."
+"Ja, wir zahlen gerne."
+
+@CYBERCOP
+@width=320
+@title=%STRING0er Abgesandter
+"Wir werden die miesen %STRING1 erbarmungslos 
+zerstören, wenn Sie uns die Geheimnisse:
+%STRING2 und %STRING3 lehren."
+
+"Schon gut."
+"Ja, wir werden sie gerne lehren."
+
+@ETERNALALLIES
+@width=320
+@title=%STRING0er Abgesandter
+"Was!? Wir werden niemals unsere immerwährenden
+Alliierten, die  %STRING1, angreifen! Das heißt,
+wenn Sie nicht zufällig %NUMBER0 Gold haben..."
+
+"Schon gut."
+"Welch ein Glück! Wir haben hier %NUMBER0 Gold!"
+
+@HELLNOWEWONTGO
+@width=320
+@title=%STRING0er Abgesandter
+"Obwohl Ihr Angebot verlockend ist, haben wir nicht
+die notwendigen Streitmächte in unseren Garrisonen übrig.
+Ihre Geschichte zeigt uns, daß eine Schwächung dieser Streitkräfte
+äußerst töricht wäre."
+
+@UNFORTUNATE
+@width=320
+@title=%STRING0er Abgesandter
+"Unglücklicherweise hat unsere Schatzkammer
+nicht ausreichende Gelder, um Ihre 
+verschwenderischen Versprechen zu unterstützen."
+
+@MERCDECLARE
+@width=320
+@title=Außenminister
+%STRING1 erklären Krieg gegen %STRING2.
+
+@MERCBETRAYALLY
+@width=320
+@title=Außenminister
+%STRING1e Spione haben unseren Verrat entdeckt! Die %STRING2
+haben Ihr Bündnis mit uns gebrochen.
+
+@MERCBETRAY
+@width=320
+@title=Außenminister
+%STRING1e Spione haben unseren Verrat entdeckt. Die %STRING2
+haben Krieg gegen uns erklärt!
+
+@MAPNO
+@width=320
+@title=%STRING0er Abgesandter
+"Wir brauchen Ihre nutzlosen     
+%STRING1en Landkarten nicht."
+
+@MAPYES
+@width=320
+@title=%STRING0er Abgesandter
+"Nun gut, wir werden unser Wissen über die
+Geographie mit Ihnen teilen."
+
+@KNOWNO
+@width=320
+@title=%STRING0er Abgesandter
+"Ha! Wir brauchen die erbärmliche    
+%STRING1 'Wissenschaft' nicht."
+
+@TECHGIFT
+@width=320
+@title=%STRING0er Abgesandter
+"Werden Sie uns das Geheimnis: %STRING1 im
+Austausch für unseren guten Willen lehren?"
+
+"Nein, leider nicht."
+Geben Sie das Geheimmnis: %STRING1.
+
+@TECHGIFT2
+@width=320
+@title=%STRING0er Abgesandter
+"Werden Sie uns das Geheimnis: %STRING1 im
+Austausch für unseren guten Willen lehren?"
+
+"Nein, leider nicht."
+Geben Sie das Geheimmnis:  %STRING1.
+"Nein, sind Sie aber an %STRING2 interessiert?"
+
+@MILITARYNO
+@width=320
+@title=%STRING0er Abgesandter
+"Unsere mächtigen %STRING1en Armeen brauchen Ihre
+primitiven militärischen Geräte nicht."
+
+@MILITARYNONE
+@width=320
+@title=Zivilisationsregeln: Militärische Geschenke
+Sie können mililitärische Einheiten einer anderen Macht
+nur geben, wenn Sie in einer Ihrer Städte befinden.
+
+@MILITARYSOURCE
+@width=320
+@listbox=12
+@title=Geschenkgebende Stadt angeben
+
+@BREAKTHROUGH
+@width=320
+@title=Durchbruch!
+Ihr Geschenk hat zu einem Durchbruch in %STRING1 Wissenschaft gefürht!
+
+@WASTING
+@width=320
+@title=%STRING0er Abgesandter
+"Dann hören Sie auf, unsere Zeit zu verschwenden!"
+
+@ACCEPT
+@width=320
+@title=%STRING0er Abgesandter
+"Die alte und glorreiche %STRING1e Zivilisation nimmt Ihr 
+Geschenk dankbar an."
+
+@MONEYGIFT
+@width=320
+@title=%STRING0er Abgesandter
+"An welche Art von Geschenk denken Sie?"
+
+"Schon gut."
+
+
+@PATIENCEALLY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir haben dieses tête-à-tête genossen, aber jetzt
+müssen wir dringende Staatangelegenheiten erledigen.
+Bis später."
+
+@PATIENCE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir können jetzt keine Zeit mehr mit Ihnen verschwenden,
+da wir verschiedene dringende Staatsangelegenheiten 
+erledigen müssen."
+
+@NEARCITY
+@width=320
+@title=%STRING0er Abgesandter
+"Wenn Sie nicht die Nähe von %STRING1 sofort verlassen,
+werden wir unsere mächtigen Armeen senden, um Sie 
+hinauszutreiben."
+
+@ADMIRECITY
+@width=320
+@title=%STRING0er Abgesandter
+"Wir sehen, daß Ihre Truppen ihre gierigen
+Augen auf unsere glorreiche Stadt %STRING1 gerichtet
+haben. Wir verlangen, daß Sie sie sofort zurückziehen!"
+
+@PLEASECITY
+@width=320
+@title=%STRING0er Abgesandter
+"Als eine Geste guten Willens zwischen unseren Völkern,
+bitten wir herzlich, daß Sie Ihre Truppen von der Nähe der
+%STRING1 zurückziehen."
+
+@PLEASECITIES
+@width=320
+@title=%STRING0er Abgesandter
+"Als eine Geste des guten Willens zwischen unseren
+Völkern, bitten wir herzlich, daß Sie ihre Truppen von 
+der Nähe der %STRING1 und allen anderen %STRING2
+Städten zurückziehen."
+
+
+@TERMS
+@width=320
+@title=Außenminister
+Erinnern Sie sich, Ahnherr, daß wir unter den Bedingungen
+des neulich unterschriebenen Friedensvertrag mit 
+%STRING2 sofort alle militärischen Einheiten von der 
+Nähe (im Radius von zwei Quadraten) von %STRING1 
+und allen anderen %STRING3en Städten zurückziehen müssen."
+
+
+@INTRUDERS
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Truppen haben das Gebiet von %STRING1 und
+anderer Städte gestört. Unter den Bedingungen unseres
+Friedensvertrags müssen Sie sofort zurückziehen
+oder die Folgen tragen!"
+
+@INTRUDER
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Truppen haben das Gebiet unserer Stadt  
+%STRING1 gestört. Unter den Bedingungen unseres
+Friedensvertrags, müssen Sie sofort zurückziehen
+oder die Folgen tragen!"
+
+
+@VIOLATOR
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Truppen haben das Gebiet unserer Stadt  
+%STRING1 gestört. Unter den Bedingungen unseres
+Friedensvertrags, müssen Sie sich sofort zurückziehen
+oder die Folgen tragen!"
+Werden Sie sich danach richten?"
+
+Truppen zur nächsten Stadt zurückziehen.
+"Nein! Wir kündigen dieses wertlose Abkommen!"
+
+@VIOLATORS
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre Truppen haben das Gebiet von %STRING1 und
+anderer Städte gestört. Unter den Bedingungen unseres
+Friedensvertrags müssen Sie sofort zurückziehen
+oder die Folgen tragen!"
+Werden Sie sich danach richten?"
+
+
+"Wir bitten um Entschuldigung. Wir werden zurückziehen."
+"Nein! Wir kündigen dieses wertlose Abkommen!"
+
+@VIOLATE
+@width=320
+@title=%STRING0er Abgesandter
+"So sei es! %STRING1 wird diesen Verrat nicht vergessen!
+Bereiten Sie sich auf KRIEG vor!"
+
+@WITHDRAWN
+@width=320
+@title=Außenminister
+%NUMBER0 der Anstoß erregenden Einheiten wurden zu 
+unseren nächsten Städten zurückgezogen."
+
+@WITHDRAWN1
+@width=320
+@title=Außenminister
+Eine schuldige Einheit ist zu unseren nähesten Städten
+zurückgezogen worden.
+
+
+@HELPME
+@width=320
+@title=%STRING0er Abgesandter
+"Unsere Zivilisation wird von den miesen
+%STRING1 bedroht. Werden Sie sich mit uns alliieren,
+um diese nicht provozierte Aggression zurückzuschlagen?
+Wir werden Ihnen %NUMBER0 Gold senden, um Ihre Ausgaben 
+zu decken."
+
+"Nein, leider nicht. So ein Pech!"
+Ja, wir erklären Krieg gegen die %STRING1.
+
+@HELPME2
+@width=320
+@title=%STRING0er Abgesandter
+"Unsere Zivilisation wird von den miesen
+%STRING1 bedroht. Werden Sie sich mit uns alliieren,
+um diese nicht provozierte Aggression zurückzuschlagen?
+Wir werden Ihnen %NUMBER0 Gold senden und Ihnen das Geheimnis:
+%STRING2 lehren."
+
+"Nein, leider nicht. So ein Pech!"
+Ja, wir erklären Krieg gegen die %STRING1.
+
+@HELPMEINSTEAD
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre sogenannten Alliierten, die miesen %STRING1,
+sind auf Eroberung  und Weltherrschaft besessen!
+Warum alliieren Sie sich nicht mit uns, um
+die Welt von ihrer grausamen Aggression zu retten?
+Wir werden Ihnen %NUMBER0 Gold senden und Ihnen das Geheimnis:
+%STRING2 lehren."
+
+
+"Nein, leider nicht. So ein Pech!"
+Ja, wir erklären Krieg gegen die %STRING1.
+
+@HELPMEINSTEAD2
+@width=320
+@title=%STRING0er Abgesandter
+"Ihre sogenannten Alliierten, die miesen %STRING1,
+sind auf Erroberung  und Weltherrschaft besessen!
+Warum alliieren Sie sich nicht mit uns, um
+die Welt von ihrer grausamen Agression zu retten?
+Wir werden Ihnen %NUMBER0 Gold senden und Ihnen das Geheimnis
+von %STRING2 lehren."
+
+"Nein, leider nicht. So ein Pech!"
+Ja, wir erklären Krieg gegen die %STRING1.
+
+
+@CRUSADE
+@width=320
+@title=%STRING0er Abgesandter
+"Wir laden Sie zu unserem Kreuzzug ein, um
+die Welt von den miesen %STRING1 loszuwerden.
+Wir werden eine Allianz mit den %STRING2 bauen, 
+während die Feindseligkeiten stattfinden."
+
+"Nein, wir sind nicht daran interessiert."
+Ja, wir erklären Krieg gegen die %STRING1.
+
+@JIHAD
+@width=320
+@title=%STRING0er Abgesandter
+"Sie haben sich mit unseren verhaßten Feinden, den
+%STRING1 alliiert. Es ist aber offensichtlich, daß wir
+Ihrer großen Zivilisation mehr bieten können. Helfen Sie 
+uns, die %STRING1 zu zerschmettern und wir werden die 
+Welt gemeinsam beherrschen.
+
+"Nein, wir sind nicht daran interessiert."
+Ja, wir erklären Krieg gegen die %STRING1.
+
+@GAPE
+@width=320
+@title=%STRING0er Abgesandter
+"Sie werden eingeladen, erstaunt und
+in Verblüffung zu starren, während
+die %STRING1 die Wunder von %STRING2 demonstrieren.
+Unter keinen Umständen sind Schreiber erlaubt."
+
+@ANNOYALLIED
+@width=320
+@title=Außenminister
+Wir sind zur Zeit mit den %STRING1 alliiert!
+Obwohl sich unsere Einheiten sich durch die Gebiete
+unserer Alliierten bewegen können, können sie nicht das gleiche
+Quadrat der Einheiten und Städt der Alliierten betreten. Wir können auch nicht Kämpfe mit
+unseren Allierten haben. Bündnisse können nur während diplomatischen Verhandlungen
+aufgelöst werden."
+
+@ANNOYPEACE
+@width=320
+@title=Außenminister
+Wir haben ein Friedensabkommen mit den %STRING1 abgeschlossen.
+Es wird unseren Ruf schädigen, wenn wir es brechen!
+
+Aktion abbrechen.
+Friedensabkommen brechen.
+
+
+@ANNOYVASSAL
+@width=320
+@title=Außenminister
+Wir haben Tribut von den %STRING1 angenommen!
+Es wird unseren Ruf schädigen, wenn wir sie so 
+bald angreifen!
+
+Aktion abbrechen.
+Trotzdem fortsetzen.
+
+
+@ANNOYCEASE
+@width=320
+@title=Außenminister
+Wir haben einen Waffenstillstand mit den %STRING1 
+abgeschlossen. Es wird unseren Ruf schädigen, 
+wenn wir es brechen!
+
+Aktion abbrechen.
+Waffenstillstand verletzen.
+
+@ANNOY
+@width=320
+@title=Außenminister
+Sollen wir Krieg gegen die %STRING1 erklären?"
+
+Aktion abbrechen.
+Krieg erklären.
+
+@OVERRULE
+@width=320
+@title=Außenminister
+Sie wurden vom Senat überstimmt. Aktion abgebrochen.
+
+@TAXES
+@width=320
+@title=Innenpolitischer Berater
+Warnung: Geldmittel laufen aus. Vielleicht
+sollten wir den Steuersatz heben
+oder Steuereinzieher anstellen.
+
+Fortsetzen
+Steuersatz ändern
+
+@SPYMENU
+@width=320
+@title=%STRING0 %STRING1 kommt in %STRING2 an.
+
+@SPYOPTIONS
+Botschaft öffnen
+Stadt untersuchen
+Technologie stehlen
+Industrielle Sabotage
+Wasservorrat vergiften
+Atombombe legen     
+Eine Revolte anstiften
+
+@SABOTAGEOPTIONS
+@width=320
+@title=Spionageoptionen
+@options
+Einheit bestechen.
+Einheit sabotieren.
+
+@BLEWITUP
+@width=320
+%STRING0 %STRING1 sabotiert von %STRING2 %STRING3!
+
+@BOND007
+@width=320
+@title=Nachrichtendienst Berater
+Unsere Spionin ist entkommen und hat Veteranenstatus erreicht!
+Sie ist nach %STRING1 zurückgekehrt, um sich zu erholen.
+
+@BOND
+@width=320
+@title=Nachrichtendienst Berater
+Unsere Spionin ist unverletzt entkommen.
+Sie wurde nach %STRING1 zurückgebracht, um sich zu erholen.
+
+@BONDGLORY
+@width=320
+@title=Nachrichtendienst Berater
+Unsere Spionin wurde gefangengenommen, nachdem sie 
+ihre Aufgabe erfüllt hat!
+
+@NAILED
+@width=320
+@title=Nachrichtendienst Berater
+Unsere Spionin wurde gefangengenommen, bevor sie 
+ihre Aufgabe erfüllt hat!
+
+@ENEMYEMBASSY
+@width=320
+@title=Außenminister
+%STRING0 öffnet Botschaft
+
+@ENEMYINVESTIGATE
+@width=320
+@title=Außenminister
+Die %STRING0 haben %STRING1 untersucht.
+
+@STEALSPECIFIC
+@width=320
+@title=Spionenbefehle
+Soll unsere Spionin versuchen, einen gewissen
+Zivilisationsfortschritt zu stehlen?
+
+Nein, ein beliebiger Fortschritt ist gut genug.
+Ja.
+
+@STEALHARD
+@width=320
+@title=Spionenbefehle
+Die %STRING0 von %STRING1 sind wachsam und mißtrauisch, 
+Ahnherr. Soll unsere Spionin trotzdem versuchen, die 
+Technologie zu stehlen (sie kann nicht versuchen, eine gewisse Technologie zu stehlen).
+
+Schon gut.
+Ja, machen Sie den Versuch.
+
+@STEAL
+@width=320
+@title=Nachrichtendienst Berater
+%STRING0 stehlen %STRING1.
+
+@NOSTEAL
+@width=320
+@title=Nachrichtendienst Berater
+Keine neue Technologie wurde gefunden.
+
+@SABOTAGESPECIFIC
+@width=320
+@title=Spionenbefehle
+Sollen wir unserer Spionin ein Hauptziel geben
+oder ihr mitteilen, nach eigenem Gutdünken zu verfahren.
+
+Nach eigenem Gutdünken zu verfahren.
+Geben Sie ihr ein Hauptziel.
+
+@SABOTAGEHARD
+@width=320
+@title=Nachrichtendienst Berater
+Der Versuch von Sabotage in der Hauptstadt des Feindes
+oder gegen die Stadtmauern trägt viele Risiken!
+
+Aktion abbrechen.
+Weiterführen.
+
+@SABOTAGENO
+@width=320
+@title=Nachrichtendienst Berater
+Unsere Spionin berichtet, daß der SDI Komplex
+von Wachtürmen und Stacheldraht umgeben ist
+und von Hundepatrouillen bewacht wird! Keine 
+Sabotage ist möglich.
+
+@SABOTAGE
+@width=320
+@title=Hauptziel wählen
+@listbox
+
+@SABOTAGEONE
+@width=320
+@title=Nachrichtendienst Bericht
+%STRING0 zerstört!
+
+@SABOTAGETWO
+@width=320
+@title=Nachrichtendienst Bericht
+%STRING0 Produktion sabotiert!
+
+@PRETEXTALLIED
+@width=320
+@title=Internationaler Vorfall!
+Dieser Spionageakt von den %STRING0 gibt uns
+einen gültigen Vorwand, unser Bündnis mit 
+ihnen zu brechen!
+
+Nein danke.
+Das Bündnis brechen.
+
+@PRETEXT
+@width=320
+@title=Internationaler Vorfall
+Dieser Spionageakt von den %STRING0 gibt uns
+einen gültigen Vorwand, Krieg zu erklären!
+
+Nein danke.
+Krieg gegen die %STRING0 erklären.
+
+
+@INCIDENT
+@width=320
+@title=Nachrichtendienst Berater
+Dies könnte zu einem internationalen Vorfall führen,
+wenn wir herausgefunden werden! Trotzdem fortsetzen?
+
+Aktion abbrechen.
+Weiterführen.
+
+@MAJORINCIDENT
+@width=320
+@title=Nachrichtendienst Berater
+Dies könnte einem RIESIGEN internationalen Vorfall führen,
+wenn wir herausgefunden werden! Trotzdem fortsetzen?
+
+Aktion abbrechen.
+Weiterführen.
+
+
+@INCIDENTALLIED
+@width=320
+@title=Zeitung
+Internationaler Vorfall!
+%STRING1 bricht Bündnis mit %STRING0
+über Spionageskandal!
+
+@WIMPOUT
+@width=320
+@title=%STRING0er Abgesandter
+"Obwohl wir Freunde und Allierte sind, kann
+industrielle Spionage nicht toleriert werden.
+Wir werden diesen kleinen Vorfall übersehen, aber es darf
+nicht noch einmal geschehen.
+
+@INCIDENTWAR
+@width=320
+@title=Zeitung
+Internationaler Vorfall!
+%STRING1 erklären Krieg gegen %STRING0
+über Spionageskandal!
+
+@INCIDENTTERROR
+@width=320
+@title=Zeitung
+Internationaler Vorfall! %STRING1 verdammen öffentlich
+den %STRING0 Terrorismus.
+
+@SENATESCANDAL
+@width=320
+@title=Zeitung
+Skandal im Senat! %STRING0
+Regierung gestürzt!
+
+@DISSIDENTS
+@width=320
+@title=Nachrichtendienst Berater
+Dissidenten unter %STRING0 werden 
+für %NUMBER0 Gold revoltieren.
+
+@DISSIDENTOPTIONS
+Schon gut.
+Revolte anstiften.
+Revolte anstiften (bewirkt Vorfall).
+Stadt subvertieren (Goldx2, kein Vorfall).
+
+@CIVILWAR
+@width=320
+@title=Bürgerkrieg!
+%STRING0 rebellieren! Bürgerkrieg in %STRING1.
+%STRING2er Einfluß vermutet.
+
+@USEWEAPONS
+@width=320
+@title=Verteidigungsminister
+%STRING0 verwenden Atomwaffen!
+
+@SDI
+@width=320
+@title=Verteidigungsminister
+S.D.I. Verteidigung in %STRING1 vereitelt Atomangriff!
+
+@PLANTEDNUKE
+@width=320
+@title=(Zeitung)
+Mysteriöse Atomexplosion in %STRING0!
+
+@PLANTEDNUKE2
+@width=320
+@title=Nuklearer Terrorismus!
+Atomexplosion in %STRING0!  %STRING1 Agenten
+auf frischer Tat Momente vor der Explosion ertappt.
+Großer internationaler Vorfall-- Alle Nationen erklären
+Krieg gegen %STRING2!
+
+@WATERSUPPLY
+@width=320
+@title=Wasservorrat vergiftet!
+%STRING0 Wasservorrat vergiftet!  %STRING1
+Agenten vermutet.
+
+@DESERT
+@width=320
+@title=Nachrichtendienst Berater
+%STRING0 %STRING1 wird für %NUMBER0 Gold desertieren.
+
+@DESERT2
+@width=320
+@title=Nachrichtendienst Berater
+%STRING0 %STRING1 wird für %NUMBER0 Gold desertieren.
+
+Schon gut.
+Zahlen Sie %NUMBER0 Gold.
+
+@DESERTED
+@width=320
+@title=Verteidigungsminister
+%STRING0 %STRING1 bestochen von %STRING2!
+
+
+@ALREADYSOLD
+@width=320
+@title=Innenpolitischer Berater
+Sie können in einer einzigen Runde nicht mehr als eine
+Verbesserung in einer Stadt bezahlen.
+
+@PARTISANS
+@width=320
+@title=Verteidigungsminister
+Verzweifelte %STRING0 Partisanen flüchten zu den 
+Hügeln nahe %STRING1!
+
+
+@REPORTSCIENCE
+@width=540
+@title=Bericht des wissenschaftlichen Beraters
+@listbox=12
+@columns=3
+@button=Auskunft
+@button=Ziel
+^Forschung: %STRING0 (%NUMBER0 von %NUMBER1)
+^Entdeckung jede %NUMBER2 Runden
+^
+^^Zivilisationsfortschritte erreicht:
+
+@SUPPLYSEARCH
+@width=480
+@title=Frachttyp für Anfrage wählen
+@columns=2
+
+@SUPPLYSHOW
+@width=480
+@title=Städte handeln in %STRING0
+@listbox
+
+@SUPPLYNONE
+@width=480
+@title=Städte handeln in %STRING0
+Wir kennen keine Städte, die jetzt in %STRING0 handeln.
+
+@REPORTTRADE
+@width=480
+@title=Bericht des Handelsberaters
+@button=Angebot und Nachfrage
+@listbox
+
+@REPORTCITY
+@width=540
+@title=Stadtstatus Bericht
+@listbox
+
+@REPORTATTITUDE
+@width=540
+@title=Einstellungsumfrage
+@listbox
+
+
+@REPORTFOREIGN
+@width=580
+@title=Außenminister
+@listbox=7
+@button=Nachrichten Überprüfen
+@button=Abgesandter Schicken
+Ahnherr, unsere Macht ist %STRING0 und unser Ruf ist %STRING1.
+
+@NOFOREIGN
+@width=320
+@title=Außenminister
+Wir haben noch keinen Kontakt mit anderen Zivilisationen aufgenommen.
+
+@REPORTINTELL
+@width=580
+@listbox=4
+@columns=3
+@title=Nachrichtendienst Bericht: %STRING0
+@button=Stadtliste
+
+@INTELLCITY
+@width=320
+@listbox=12
+@title=Stadtliste: %STRING0
+
+
+
+@REPORTWONDER
+@width=540
+@title=Wunder der Welt
+@listbox
+
+
+@WONDERS
+Wunder der antiken Welt       
+Wunder der mittelalterlichen Welt
+Wunder der Renaissance
+Wunder der modernen Welt
+
+
+@AMBASSADORS
+@width=320
+@title=Außenminister
+%STRING1 stimmen einem Austausch von Botschaftern zu.
+
+@ENDWONDER
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0 hebt die Wirkung von %STRING1 auf.
+
+
+@FEARWARMING
+@width=320
+@title=(Zeitung)
+Wissenschaftler sind über sich erhöhende Temperaturen alarmiert.
+Globale Wärmung befürchtet!
+
+@GLOBALWARMING
+@width=320
+@title=(Zeitung)
+Globale Temperatur steigt. Eisgipfel schmelzen.
+Ernste Dürreperiode.
+
+
+@SCHISM
+@width=400
+@title=Verteidigungsminister
+Das %STRING0e Reich wird von einem
+Bürgerkrieg überrollt, der vom Sturz der 
+Hauptstadt ausgelöst wurde. Nachdem sich
+die Wogen geglättet haben, ist das Reich
+in treue (%STRING0) und Rebellenfaktionen
+(%STRING1) gesplittert.
+
+@FERTILE
+@width=420
+@title=Innenpolitischer Berater
+Die Bevölkerung des fruchtbaren %STRING1en Reichs
+überschreitet jetzt %STRING2 Bürger.
+
+@CARAVANMENU
+@width=320
+@title=%STRING0 Karawanenoptionen
+
+@CARAVAN
+@width=420
+@title=Handelsroute
+%STRING0 Karawane von %STRING1 kommt in %STRING2 an.
+Handelsroute aufgeschlossen. Umsatz: %NUMBER0 Gold.
+
+@FOODCARAVAN
+@width=420
+@title=Handelsroute
+Lebensmittelkarawane %STRING1 kommt in %STRING2 an.
+Bürger planen ein Festessen als Feier.
+
+@CARAVANHOME
+@width=420
+@title=Zivilisationsregeln: Handelseinheiten
+Sie können die Heimatstadt einer Handelseinheit nicht ändern.
+
+@CARAVANOTHER
+@width=420
+@title=Handelsroute
+%STRING0 %STRING1 Karawane von %STRING2 kommt in
+%STRING3 an. %STRING1-%STRING4 Handelsroute aufgeschlossen.
+
+@CARAVANBUILT
+@width=420
+@title=Karawane
+@button=Angebot und Nachfrage
+%STRING0 baut %STRING1. Welche Handelsgüter sollen
+wir mitnehmen?
+
+@CARACONFIRM
+@width=320
+@title=Karawane
+@button=Bestätigen und Zoomen
+%STRING0 Karawane bestätigen
+
+Bestätigt.
+Nochmals überlegen.
+
+@CITYINFO
+@width=320
+@title=%STRING0 (%STRING1 Stadt)
+Verlangt %STRING2, %STRING3, und %STRING4.
+
+@STARTWONDER
+@width=320
+@title=Reisende berichten
+Die %STRING1 haben ein großes Projekt
+unternommen: %STRING2!
+
+@SWITCHWONDER
+@width=320
+@title=Reisende berichten
+Die %STRING1 haben Projekt
+%STRING2 zu %STRING3 geändert.
+
+@ABANDONWONDER
+@width=320
+@title=Reisende berichten
+Die %STRING1 haben ihr großes Projekt, 
+%STRING2 aufgegeben.
+
+@ALMOSTWONDER
+@width=320
+@title=Reisende berichten
+Die %STRING1 haben beinahe Ihr    
+großes Projekt %STRING2 beendet.
+
+@STILLWONDER1
+@width=320
+@title=Spionen berichten
+Die %STRING1 bauen ihr großes Projekt,
+%STRING2 in einer anderen Stadt weiter!
+
+@STILLWONDER2
+@width=320
+@title=Spionen berichten
+Die %STRING1 bauen ihr großes Projekt
+%STRING2 in %NUMBER0 anderen Städten weiter!
+
+@CAPTUREWONDER
+@width=320
+@title=Verteidigungsminister
+Unsere Truppen haben %STRING1 eingefangen!
+
+@LOSTWONDER
+@width=320
+@title=Verteidigungsminister
+Wir haben Beherrschung über %STRING1 verloren!
+
+@ACTIVATEALLY
+@width=320
+@title=Außenminister
+%STRING1 aktivieren ihr Bündnis mit den
+%STRING2.  %STRING2 erklären Krieg gegen %STRING3!
+
+@ALLYHELPS
+@width=320
+@title=Außenminister
+Die %STRING2 haben verkündet, daß sie uns zu Hilfe
+kommen werden und Krieg gegen die %STRING3 erklärt haben!
+
+
+@MILITARYAID1
+@width=320
+@title=Verteidigungsminister
+Die %STRING0 haben %STRING1
+zu den %STRING2 gesandt, um ihnen bei ihrem
+Krieg gegen uns zu helfen!
+
+@MILITARYAID2
+@width=320
+@title=Verteidigungsminister
+Die %STRING0 haben %STRING1 zu %STRING2 gesandt,
+um uns bei unserem Krieg gegen die %STRING3 zu helfen.
+
+
+@GOTO
+@width=480
+@title=Ziel für %STRING0
+@button=Alle Spieler
+@listbox
+
+@PARADROP
+@width=320
+@title=Fallschirmjäger abwerfen!
+%STRING0 %STRING1 lassen Fallschirmjäger nahe %STRING2 abspringen!
+
+@PARADROPRULES1
+@width=320
+@title=Zivilisationsregeln: Fallschirmjäger abspringen 
+lassen. Dieser Fallschirmjäger hat sich in dieser 
+Runde bereits bewegt. Ein Fallschirmjäger kann nur 
+zu Beginn der Runde abspringen.
+
+@PARADROPRULES2
+@width=320
+@title=Zivilisationsregeln: Fallschirmjäger abwerfen
+Dieser Fallschirmjäger befindet sich nicht in einer Stadt oder
+einem Luftstützpunkt. Um Fallschirmjäger abzuwerfen, muß eine
+Fallschirmjägereinheit ihre Runde in einer freundlichen 
+Stadt oder einem Luftstützpunkt beginnen.
+
+@PARADROPTARGET
+@width=320
+Das ist ein Ozeanquadrat.
+Die Ziele von Fallschirmjäger können nur nicht-besetzte (oder von Freunden besetzte)
+Landquadrate innerhalb von %NUMBER0 Quadraten der Fallschirmjägereinheit sein.
+
+@PARADROPTARGET1
+@width=320
+@title=Zivilisationsregeln: Fallschirmjäger abspringen lassen
+Dieses Quadrat ist außerhalb des Bereichs.
+Die Ziele von Fallschirmjäger können nur nicht-besetzte (oder von Freunden besetzte)
+Landquadrate innerhalb von %NUMBER0 Quadraten der Fallschirmjägereinheit sein.
+
+@PARADROPTARGET2
+@width=320
+@title=Zivilisationsregeln: Fallschirmjäger abspringen lassen
+Die Ziele von Fallschirmjäger können nur nicht-besetzte (oder von Freunden besetzte)
+Landquadrate innerhalb von %NUMBER0 Quadraten der Fallschirmjägereinheit sein.
+
+
+@INCORRUPTIBLE
+@width=320
+@title=Zivilisationsregeln: Demokratie und Bestechungen
+Die Streitkräfte einer Demokratie sind
+immun zu Bestechungen.
+
+@NOREVOLT
+@width=320
+@title=Zivilisationsregeln: Demokratie
+Die Städte einer Demokratie können nicht
+unterminiert oder zu Revolten aufgestachelt werden.
+
+@UNFORCE
+@width=320
+@title=Außenminister
+Vereinte Nationen zwingen %STRING1 Frieden mit
+%STRING2 zu schließen!
+
+@WALLFORCE
+@width=320
+@title=Außenminister
+Große Mauer zwingt %STRING1, Frieden mit %STRING2 
+zu schließen!
+
+
+@MISSILEATTACK
+@width=320
+@title=Verteidigungsminister
+Raketenangriff nahe %STRING0!
+
+@PEARLHARBOR
+@width=320
+@title=Verteidigungsminister
+%STRING0 %STRING1 erwischt %STRING2 Schiffe im Hafen!
+
+@AUTOMONARCHY
+@width=440
+@title=Zivilisationsregeln: Regierungen
+Sie haben gerade das Wissen der MONARCHIE erhalten,
+das Ihnen erlaubt, Ihre Regierung zu verbessern. Um Regierungen zu ändern, müssen Sie eine
+Revolution starten ("Revolution"
+vom Königreichmenü wählen); dies schließt eine kurze Periode der
+Anarchie ein.
+^
+Die Änderung zu einer fortgeschritteneren Regierungsform kann die 
+Produktivität Ihrer Leute erhöhen. Sie kann auch bei der Eindämmung von Korruption und
+Verschwendung helfen. Möchten Sie jetzt eine Revolution?
+
+Noch nicht.
+Beginnen Sie die Revolution.
+
+@AUTOREV
+@width=320
+@title=Zivilisationsregeln: Regierungen
+Sie haben gerade das Wissen einer neuen Regierungsform, der %STRING0 erhalten. Ihre
+derzeitige Regierung ist eine %STRING1. 
+Möchten Sie eine Revolution beginnen, um die Regierungsform zu ändern?
+
+Nein, %STRING1 erledigt sich von selbst.
+Beginnen Sie die Revolution.
+
+@BATTERY
+@width=320
+@title=Verteidigungsminister
+%STRING1 in %STRING2 verdoppelt Ihre Verteidigungsstärke!
+
+@BATTERY2
+@width=320
+@title=Verteidigungsminister
+%STRING1 und %STRING3 in %STRING2 vierfache Verteidigungsstärke!
+
+
+@SCRAMBLE
+@width=320
+@title=Verteidigungsminister
+%STRING0 %STRING1 hasten, um %STRING2 zu schützen!
+
+@AMPHIBMOTIZE
+@width=320
+@title=Verteidigungsminister
+%STRING1 %STRING2 unternimmt amphibischen Angriff!
+
+@CITYMODAL1
+@width=400
+@title=Stadtfenster
+@button=Stadtfenster schließen
+Sie müssen das Stadtfenster schließen, bevor Sie weiterspielen können.
+
+@CITYMODAL2
+@width=400
+@title=Ende der Runde Aktualisierung
+@button=Weitermachen
+Im Moment können Sie nur einen Dialog mit dem Stadtbildschirm
+führen. Drücken Sie eine beliebige "Weitermachen" Taste, wenn
+Sie bereit sind, weiterzuspielen.
+
+@UPGRADED
+@width=320
+@title=Innenpoloitischer Berater
+Produktionsbestellungegen in %STRING0 von
+%STRING1 zu %STRING2 aktualisiert.
+
+@UPGRADE
+@width=320
+@title=Innenpolitischer Berater
+%STRING2 aktualisiert alle %STRING0 zu %STRING1.
+
+@ASTRONAUTS
+@width=320
+@title=Wissenschaftlicher Berater
+Astronauten bringen Fotos der Erde vom Weltall zurück!
+
+@LONGMOVE
+@width=320
+@title=Lange Bewegung einer Einheit
+Einheit weiterbewegen?
+
+Ja
+Nein
+
+@GHOSTTOWN
+@width=320
+@title=Innenpolitischer Berater
+%STRING0 ist im Begriff %STRING1 zu bauen
+ist aber nur eine Stadt von Größe 1. Trotzdem weitermachen?
+
+Siedlerproduktion verschieben.
+Siedler trotzdem bauen (löst Stadt auf)
+
+@EXPEL
+@width=320
+@title=%STRING0 %STRING1 gefangengenommen.
+@options
+%STRING1 ausweisen.
+%STRING1 angreifen.
+Schon gut.
+
+@NOEXPEL
+@width=320
+@title=Zivilisationsregeln: Diplomatische Immunität
+%STRING1 Einheiten können nur ausgewiesen werden, wenn
+sie sich in Ihrem Gebiet befinden, was in diesem Fall 
+als näher zu einer Ihrer Städte ist als zu deren Stadt 
+heißt.
+
+@UPYOURS
+@width=320
+@title=Außenminister
+%STRING0 %STRING1 ausgewiesen! %STRING0 Botschafter
+protestiert öffentlich.
+
+@UPYOURSTOO
+@width=320
+@title=Außenminister
+%STRING0 %STRING1 ausgewiesen.  %STRING0 Botschafter
+bittet öffentlich um Entschuldigung.
+
+@UPMINE
+@width=320
+@title=Außenminister
+Die %STRING2 haben unseren %STRING1 ausgewiesen. Unser
+Botschaft hat die gewöhnlichen Protest ausgegeben. Der 
+%STRING1 ist nach %STRING3 zurückgekehrt.
+
+@SPACERACE
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0 bauen ein Raumschiff
+
+@SPACESHIP
+@width=480
+@title=Raumschiffbericht
+@listbox
+^^%STRING0.S.S. %STRING1 (%STRING2)
+
+@LAUNCH
+@width=320
+@title=Wissenschaftlicher Berater
+Raumschiffabschuß bestätigt
+(%NUMBER0%% Erfolgsschancen)
+
+Kein Start
+Abschuß BESTÄTIGT!
+
+@LAUNCHED
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0 SCHIESSEN Raumschiff AB!
+Erwartete Ankunft in %NUMBER0.
+
+@COMPONENT
+@width=320
+@title=Raumschiffbauteil wählen
+@options
+Antrieb (%NUMBER0 bis jetzt)
+Kraftstoff (%NUMBER1 bis jetzt)
+
+@MODULE
+@width=320
+@title=Raumschiffmodul Wählen
+@options
+Wohnstätten  (%NUMBER0 bis jetzt)
+Lebenserhaltung (%NUMBER1 bis jetzt)
+Sonnenkollektor  (%NUMBER2 bis jetzt)
+
+@NOFURTHER
+@width=320
+@title=Wissenschaftlicher Berater
+Keine weiteren %STRING0 benötigt.
+
+@SPACESHIPS
+@width=320
+@title=Welches Raumschiff ansehen
+@options
+
+@EAGLEHASLANDED
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0es Raumschiff kommt auf Alpha Centauri an!
+
+@SPACERETURNS
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0es Raumschiff kommt zur Erde zurück.
+
+@SPACEDESTROYED
+@width=320
+@title=Wissenschaftlicher Berater
+%STRING0es Raumschiff zerstört.
+
+@HISTORY
+@width=480
+@title=Civilization II
+^^%STRING1 vervollständigt seine epische Geschichte:
+^^'Die %STRING2 Zivilisationen in der Welt' 
+
+@HISTORIANS
+7
+Herodot
+Thukydides
+Plinius
+St. Augustin
+Gibbon
+Toynbee
+Lord Macaulay
+
+@HISTORIES
+REICHSTEN
+MÄCHTIGSTEN
+FORTGESCHRITTENSTEN
+GLÜCKLICHSTEN
+GRÖSSTEN
+
+@HISTORYRANK
+Glorreiche
+Große
+Feine
+Mittelmäßige
+Kleinliche
+Erbärmliche
+Hoffnungslose
+
+@ALLOWUN
+@width=320
+@title=Verteidigungsminister
+Der Senat hat die Erlaubnis gegeben, die Aktion
+unter dem Vorwand einer U.N. "Friedenssicherungsmission"
+durchzuführen.
+
+@ALLOWAGGRESSOR
+@width=320
+@title=Verteidigungsminister
+Vorherige %STRING0e Aggression gegen uns 
+überzeugt den Senat, diese Aktion zu erlauben.
+
+@ALLOWHAWKS
+@width=320
+@title=Verteidigungsminister
+Kriegspartei bringt die Einmischung des Senats zum Entgleisen.
+Aktion bestätigt!
+
+@CONTINUEUN
+@width=320
+@title=Verteidigungsminister
+Der Senat verabschiedet eine Resolution, die die fortgesetzte
+"Friedenssicherungsaktion" gegen die %STRING1 unterstützt.
+
+@CONTINUEHAWKS
+@width=320
+@title=Verteidigungsminister
+Der Senat verabschiedet eine Resolution, die die
+fortgesetzte Aktion gegen die %STRING1 unterstützt.
+
+@RANSOMCITY
+@width=320
+@title=Verteidigungsminister
+Der Führer der barbarischen %STRING0 hat uns eine 
+Nachricht gesandt: "Wir werden die Stadt  %STRING1 
+erbarmungslos plündern, wenn Sie nicht sofort %NUMBER0 Gold bezahlen!"
+
+"Versuche es!"
+Zahlen Sie %NUMBER0 Gold.
+
+@NOAIRPORT
+@width=320
+@title=Zivilisationsregeln: Luftbrücken
+Einheiten können nur auf dem Luftweg zwischen
+Städten mit Flughäfen transportiert werden.
+
+@NOAIRPORT2
+@width=320
+@title=Zivilisationsregeln: Luftbrücken
+Keine Ihrer anderen Städte haben Flughäfen!
+Einheiten können nur auf dem Luftweg zwischen
+Städten mit Flughäfen transportiert werden.
+
+@AIRLIFTSELECT
+@width=440
+@listbox=12
+@title=Zielstadt für die Luftbrücke wählen.
+
+@AIRLIFT
+@width=320
+@title=Verteidigungsminster
+Luftbrücke von %STRING0 zu %STRING1 erfolgreich!
+
+@SHOTDOWN
+@width=320
+@title=Verteidigungsminister
+Die %STRING0 haben unser Transportflugzug abgeschossen!
+
+@ALREADYAIRLIFT
+@width=320
+@title=Zivilisationsregeln: Luftbrücken
+Die Stadt von %STRING0 hat in dieser Runde bereits
+eine Luftbrückenoperation durchgeführt. Nur eine Einheit
+kann pro Runde in eine Stadt oder aus einer Stadt
+transportiert werden.
+
+@WESHOT
+@width=320
+@title=Verteidigungsminister
+Unsere Jäger haben eine versuchte Luftbrücke
+nach %STRING0 vereitelt!
+
+@WESAW
+@width=320
+@title=Verteidigungsminister
+Wir haben eine feindliche Luftbrücke
+nach %STRING0 entdeckt!
+
+@ENEMYFIGHTERS
+@width=320
+@title=Verteidigungsminister
+Feindliche Jäger haben einen Stützpunkt nahe unserer Städte.
+Sie könnten unsere Luftbrückenmission stoppen.
+
+Luftbrücke abbrechen.
+Weitermachen.
+
+@LIFTSHIP
+@width=320
+@title=Zivilisationsregeln: Luftbrücken
+Schiffe können nicht mit Luftbrücken transportiert werden,
+Dummkopf.
+
+@LIFTPLANE
+@width=320
+@title=Zivilisationsregeln: Luftbrücken
+Lufteinheiten können nicht mit einem Transporter bewegt werden.
+Sie müssen selbst fliegen.
+
+@PILLAGEWHAT
+@width=320
+@title=Verteidigungsminister
+Was sollen wir zerstören?
+
+@PILLAGEMENU
+Ackerland
+Bewässerung
+Bergbau
+Luftstützgspunkt
+Festung 
+Eisenbahn
+Straße
+
+@ALLIEDREPAIR
+@width=320
+@title=Verteidigungsminister
+Die %STRING1 haben uns geholfen, %STRING2 zu reparieren.
+
+@CANESCAPE
+@width=320
+@title=Verteidigungsminister
+Ahnherr, unsere Hauptstadt wird überlaufen! Sollen wir
+%NUMBER0 Gold bezahlen, um die Regierung nach %STRING1 zu bewegen,
+während wir noch Zeit haben?
+
+Leider können wir es uns nicht leisten.
+Ja, zahlen Sie %NUMBER0 Gold.
+
+@ESCAPE
+@width=320
+@title=Verteidigungsministerr
+%STRING2 Regierung entkommt nach %STRING1!
+
+@ESCAPE2
+@width=320
+@title=Verteidigungsminister
+%STRING2 Regierung flieht nach %STRING1!
+Evakuierungskosten: %NUMBER0 Gold.
+
+
+@AQUEDUCT
+@width=520
+@title=Zivilisation Tutorial: Aquädukte
+Die große Bevölkerung von %STRING0 belastet die nahen Wasserressourcen. Wenn eine Stadt
+die Größe von 20 erreicht,
+kann sie nicht weiter wachsen, bis Sie die Wasserversorgung
+mit einem AQUÄDUKT verbessert haben.
+
+@CURSES
+@width=320
+@title=Spionen berichten
+Spionageversuch der feindlichen %STRING1 vereitelt!
+
+@FOILEDAGAIN
+@width=320
+@title=Spionen berichten
+Unsere %STRING1 haben einen Spionageversuch der %STRING2 
+vereitelt!
+
+@UNSAVED
+@width=320
+@title=Warnung!
+%STRING0 hat nicht-gespeicherte Änderungen!
+
+Aktion abbrechen
+Trotzdem weitermachen (Änderungen gehen verloren).
+
+@FLATEARTH
+@width=320
+@title=Weltform wählen
+Welche Form ziehen Sie vor?
+
+Die Welt ist RUND.
+Die Welt ist FLACH.
+
+@LANDWARNING
+@width=320
+@title=Warnung.
+Mehr als %NUMBER0 Landmassen wurden entdeckt. Sie
+können auf einer solchen Landkarte spielen, aber das "Intelligenzniveau" der Computergegener
+könnte 
+manchmal etwas beeinträchtigt sein.
+
+@SEAWARNING
+@width=320
+@title=Warnung!
+Mehr als %NUMBER0 Wassermassen wurden entdeckt. Sie
+können auf einer solchen Landkarte spielen, aber das "Intelligenzniveau" der Computergegener
+könnte 
+manchmal etwas beeinträchtigt sein.
+
+
+@NOTENOUGHWARNING
+@width=320
+@title=Warnung!
+Nicht genug Land wurde entdeckt. Das Spiel könnte nicht
+genug Startstandorte für alle Spieler finden.
+
+@CITIESINOCEAN
+@width=320
+@title=Warnung!
+Sie haben die Startstandorte der Städte in Ozeanquadrate 
+gesetzt. Das Spiel wird dises Quadrate ignorieren (die Stämme in Frage werden in beliebig
+ausgewählten Standorten beginnen).
+
+@ANALYZEOK
+@width=320
+@title=Landkartenanalyse OK!
+Die Landkarte wurde analysiert und es wurden 
+keine Probleme entdeckt.
+
+@FAILEDTOLOAD
+@width=320
+@title=Fehler
+Landkartendatei wurde nicht geladen.
+
+@MAPSAVED
+@width=320
+@title=Landkarte gespeichert
+^^Landkarte erfolgreich gespeichert als 
+^^%STRING0
+
+@ADDCITY
+@width=600
+@title=Stamm wählen, um hier zu starten
+
+@RESEED
+@width=440
+@title=Ressourcensamen eingeben (1 = zufällig)
+@options
+Samen:
+
+@NOADJACENTCITIES
+@width=320
+@title=Warnung!
+Städte können nicht nebeneinander gebaut
+werden.
+
+@NOTALLCITIES
+@width=320
+@title=Warnung!
+Startstandorte wurden für einige, aber nicht alle 
+Stämme bestimmt. Stämme, deren Startstandorte nicht 
+bestimmt werden, werden willkürlich gewählt.
+
+@GOLDENAGE
+@width=320
+@title=Goldenes Alter der Philosophie
+Das Goldene Alter der Philosophie beginnt in der
+%STRING0en Stadt von %STRING1! Große %STRING0e
+Denker legen wissenschaftliche, moralische und
+metaphysische Systeme dar, die für kommende 
+Jahrhunderte gelten
+
+@LANDING
+@width=320
+@title=Feind entdeckt!
+%STRING0 landen nahe %STRING1!
+
+@NEWXFORM
+@width=320
+@title=Neuer Befehl: Transformieren
+Der neue Typ der Ingenieureinheit kann den
+Transformieren ("o") Befehl verwenden, um den   
+Terraintyp in einem Quadrat drastisch zu transformieren.
+Ingenieure können auch doppelt so schnell als Siedler
+bei gewöhnlichen Aufgaben arbeiten (Straßenbau, 
+Bewässerung, usw.).
+
+@NEWFORTRESS
+@width=320
+@title=Neuer Befehl: Festung
+Unsere Siedler können jetzt den "Festung" ("f")
+Befehl verwenden, um Festungen zu bauen. Festungsquadrate
+verdoppeln die Verteidigung der Einheiten in der 
+Festung und verhindern, daß mehr als eine Einheit auf einmal 
+im Kampf verlorengeht.
+
+@NEWAIRLIFT
+@width=320
+@title=Neue Befehle: Luftbrücken und Luftunterstützungspunkt
+Unsere Bodeneinheiten können jetzt den Luftbrücke ("l")
+Befehl verwenden, um sich zwischen unseren Städten mit Flughäfen zu bewegen. Unsere
+Siedler/Ingenieure können den Luftunterstützungspunkt ("e") Befehl verwenden, um
+Luftunterstützungspunkte in Quadraten ohne Städte zu bauen.
+
+@NEWRAILROAD
+@width=320
+@title=Neuer Befehl: Eisenbahn
+Unsere Siedler/Ingenieure können jetzt den 
+Eisenbahn ("r") Befehl verwenden, um Eisenbahnschienen 
+in Quadraten zu legen, die bereits Straßen haben. 
+Eisenbahnen erhöhen die Schildproduktion um 50%%. 
+Einheiten, die sich entlang der Eisenbahn bewegen, 
+kosten keine Bewegungspunkte.
+
+@NEWFARMLAND
+@width=320
+@title=Neuer Befehl: Ackerland
+Unsere Siedler/Ingenieure können jetzt den Ackerland ("i")
+Befehl verwenden, um das Ackerland in Quadraten zu verbessern,
+die bereits Bewässerung enthalten. Quadrate mit Ackerland    
+erhöhen die Produktion um 50%%, aber nur für Städte, die eine 
+Supermarkt Verbesserung haben.
+
+@NEWPARADROP
+@width=320
+@title=Neuer Befehl: Fallschirmjäger Abspringen
+Die neue Fallschirmjägereinheit kann den "Abspringen" ("p")
+verwenden, um Fallschirmjäger innerhalb von %NUMBER0 
+Räumen einer beliebigen freundlichen Stadt abspringen lassen
+(wenn sie ihre Runde in dieser Stadt beginnt).
+
+@ADDTOTHRONE
+@width=320
+@title=Tronsaal
+Junge, Junge! Sie können einen Teil zu Ihrem Thronsaal hinzufügen.
+
+@UPKEEP
+@width=320
+@title=Regeln für mehrere Spieler
+Diese Aktion ist während der Instandhaltung nicht erlaubt. 
+Warten Sie, bis die Hauptrunde beginnt.
+
+@MOVEPENDING
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Sie können keine neue Aktion beginnen, bevor die vorherige entschieden wurde. Warten Sie bis
+Ihre letzte Aktion (Bewegung einer Einheit, Stadtänderung, usw.) entschieden wurde.
+Versuchen Sie dann nochmals.
+
+@LOCKFAILED
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Jemand anderer arbeitet an einer Aktion, die diesen Bereich
+beeinflussen könnte. Sie müssen warten, bis diese Aktion
+entschieden ist. Versuchen Sie in einem Moment noch einmal.
+
+@LOCKFAILEDGLOBAL
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Eine größere Spielhandlung (z.B. Einnahme einer Stadt) findet
+gerade statt; Sie müssen warten, bis die Handlung
+abgeschlossen ist.  Versuchen Sie es gleich noch einmal.
+
+@MULTIFEATURE
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Diese Eigenschaft wird noch nicht im Modus für mehrere 
+Spieler unterstützt.
+
+@WAITPICKTECH
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten auf Spieler, bis er Fortschritt wählt....
+
+@WAITING0
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten auf andere, bis sie Städte aktualisieren...
+
+@WAITING1
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten auf andere, bis sie Städte synchronisieren...
+
+@WAITING2
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten auf andere, bis Technologie aktualisiert wird.... 
+
+@HANGUP
+@width=220
+@title=Ende des Spiels für mehrere Spieler
+Spiel beenden...
+
+@WAITLOCK
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten auf Erlaubnis zu bewegen...
+
+@WAITGLOBAL
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Warten bis Bewegung entschieden wird...
+
+@WAITACTION
+@width=220
+@title=Warten bei Spiel für mehrere Spieler
+Einheitsbefehle abbrechen...
+
+@WAITPLUNDER
+@width=220
+@title=Warten bei mehreren Spielern
+Warten, bis der Spieler Beute aussucht...
+
+@MULTIDONE
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Sie haben das Ende Ihres Zuges schon bestätigt.
+Sie müssen bis zu Ihrem nächsten Zug warten bevor Sie diese Handlung
+ausführen.
+
+@NETWAITING
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Das System wartet darauf, daß das Netz frei wird.
+Versuchen Sie es gleich noch einmal.
+
+@LOSTSERVER
+@width=320
+@title=mehrere Spieler
+Dieses Gerät hat den Anschluß an das Netzwerk verloren!
+
+@LOSTIT
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Wir haben eine Netzverbindung verloren.  Versuche,
+sie wiederherzustellen. . .
+
+@RECONNECTING
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Verbinde mit anderem Gerät . . .
+
+@SECONDMESSAGE
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Wiederverbindung komplett. Sende Daten . . .
+
+@SECONDFAILED
+@width=320
+@title=Schiedsrichter für mehrere Spieler
+Zweite Sendung versagt.  Auflegen.
+
+@NOSPACESHIPS
+@width=320
+@title=Raumfahzeuge
+Das Weltraumrennen hat noch nicht angefangen!
+
+@CODECNOTFOUND
+@width=320
+@title=Mitteilung
+Wir können die richtigen Dateien für
+die animierten Herolde nicht finden und haben daher diese "Grafikoption" abgeschaltet.
+Um die Dateien wieder installieren, bitte lassen sie
+"setup.exe" im "vfw_rt" Vezeichnis der Spiele-CD laufen.
+
+@NOFOODREPORT
+@width=320
+@title=Nahrungsvorrat
+"Angebot und Nachfrage" läßt sich nicht auf Nahrungsmittelkarawanen anwenden.
+Nahrungsmittelkarawanen lassen eine Nahrung pro Zug
+zwischen den beteiligten Städten austauschen.
+
+@@********** Everything below this line   ****************
+@@********** is new and needs translation ****************
+
+@REALLYRETIRE
+@width=320
+@title=Bestätigung
+Wollten Sie wirklich abtreten?
+
+Nein
+Ja
+
+@REALLYQUIT
+@width=320
+@title=Bestätigung 
+Möchten Sie wirklich abbrechen?
+
+Nein
+Ja
+
+
+@REALLYCHEAT
+@width=320
+@title= Bestätigung 
+Wenn Sie den Mogelnmodus aktivieren, wird dies in Ihrer Punktzahl eingetragen
+Möchten Sie wirklich den Mogelnmodus aktivieren?
+
+Nein
+Ja
+
+@PLANRETIRE
+@width=440
+@title=Abtritt geplant!
+%STRING0 %STRING1 plant Abtritt in 20 Jahren!
+
+@DORETIRE
+@width=440
+@title=Abtritt verkündet!
+%STRING1e Dynastie nach 6000 jähriger, glorreichen Regierung beendet!
+
+@SLAM
+Ihre Zivilisation hat die ganze Welt erobert!
+
+
+@KEEPPLAYING
+@width=320
+@title=Spiel beendet!
+Ihre Schlußpunktezahl ist kalkuliert. Wollen Sie weiterspielen?
+(keine weitere Punkte werden notiert).
+
+Nein, ich bin fertig.
+Ja, weiterspielen.
+
+
+@INSERTHERE
+@width=320
+@title=Spiel beendet!
+(Insert end of game graphic sequence here).
+
+@WONDERMOVIECHEAT
+@title=Wunderfilm Vorschau
+@width=320
+@options
+Welches Wunder?
+
+
+@CDROMNOTFOUND
+@width = 320
+@title = Bitte merken
+@button = Suche wiederholen 
+Konnte Civilization II CD-ROM nicht finden.  Falls Sie wolten,  können Sie diesmal
+Civilization II ohne die zusätzlichen Multimedien, Musik, und Kunst, die sich auf dem
+CD befinden, spielen.  Prüfen Sie aber auch nach, ob das CD im richtigen CD-ROM
+Lauftwerk ist.  Dann können Sie die Suche wiederholen, indem Sie unten "Suche wiederholen" wählen.
+
+@COUNCILCHEAT0
+@width = 600
+@title = Konzilmogeln
+@button = Militär
+@button = Wissenschaft
+@button = Handel
+@button = Fremd
+@button = Verhalten
+@button = Anarchie
+Welche Bewertung möchten Sie ändern?
+
+@COUNCILCHEAT1
+@width = 320
+@title = Konzilmogeln
+@options
+Neue Bewertung für diesen Ratgeber?
+
+@COUNCILCHEAT2
+@width = 200
+@title = Konzilmogeln
+@options
+Welchen Zeitraum? (0-2)
+
+
+@NOTENOUGHGRASS
+@width=320
+@title=Warnung!
+Nicht genügend ackerbaufähiges Land (Weideland, Prärie) wurde aufgefunden.  Das Spiel könnte ggf. nicht genügend passende Startstandorte für alle Spieler bieten.   
+
+
+
+@THRONE
+Das Volk entscheidet spontan, die vielen Jahre Ihrer erleuchtenen Herrschaft zu würdigen.
+Artisanen, Steinmetze und Arbeiter versammeln sich, um Ihnen einen prunkvollen Anbau zu Ihrem Thronsaal zu bauen.
+
+
+@MALEFAME
+%STRING0 der Wertlose
+%STRING0 der Erbärmliche
+%STRING0 der Törichte
+%STRING0 der Schwache
+%STRING0 der Bescheidene
+%STRING0 der Unbereite
+%STRING0 the Kleine
+%STRING0 der Fresser
+%STRING0 der Irre
+%STRING0 der Grausame
+%STRING0 the Fürchterliche
+%STRING0 der Finstere
+%STRING0 der Geschickte
+%STRING0 Eisenfaust
+%STRING0 der Eroberer
+%STRING0 der Redliche
+%STRING0 der Starke
+%STRING0 der Gerechte
+%STRING0 Löwenherz
+%STRING0 der Mächtige
+%STRING0 der Große
+%STRING0 Augustus
+%STRING0 der Weise
+%STRING0 der Prächtige
+
+@FEMALEFAME
+%STRING0 die Wertlose
+%STRING0 die Erbärmliche
+%STRING0 die Törichte
+%STRING0 die Schwache
+%STRING0 die Bescheidene
+%STRING0 die Unbereite
+%STRING0 die Kleine
+%STRING0 die Gefräßige
+%STRING0 die Irre
+%STRING0 die Grausame
+%STRING0 die Fürchterliche
+%STRING0 die Finstere
+%STRING0 die Geschickte
+%STRING0 Eisenfaust
+%STRING0 die Eroberin
+%STRING0 die Redliche
+%STRING0 die Strarke
+%STRING0 die Gerechte
+%STRING0 Löwenherz
+%STRING0 die Mächtige
+%STRING0 die Große
+%STRING0 Augusta
+%STRING0 die Weise
+%STRING0 die Prachtvolle
+
+
+@UNITEDIT
+@width=440
+@title=Editierung %STRING0 %STRING1
+@options
+Keine Änderungen
+Veteranstatus ändern
+Bewegungsanzahlzuweisung löschen
+Trefferpunkte festlegen
+Heimatstadt festlegen
+befestigen/unbefestigen
+Karawaneware festlegen
+
+@UNITHITPOINTS
+@width=320
+@title=Einheitsbeschädigung festlegen (0 - %NUMBER0)
+@options
+Beschädigung:
+
+@EDITHOMECITY
+@width=320
+@title=Stadt wählen
+@listbox
+@button=Keine
+
+
+
+@CITYEDIT
+@width=320
+@title=Editierung %STRING0
+@options
+Keine Änderungen
+Größe ändern
+Alle Wunder löschen
+Unruhe löschen und "Wir lieben den König" löschen
+Aufbesserungen einer anderen Stadt kopieren
+Schildererteilung ändern
+Stadtziel ändern (%NUMBER0)
+
+@SETCITYSIZE
+@width=320
+@title=Größe festlegen %STRING0
+@options
+Größe:
+
+@SETCITYSHIELDS
+@width=320
+@title=Schildererteilung ändern
+@options
+Schilder:
+
+@EDITKING
+@width=440
+@title=Editierung %STRING0
+@options
+Keine Änderungen
+Staatsverträge ändern
+Letzte Begegnung festlegen
+Verhalten festlegen
+Ruf festlegen
+Geduld löschen
+Alle Botschaften löschen
+Forschungsziel festlegen
+Forschungsfortschritt festlegen
+Forschungsziel löschen
+Name ändern
+Technologie eines anderen Königs kopieren
+Geschlecht ändern (%NUMBER0)
+
+@EDITTREATIES
+@width=440
+@title=Verträge zwischen %STRING0 und %STRING1 ändern.
+@checkbox
+@options
+Begegnung
+Waffenstillstand
+Frieden
+Verbündet
+Krieg
+Blutrache (%STRING0 gegen %STRING1)
+Botschaft (%STRING0 spioniert %STRING1 nach)
+
+@LASTCONTACT
+@width=440
+@title=Zügeanzahl seit letzter Begegnung (%STRING0 begegnen %STRING1)
+(Gegenwärtige Zügeanzahl: %NUMBER0)
+@options
+Begegnung:
+
+@EDITATTITUDE
+@width=440
+@title=Verhalten festlegen (%STRING0 %STRING1 gegenüber)
+(0 = gefällt, 100 = gefällt nicht)
+@options
+Verhalten:
+
+@EDITBETRAY
+@width=440
+@title=Ruf festlegen
+@options
+Ruf:
+
+@EDITPROGRESS
+@width=440
+@title=Forschungsfortschritt festlegen (1 - %NUMBER0)
+@options
+Fortschritt:
+
+
+@EDITRULES
+@width=440
+@title=Sonderregeln (0 = nein, 1 = ja) 
+@options
+Keine Änderungen 
+Regierungsarten tauschen verbieten? (%NUMBER0) 
+Keine Technologie nach Erroberung erhalten? (%NUMBER1) 
+Verschmutzung entfernen? (%NUMBER2) 
+Sonder AI nur für 2. Weltkriegsinszenierung? (%NUMBER3) 
+
+@EDITSCEN
+@width=440
+@title=Inszenierung ändern (%STRING1)
+@options
+Keine Änderungen
+Technologische Formel (%NUMBER0/10)
+Jahresablauf (%NUMBER1)
+Anfangsjahr (%NUMBER2)
+Maximale Zügeanzahl (%NUMBER3)
+Inszenierung ändern (%STRING0)
+Dörfer löschen
+Dörfer wiederherstellen
+Landkarte völlig zeigen
+Landkarte völlig abdecken
+Inszenierungsname festlegen
+Totalen Krieg ändern (%NUMBER4)
+Siegesbedingungen ändern
+Sonderregeln ändern
+
+@EDITVICTORY
+@width=440
+@title=Sieg ändern (Obj. Def. = %STRING1)
+@options
+Keine Änderungen
+Siegeszielanwendung ändern (%NUMBER0)
+Wunder als Siegesziel wählen ändern (%NUMBER1)
+Ziele des Vorkämpfers festlegen (%STRING0)
+Entscheidender Sieg (>= %NUMBER2)
+Knapper Sieg (>= %NUMBER3)
+Knappe Niederlage (<= %NUMBER4)
+Entscheidende Niederlage (<= %NUMBER5)
+
+@EDITVICTORYOBJ
+@title=Erforderliche Zielanzahl festlegen
+@options
+Ziele:
+
+@EDITPARADIGM
+@width=440
+@title=Technologische Formel inszenieren
+
+Technologische Formel auf 1/10 einstellen (10 = Normalrate).
+Kosten jeder Technologie ist mal einer Bruchzahl (höhere Zahl verlangsamt also die Forschung)
+.
+
+Formel:
+
+@EDITINCREMENT
+@width=440
+@title=Inszenierungsjahresbruchteil
+Jahresanzahl pro Zug festlegen (0 = Vorgabe, Minus = 1/12 Jahresbruchteile)
+@options
+Jahre pro Zug:
+
+@EDITSTARTYEAR
+@width=440
+@title=Anfangsjahresinszenierung
+Anfangsjahr festlegen (minus = v.Chr., plus = n.Chr.
+, 0 = Vorgegebener Zeitablauf). Falls 1/12 Jahresbruchteile angewendet werden, bitte Zahl mal 12 multiplizieren
+.
+@options
+Anfangsjahr:
+
+@EDITMAXTURNS
+@width=440
+@title=Maximalzügesanzahlsinszenierung
+Spielendezug festlegen (0 = Vorgabe)
+@options
+Maximale Zügesanzahl:
+
+@EDITTECH
+@width=320
+@title=Technologie um Status zu ändern wählen
+@listbox
+
+@SCENOK
+@width=480
+@title=Inszenierung
+^^Inszenierung gespeichert:
+^^%STRING0
+
+@SCENARIOLOADED
+@width=480
+@title=Inszenierung starten
+^^%STRING0
+^^Zivilisationsfortschritte kosten %NUMBER0/10 mal der normalen Rate.
+^^Dauer: %STRING1 bis  %STRING2
+
+
+@SCENNAME
+@width=480
+@title=Inszenierungsname festlegen
+@options
+Inszenierung:
+
+@EDITKINGNAME
+@width=440
+@title=Namen für %STRING0 ändern
+@options
+Anführer:
+Stamm:
+Nationalität:
+
+@COPYCITY
+@title=Stadt zum kopieren wählen
+@width=360
+@listbox
+
+@SCENARIOENDS
+@width=440
+@title=Inszenierungsregeln
+Diese Inszenierung endet nach fünf weiteren Zügen.
+
+@SCENARIOEND
+@width=440
+@title=Inszenierungsregeln
+Diese Inszenierung ist nun vollständig.
+
+
+@HIDDENTERRAIN
+@width=250
+@title=Verdecktes Terrain
+@x=-4
+@y=-4
+Nach Einblick bitte Kästchen schliessen..
+
+
+@FOUNDED
+@width=280
+@title=Neue Stadt Gründen
+%STRING0 Gegründet: %STRING1
+
+
+@VFWNOTREGISTERED
+@title=Vermerk
+@width=440
+Es könnte möglicherweise Schwierigkeiten
+mit Ihrer Video Installierung geben.  Falls "Video for
+Windows" erfolgreich während des Civilization II "setup" Vorgangs
+geladen wurde, versuchen Sie es bitte mit dem Hilfsprogram "vfwfix.bat",
+das sich in der "civ2\video" Datei auf dem CD-ROM befindet.
+Falls diese Mitteilung weiterhin aufkommt, sollten Sie sich mit dem 
+MicroProse Kundendienst in Verbindung setzen..
+
+
+@NOPICKMUSIC
+@width=360
+@title=Musik wählen
+Diese Option ist nicht vorhanden, wenn das Civilization II CD sich nicht
+im CDROM Laufwerk befindet.
+
+@PICKMUSIC
+@width=360
+@title=Musik wählen
+@options
+"Trauermarsch"
+"An die Freude"
+"Die Offenbarung Tenochtitlans"
+"Der Lebensschenkende Nil"
+"Der Zögling des Aristoteles"
+"Die Augustus Auferstehung"
+"Gautama Bewunderungen"
+"Hamurabis Weltwunder"
+"Der Glänzende Pfad"
+
+
+@@CENTAURI
+Im Jahre %STRING0
+unternahmen Raumfahrer vom Planeten Erde
+eine kosmische Forschungsreise.
+Ein Raumschiff mit
+%STRING1 %STRING2 Siedlern
+konnte erfolgreich die riesigen Entfernungen
+zwischen den Sternen überbrücken.
+Nach ihrer Ankunft auf %STRING3
+im Sternensystem Alpha Centauri,
+begannen diese unermüdlichen Pioniere mit
+der Besiedlung einer neuen Welt.
+Ihr Volk, die %STRING4, haben den Traum
+ungezählter vorhergender Generationen
+wahrgemacht.
+Ihr Name wird auf ewig in den 
+ZIVILISATIONS-Annalen stehen!
+
+@@CENTAURI2
+Im Jahre %STRING0
+unternahmen Raumfahrer vom Planeten Erde
+eine kosmische Forschungsreise.
+Ein Raumschiff mit
+%STRING1 %STRING2 Siedlern
+konnte erfolgreich die riesigen Entfernungen
+Zwischen den Sternen überbrücken.
+Nach ihrer Ankunft auf %STRING3
+im Sternensystem 
+Alpha Centauri,
+begannen diese unermüdlichen Pioniere mit
+der Besiedlung einer neuen Welt.
+Ihr Volk, die %STRING4, rühmen sich ihrer
+langen, glorreichen Geschichte.
+Veilleicht wird auch eines Tages Ihr Name
+in die ZIVILISATIONS-Annalen eingetragen.
+
+@@ARCHAEOLOGISTS
+Jahrhunderte später entdecken
+Archeologen die Spuren Ihrer
+alten Zivilisation.  Die Beweise  
+blühendener Städte, von
+%STRING0, Straßen, sowie 
+eines zentralen Staatswesens
+setzen die Wissenschaftler in
+Erstaunen.  Schließlich 
+finden sie eine Steintafel
+auf der nur dieser geheimnisville 
+Satz steht:
+"%STRING1 KEHRT WIEDER!"
+
+@COUNCILTIME
+@width=320
+@y=5
+@title=Der Obersten Rat: %STRING2
+Der Obersten Rat der %STRING0 tagt
+in %STRING1. Wenn Sie wollen, nehmen Sie
+diese Gelegenheit, um mit ihnen über die Lage 
+Ihres Reiches zu sprechen.
+
+Mit Obersten Rat sprechen.
+Nein danke, zu viel zu tun.
+
+
+@CENTAURI0
+Im Jahre %STRING0
+unternahmen Raumfahrer vom 
+Planeten Erde eine komische 
+Forschungsreise.
+
+@CENTAURI1
+Ein Raumschiff mit 
+%STRING1 %STRING2en Siedlern
+konnte erfolgreich die riesigen Entfernungen
+zwischen den Sternen überbrücken.
+
+@CENTAURI2
+Nach ihrer Ankunft auf %STRING3
+im Sternensystem
+Alpha Centauri,
+begannen diese unermüdlichen Pioniere
+mit der Besiedlung
+einer neuen Welt.
+
+@CENTAURI3
+%STRING4, Ihr Volk haben den Traum ihrer Vergangenheit wahrgemacht.
+Ihr Name wird auf ewig in den CIVILIZATIONS-Annalen stehen!
+
+@CENTAURI_BEATEN0
+Im Jahr %STRING0
+unternahmen Raumfahrer vom 
+Planeten Erde eine kosmische
+Forschungsreise.
+
+@CENTAURI_BEATEN1
+Ein Raumschiff mit 
+%STRING1 %STRING2en Siedlern
+konnte erfolgreich die riesigen Entfernungen
+zwichen den Sternen überbrücken.
+
+@CENTAURI_BEATEN2
+Nach ihrer Ankunft auf %STRING3
+im Sternensystem
+Alpha Centauri,
+begannen diese unermüdlichen 
+Pioniere mit der Besiedlung
+einer neuen Welt . . .
+
+@CENTAURI_BEATEN3
+%STRING4, Ihr Volk rühmt
+sich ihrer langen, glorreichen Geschichte.
+Vielleicht ließt man auch eines Tages
+Ihr Name in den
+Annalen der
+
+@CENTAURI_BEATEN4
+CIVILIZATION.
+
+@ARCHAEOLOGISTS0
+Jahrhunderte später
+entdecken Archeologen die 
+Spuren Ihrer alten Zivilisation.
+
+@ARCHAEOLOGISTS1
+Die Beweise blühendener Städte,
+%STRING0, Straßen,
+sowie eines zentralen Staatswesens
+setzen die Wissenschaftler in Erstaunen.
+
+@ARCHAEOLOGISTS2
+Schließlich finden sie eine 
+Steintafel auf der nur dieser 
+geheimnisville Satz steht. . .
+
+@ARCHAEOLOGISTS3
+%STRING1 kehrt wieder!
+
+
+@LOWMEMORY
+@width=400
+RAM läuft aus. Diese Funktion könnte die Stabilität des 
+Spieles beeinträchtigen. Falls Sie Schwierigkeiten haben, 
+sollten Sie diese Funktion ausschaulten.
+
+@AUTOMODE
+@title=Wer war die Erzeugung in %STRING0 beherrschen?
+@width=320
+@options
+Beide
+Militrberater
+Innenberater
+
+
+@HERALDWARNING
+@width=440
+@title=Civ2
+Civilization II erfordert mindestens 8 mb RAM, um optimal zu funktionieren.
+Sollten jedoch die drei-dimensionalen Diplomaten-Herolde richtig funktionieren,
+bedarf es mindestens 16 mb RAM. Deshalb koennen Sie diese Funktion unbesorgt
+einschalten, wenn Ihr System mit mindestens 16 mb RAM lauft.  Diese
+Mitteilung erscheint nur einmal.
+
+Herolde ausschalten, weniger als 16 mb RAM vorhanden.
+Herolde aktivieren, mindestens 16 mb RAM vorhanded.
+
+
+@;Diese Zeile muß am Ende der Datei bleiben
+

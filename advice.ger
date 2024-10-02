@@ -1,0 +1,387 @@
+;
+;   ZIVILISATION AUTO-BERATUNG
+;   Copyright (c) 1995 von MicroProse Software
+;
+;   Die Änderung des Inhalts dieser Datei kann zu Störungen        ;   im Spiel führen.
+;                       
+;
+
+@MILITARY
+@width=225
+@title=Militärischer Berater
+@x=5
+@y=5
+
+@DOMESTIC
+@width=225
+@title=Innenpolitischer Berater
+@x=-5
+@y=5
+
+@SCIENCE0
+@width=250
+@title=Wissenschaftlicher Berater
+@x=-5
+Ich empfehle die Entwicklung: %STRING0.
+
+@SCIENCE1
+@width=250
+@title=Wissenschaftlicher Berater
+@x=-5
+Ich empfehle die Entwicklung: %STRING0, damit wir bauen können:
+
+@SCIENCE2
+@width=250
+@title=Wissenschaftlicher Berater
+@x=-5
+Ich empfehle die Entwicklung: %STRING0, damit wir eines Tages lernen werden:
+
+
+@
+@@Tempel
+Die Leute sind unglücklich.
+Wir sollten einen %STRING0 bauen.
+
+@
+@@Kolosseum
+Die Leute werden rastlos.
+Wir sollen sie mit einem
+%STRING0 beschwichtigen.
+
+@
+@@Kathedrale
+Die Leute sind unzufrieden.
+Vielleicht wird sie eine %STRING0
+ablenken.
+
+@
+@@Kasernen
+Unsere Armeen können ohne richtiges 
+Training nicht wirksam sein.
+Wir sollten %STRING0
+von Veteranen für Bodentruppen  
+formen, und die dezimierten
+Einheiten schnell aufzufüllen.
+
+@
+@@Hafenanlage
+Wir sollten eine %STRING0
+von Veteranen für Seetruppen  
+formen und beschädigte Schiffe 
+schnell reparieren.
+
+@
+@@Flughafen
+Wir sollten einen %STRING0
+von Veteranen für die Luftwaffe  
+formen und beschädigte Flugzeuge
+schnell reparieren.
+
+@
+@@Kornspeicher 
+Wir sollten einen %STRING0 bauen,
+um das Wachstum der Stadt zu fördern.
+
+@
+@@Supermarkt
+Warum erlauben wir, daß Nahrung
+auf unseren Feldern verrottet? 
+Bauen wir einen %STRING0, um sie
+richtig zu verteilen!
+
+@
+@@Hafen
+Die Leute sind hungrig. Bauen wir
+einen %STRING0, um den Reichtum des
+Meeres zu ernten.
+
+@
+@@Marktplatz 
+Unsere Leute sind arm. Bauen wir einen
+%STRING0, um Kaufmänner und Händler
+anzulocken.
+
+@
+@@Bank
+Unsere Wirstschaft ist stagnierend.
+Wir sollten eine %STRING0 bauen, 
+um sie zu stimulieren.
+
+@
+@@Börse
+Bauen wir eine %STRING0 und werden 
+gemeinsam reich!
+
+@
+@@Autobahnen
+Unser veraltetes Transportsystem hält unsere
+Wirtschaft zurück. Wir müssen sofort %STRING0 bauen!
+
+@
+@@Bibliothek
+Weisheit, nicht Macht, ist unser
+größter Besitz. Bauen wir eine
+%STRING0, damit wir sie nicht vergeuden.
+
+@
+@@Universität
+Langzeitig gesehen ist Erziehung der Schlüssel
+zur Größe. Bauen wir von jetzt an
+eine %STRING0.
+
+@
+@@Forschungslabor
+Wir sollten ein %STRING0 bauen,
+um unser Wissen zu erweitern.
+
+@
+@@Gerichtshof
+Wir dürfen die Gesetzlosigkeitund
+kleinliche Korrption nicht tolerieren!
+Ich schlage vor, wir bauen einen
+%STRING0, um unseren Werten
+Nachdruck zu verleihen.
+
+@
+@@Stadtmauern
+Diese Stadt ist praktisch wehrlos!
+Wir sollten sofort %STRING0 bauen!
+
+@
+@@Küstenfestung
+@@SAM Missile Batterie
+Wir sollten eine %STRING0
+bauen, um unsere Stadt zu schützen.
+
+@
+@@Aquädukt
+Die Leute sind durstig!
+Wir sollten einen %STRING0
+bauen, um unsere Stadt wachsen 
+zu lassen.
+
+@
+@@Abwassersystem
+Die Straßen sind mit Schmutz bedeckt!
+Wir sollten ein %STRING0 bauen,
+um unsere Stadt wachsen zu lassen.
+
+@
+@@Öffentliches Verkehrssyst.
+@@Wiederaufbereitungszentrum
+Wir müssen ein %STRING0 bauen,
+bevor wir in unserem eigenen Abfall ersticken!
+
+@
+@@Fabrik 
+@@Fertigungsanlage   
+@@Kraftwerk
+@@Wasserkraftwerk
+@@Kernkraftwerk
+@@Sonnenkraftwerk
+Wir fallen in unserer Produktivität zurück!
+Schnell %STRING0 bauen.
+
+@
+@@Bohrinsel
+Wir müssen den Reichtum der Meere ausnutzen!
+Bauen wir eine %STRING0.
+
+@
+@@SDI Verteidigungsanl.
+Wir sollten für alle Fälle eine %STRING0 bauen,
+.
+
+@
+@@RS Struktur
+@@RS Bauteil
+@@RS Modul
+Wir sollten %STRING0 bauen,
+um andere Welten zu kolonisieren.
+
+@
+@@Siedler
+Wir sollten %STRING0 bauen,
+um diesen Kontinent zu kolonisieren.
+
+@
+@@Ingenieure
+Wir brauchen %STRING0,
+um diesen Kontinent zu entwickeln.
+
+@
+@@Krieger
+@@Speerkämpfer
+Unsere Städte können leicht angegriffen werden.
+Bauen wir %STRING0 und 
+verteidigen wir sie.
+
+@
+@@Musketeere
+@@Schützen
+Wir brauchen mehr %STRING0,
+um unsere Nation zu verteidigen.
+
+@
+@@Glaubensfanatiker
+Wir müssen %STRING0 rekrutieren, 
+um unseren Glauben zu verteidigen!
+
+@
+@@Phalanx
+@@Mech. Inf.
+Wir sollten einen %STRING0 bauen, um unsere
+Städte zu verteidigen.
+
+@
+@@Legion
+Wir sollten mächtige %STRING0 bauen
+und die bekannte Welt beherrschen!
+
+@
+@@Bogenschützen
+Wir sollten unsere Männer mit Pfeil 
+und Bogen ausbilden, da Bogenschützen 
+stark beim Angriff, und auch bei 
+der Verteidigung sind!
+
+@
+@@Bergtruppen
+Wir sollten %STRING0 bauen,
+um unsere Städte zu verteidigen
+und unsere Feinde anzugreifen.
+
+@
+@@Streitwagen
+Gehen wir in die Offensive! Ich schlage vor,
+wir bauen %STRING0.
+
+@
+@@Katapult
+Mit einem %STRING0 können wir die 
+in die Stützpunkte des Feindes 
+eindringen.
+
+@
+@@Hubschrauber
+Wir sollten eine mobile
+Angriffsstreitkraft %STRING0 bauen.
+
+@
+@@Kanone
+@@Haubitze
+Wir sollten  %STRING0 bauen
+und unsere Feinde in tausend Stücke
+zerschlagen!
+
+@
+@@Bomber
+@@Stealth Bomber
+Bauen wir einen %STRING0 und
+sprengen unsere Feinde ins Steinzeitalter!
+
+@
+@@Elefant
+Wir sollten einen %STRING0 bauen,
+um unsere Feinde zu zertrampeln!
+
+@
+@@Kreuzzüger
+Wir sollten einen %STRING0 bauen, um einen
+heiligen Krieg zu führen!
+
+@
+@@Kampfflugzeug
+@@Stlth Kampfflueugzeug
+Wir brauchen einen %STRING0,
+um unseren Luftraum zu verteidigen!
+
+@
+@@Reiter  
+@@Ritter 
+@@Dragoner
+@@Kavalrie
+Wir sollten  %STRING0 bauen,
+um unsere Feinde zu bestrafen.
+
+@
+@@Marine
+@@Fallschirmjäger
+Wir sollten  %STRING0 bauen,
+um unsere Feinde zu überraschen!
+
+@
+@@Panzer
+@@Artillerie
+@@Partisanen
+Bauen wir  %STRING0 und
+verpassen unseren Feinden 
+einen Denkzettel!
+
+@
+@@Trireme
+@@Karavelle
+@@Galeone
+@@Entdecker
+Wir sollten %STRING0 bauen,
+um die Welt zu erforschen.
+
+@
+@@Fregatte
+@@Panzerschiff
+@@Zerstörer
+@@Kreuzer
+@@Kriegsschiff
+@@Unterseeboot
+@@AEGIS Kreuzer
+Wir sollten %STRING0 bauen,
+um die Meere zu beherrschen.
+
+@
+@@Träger
+@@Transporter
+@@Marschflugk.
+@@Default
+Wir sollten einen %STRING0 bauen.
+
+@
+@@Nuk. Rakete
+Vielleicht ist es Zeit für eine schöne %STRING0.
+
+@
+@@Diplomat
+Wir sollten einen %STRING0 bauen,
+um mit anderen Zivilisationen 
+Kontakt aufzunehmen
+und ihre Gehimnisse zu stehlen.
+
+
+@
+@@Spion
+Wir sollten einen %STRING0 bauen,
+um unsere Feinde übers Ohr zu hauen.
+
+@
+@@Karawane
+@@LKW
+Wir sollten %STRING0 bauen,
+um Handelsrouten mit anderen 
+Zivilisationen aufzunehmen.
+
+@
+@@Wonder
+Unternehmen wir ein großes Projekt
+für den Ruhm unserer Zivilisation,
+%STRING0!
+
+@
+
+??
+
+
+
+
+
+
+
+
